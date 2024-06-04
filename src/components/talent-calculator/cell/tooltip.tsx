@@ -6,7 +6,7 @@ interface TooltipProps {
   value: number
   description: string[] | ReactNode[]
   maxValue: number
-  valueIteration: number[][] | string[][]
+  valueIteration: (string[] | number[])[]
   manaCost: string | null
   range: string | null
   castTime: string | null

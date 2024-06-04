@@ -30,7 +30,7 @@ export default [
   new Talent(
     'Diligence',
     'spell_shadow_summonimp',
-    ['Fire or Nature damage with one of you abilities, you have a ', '% chance to cause your next Aimed Shot, Arcane Shot or Raptor Strike to trigger no cooldown.'],
+    ['When you deal Arcane, Fire or Nature damage with one of you abilities, you have a ', '% chance to cause your next Aimed Shot, Arcane Shot or Raptor Strike to trigger no cooldown.'],
     2,
     [[3, 6]],
     null,

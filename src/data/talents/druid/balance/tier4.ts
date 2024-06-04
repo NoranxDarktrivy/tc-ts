@@ -20,8 +20,8 @@ const tier4 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     }
   ),

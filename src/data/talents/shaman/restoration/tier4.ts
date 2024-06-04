@@ -19,12 +19,9 @@ const tier4 = [
   new Talent(
     'Restorative Totems',
     'spell_nature_manaregentotem',
-    ['Increases the effect of your Mana Spring and Healing Stream Totems by ', '%. In addition, you gain an additional ', '% Mana or Health from your Mana Spring and Healing Stream Totems.'],
+    ['Increases the effect of your Mana Spring and Healing Stream Totems by ', '%.'],
     3,
-    [
-      [10, 20, 30],
-      [20, 40, 60],
-    ],
+    [[10, 20, 30]],
     [{ x: null, y: null }],
     [
       { x: 6, y: 1 },

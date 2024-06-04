@@ -1,11 +1,25 @@
 import { Talent } from '../../Classes'
 
 const tier5 = [
-  new Talent('Radiant Healing', 'spell_holy_holyprotection', ['Reduces the Mana cost and increases the effect of your Prayer of Healing and Holy Nova spells by ', '%.'], 2, [[10, 20]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  new Talent(
+    'Serendipity',
+    'spell_holy_serendipity',
+    ['Healing with Flash Heal reduces the cast time of your next Lesser Heal, Heal, Greater Heal, or Prayer of Healing by ', '% for 20 sec, stacking up to 3 times.'],
+    2,
+    [[10, 20]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     'Spirit of Redemption',
     'inv_enchant_essenceeternallarge',

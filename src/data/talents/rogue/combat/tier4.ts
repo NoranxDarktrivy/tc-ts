@@ -8,7 +8,7 @@ const tier4 = [
     isMoved: false,
   }),
   new Talent('Dual Wield Specialization', 'ability_dualwield', ['Increases the damage of your off-hand weapon by ', '%.'], 5, [[10, 20, 30, 40, 50]], [{ x: 1, y: 2 }]),
-  new Talent('Blade Twisting', 'ability_rogue_bladetwisting', ['Gives your Sinister Strike, Backstab, Gouge and Hemorrhage abilities a ', '% chance to Daze the target for 8 sec.'], 2, [[10, 20]], null, null, null, null, null, null, null, {
+  new Talent('Restless Blades', 'ability_rogue_restlessblades', ['Your finishing moves reduce the cooldown of your cooldown abilities by ', ' sec per combo point.'], 2, [[1, 2]], null, null, null, null, null, null, null, {
     isNew: true,
     isChanged: false,
     isMoved: false,

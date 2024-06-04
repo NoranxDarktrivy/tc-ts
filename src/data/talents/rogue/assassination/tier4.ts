@@ -43,11 +43,28 @@ const tier4 = [
     }
   ),
   new Talent('Improved Poisons', 'ability_poisons', ['Increases the chance to apply poisons to your target by ', '%.'], 5, [[2, 4, 6, 8, 10]]),
-  new Talent('Vigor', 'spell_nature_earthbindtotem', ['Increases your maximum Energy by ', '.'], 2, [[10, 20]], null, null, null, null, null, null, null, {
-    isNew: false,
-    isChanged: true,
-    isMoved: true,
-  }),
+  new Talent(
+    'Vigor',
+    'spell_nature_earthbindtotem',
+    ['Increases your maximum Energy by ', ' and reduces the energy cost of your finishing moves by ', ' energy.'],
+    2,
+    [
+      [5, 10],
+      [5, 10],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
+    }
+  ),
 ]
 
 export default tier4

@@ -7,13 +7,15 @@ const tier7 = [
     'spell_holy_sealofmight',
     [
       <>
-        Gives you an extra attack, increases the damage of your next Shock spell by 30% and grants it an additional effect: <br />
+        Gives you an extra attack and grants an additional effect depending on your active weapon enhancement: <br />
         <br />
-        Earth Shock: Taunts the target to attack you. <br />
+        Rockbiter: Taunts the target to attack you. <br />
         <br />
-        Flame Shock: Apply the damage over time effect to all enemies within 10 yards of the target. <br />
+        Windfury: Increases attack speed by 10 for 12 sec. <br />
         <br />
-        Frost Shock: Roots the target in place for 4 sec.
+        Flametongue: Increases the damage done by your next spell by 50%. <br />
+        <br />
+        Frostbrand: Roots the target in place for 4 sec.
       </>,
     ],
     1,

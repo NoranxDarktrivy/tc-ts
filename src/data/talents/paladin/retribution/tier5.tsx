@@ -22,7 +22,11 @@ const tier5 = [
       isMoved: true,
     }
   ),
-  null,
+  new Talent('Holy Fervor', 'spell_holy_blessedresillience', ['Your melee critical strikes increase physical damage taken by the target by ', '% for 6 sec.'], 2, [[5, 10]], null, null, null, null, null, null, null, {
+    isNew: true,
+    isChanged: false,
+    isMoved: false,
+  }),
 ]
 
 export default tier5
