@@ -2,7 +2,7 @@ import { Talent } from '../../Classes'
 
 const tier3 = [
   new Talent('Improved Overpower', 'inv_sword_05', ['Increases the critical strike chance of your Overpower by ', '%.'], 2, [[25, 50]]),
-  new Talent('Heroic Focus', 'ability_warrior_bullrush', ['Reduces the rage cost of your next ability by 100%.'], 1, [[]], null, null, null, null, 'Instant', '1 min cooldown', null, {
+  new Talent('Heroic Focus', 'ability_warrior_bullrush', ['Reduces the rage cost of your next two abilities by 100%.'], 1, [[]], null, null, null, null, 'Instant', '1 min cooldown', null, {
     isNew: true,
     isChanged: false,
     isMoved: false,

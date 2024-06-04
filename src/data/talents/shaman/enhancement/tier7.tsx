@@ -11,7 +11,7 @@ const tier7 = [
         <br />
         Rockbiter: Taunts the target to attack you. <br />
         <br />
-        Windfury: Increases attack speed by 10 for 12 sec. <br />
+        Windfury: Increases attack speed by 10% for 12 sec. <br />
         <br />
         Flametongue: Increases the damage done by your next spell by 50%. <br />
         <br />

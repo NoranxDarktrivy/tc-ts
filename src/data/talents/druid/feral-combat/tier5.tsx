@@ -6,12 +6,7 @@ const tier5 = [
   new Talent(
     'Survival Instincts',
     'ability_druid_tigersroar',
-    [
-      <>
-        When activated, this grants you 30% of your maximum health for 20 sec. After the effect expires, the health is lost. Useable in any form. <br /> <br />
-        In addition, you regenerate 5 rage every time you dodge while in Bear Form or Dire Bear Form, 10 energy while in Cat Form, or 1% of your maximum mana while in any other form.
-      </>,
-    ],
+    [<>When activated, this grants you 30% of your maximum health for 20 sec. After the effect expires, the health is lost. Useable in any form.</>],
     1,
     [[]],
     null,

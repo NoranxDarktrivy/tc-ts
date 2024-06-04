@@ -2,7 +2,7 @@ import { Talent } from '../../Classes'
 
 const tier3 = [
   null,
-  new Talent('Shared Pain', 'spell_shadow_skull', ['Your next Shadow Word: Pain affects all enemies within 10 yards of the target.'], 1, [[]], null, [{ x: 1, y: 1 }], null, null, 'Instant', '30 sec cooldown', null, {
+  new Talent('Shared Pain', 'spell_shadow_skull', ['Your next Shadow Word: Pain affects all enemies within 15 yards of the target.'], 1, [[]], null, [{ x: 1, y: 1 }], null, null, 'Instant', '30 sec cooldown', null, {
     isNew: true,
     isChanged: false,
     isMoved: false,

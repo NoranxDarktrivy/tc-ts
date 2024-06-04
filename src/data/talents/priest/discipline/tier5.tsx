@@ -52,11 +52,11 @@ const tier5 = [
   new Talent(
     'Devotion',
     'ability_racial_avatar',
-    ['Your damaging spells increase the damage taken by you by ', '% and your healing spells increase the healing taken by you by ', '%. Both effects last 15 sec and stack up to 3 times.'],
+    ['Your damaging spells increase your damage dealt to the target by ', '% and your healing spells increase your healing done to the target ', '%. Both effects last 15 sec and stack up to 3 times.'],
     2,
     [
-      [3, 6],
-      [3, 6],
+      [2, 4],
+      [2, 4],
     ],
     null,
     null,
