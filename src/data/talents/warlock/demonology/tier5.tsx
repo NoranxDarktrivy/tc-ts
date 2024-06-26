@@ -2,54 +2,41 @@ import { Talent } from '../../Classes'
 
 const tier5 = [
   new Talent(
-    'Fel Protection',
-    'spell_shadow_demonictactics',
-    ['Increases the armor rating of your active demon by ', '% and reduces area of effect damage taken by your active demon ', '%.'],
-    3,
-    [
-      [10, 20, 30],
-      [20, 40, 60],
-    ],
+    'Fel Domination',
+    'spell_nature_removecurse',
+    ['Your next summon of Succubus, Incubus, Imp, Felhunter or Void Walker has its casting time reduced by 5.5 sec and Mana cost reduced by 50%.'],
+    1,
+    [[]],
+    [{ x: 3, y: 0 }],
     null,
     null,
     null,
+    'Instant',
+    '15 min cooldown',
+    null,
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    }
+  ),
+  // TODO
+  new Talent(
+    'Fel Domination',
+    'spell_nature_removecurse',
+    ['Your next summon of Succubus, Incubus, Imp, Felhunter or Void Walker has its casting time reduced by 5.5 sec and Mana cost reduced by 50%.'],
+    1,
+    [[]],
+    [{ x: 3, y: 0 }],
     null,
     null,
     null,
-    null,
+    'Instant',
+    '15 min cooldown',
+    ['D2'],
     {
       isNew: true,
       isChanged: false,
-      isMoved: false,
-    }
-  ),
-  new Talent(
-    'Demonic Sacrifice',
-    'spell_shadow_psychicscream',
-    [
-      <>
-        Sacrifices your demon to get an effect that lasts 30 min. Any demon summoned cancels the effect. <br />
-        <br /> Imp: increases your Fire damage by 15%. <br />
-        <br /> Void Walker: Restores 6% of total Health every 4 sec.
-        <br />
-        <br />
-        Succubus/Incubus: increases your Shadow damage 15%. <br />
-        <br />
-        Felhunter: Restores 3% of total Mana every 4 sec.
-      </>,
-    ],
-    1,
-    [[]],
-    null,
-    [{ x: 6, y: 1 }],
-    '100 yd range',
-    null,
-    'Instant',
-    null,
-    ['D2'],
-    {
-      isNew: false,
-      isChanged: true,
       isMoved: false,
     }
   ),

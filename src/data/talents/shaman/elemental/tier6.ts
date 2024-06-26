@@ -1,11 +1,25 @@
 import { Talent } from '../../Classes'
 
 const tier6 = [
-  new Talent('Elemental Impact', 'spell_nature_unrelentingstorm', ['Your offensive spell critical strikes increase spell damage taken by the target by ', '% for 6 sec.'], 2, [[5, 10]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  new Talent(
+    'Static Impact',
+    'spell_nature_unrelentingstorm',
+    ['Your critical strikes from Lightning spells have a ', '% change to add two static charges to the target. Static targets take up to 112 additional Nature damage when they take spell damage.'],
+    2,
+    [[50, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   null,
   new Talent(
     'Overload',

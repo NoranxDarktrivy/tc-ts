@@ -1,7 +1,6 @@
 import { Talent } from '../../Classes'
 
 const tier4 = [
-  null,
   new Talent(
     'Master Summoner',
     'spell_shadow_impphaseshift',
@@ -11,7 +10,40 @@ const tier4 = [
       [2, 4],
       [20, 40],
     ],
-    [{ x: 2, y: 1 }]
+    null,
+    [{ x: 4, y: 1 }],
+    null,
+    null,
+    null,
+    null,
+    ['D1'],
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    }
+  ),
+  new Talent(
+    'Fel Protection',
+    'spell_shadow_demonictactics',
+    ['Increases the armor rating of your active demon by ', '% and reduces area of effect damage taken by your active demon ', '%.'],
+    3,
+    [
+      [10, 20, 30],
+      [20, 40, 60],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
   new Talent(
     'Unholy Power',

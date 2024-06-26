@@ -4,9 +4,12 @@ const tier6 = [
   new Talent(
     'Relentless Onslaught',
     'ability_warrior_intensifyrage',
-    ['Increases your movement speed and reduces your damage taken by ', '% while under the effect of Death Wish, Bloodrage or Berserker Rage.'],
+    ['Increases your movement speed by ', '% and reduces movement slowing effects on you by ', '% while under the effect of Bloodrage or Berserker Rage.'],
     2,
-    [[10, 20]],
+    [
+      [15, 30],
+      [25, 50],
+    ],
     null,
     null,
     null,

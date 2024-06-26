@@ -2,13 +2,13 @@ import { Talent } from '../../Classes'
 
 const tier5 = [
   new Talent(
-    'Celestial Spark',
+    'Caster Form Specialization',
     'ability_druid_dreamstate',
-    ['Gives your Starfire hits a ', '% and your Wrath and Moonfire hits a ', '% chance to reduce the cooldown of your Barkskin and Hurricane spells by 2 sec.'],
+    ['While in caster form, your Starfire hits reduce the cooldown of your spells that are on cooldown by ', ' sec and your Wrath hits reduce the cooldown of your spells that are on coolown by ', ' sec.'],
     2,
     [
-      [50, 100],
-      [25, 50],
+      [1, 2],
+      [0.5, 1],
     ],
     null,
     null,

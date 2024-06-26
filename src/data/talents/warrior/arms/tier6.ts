@@ -7,11 +7,28 @@ const tier6 = [
     isMoved: false,
   }),
   null,
-  new Talent('Blood Frenzy', 'ability_warrior_bloodfrenzy', ['Each time you deal Bleed damage, you gain ', ' Rage.'], 2, [[3, 5]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  new Talent(
+    'Blood Frenzy',
+    'ability_warrior_bloodfrenzy',
+    ['Each time you deal Bleed damage, you gain ', ' Rage. In addition, increases your attack speed by ', '% for each of your active bleed effects, up to 30%'],
+    2,
+    [
+      [3, 6],
+      [3, 6],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   null,
 ]
 

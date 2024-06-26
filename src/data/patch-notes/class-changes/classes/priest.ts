@@ -1,7 +1,6 @@
 export default {
   title: 'Priest',
   content: [
-    'New Ability: Shadow Word: Death: A word of dark binding that inflicts instant Shadow damage to the target. If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target. 12 sec cooldown. Learned at lvl 40.',
     'Holy Nova is now a baseline ability and learned at level 20.',
     'Increased the damage over time of Holy Fire.',
     'Damage absorbed by your Power Word: Shield now increases with spell healing.',

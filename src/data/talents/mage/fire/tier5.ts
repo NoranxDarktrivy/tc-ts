@@ -1,26 +1,30 @@
 import { Talent } from '../../Classes'
 
 const tier5 = [
+  new Talent('Critical Mass', 'spell_nature_wispheal', ['Increases the critical strike chance of your Fire spells by ', '%.'], 3, [[2, 4, 6]], [{ x: null, y: null }], [{ x: 4, y: 1 }], null, null, null, null, ['R1'], {
+    isChanged: false,
+    isMoved: true,
+    isNew: false,
+  }),
   new Talent(
-    'Blazing Speed',
-    'spell_fire_burningspeed',
-    ['Gives you a ', '% chance when hit by a melee or ranged attack to increase your movement speel by 50% and dispel all movement impairing effects.'],
-    2,
-    [[5, 10]],
+    'Combustion',
+    'spell_fire_sealoffire',
+    ['When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 3 critical strikes with Fire spells.'],
+    1,
+    [[]],
+    [{ x: 4, y: 0 }],
+    [{ x: 6, y: 1 }],
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    'Instant',
+    '3 min cooldown',
+    ['D2'],
     {
-      isNew: true,
       isChanged: false,
-      isMoved: false,
+      isMoved: true,
+      isNew: false,
     }
   ),
-  new Talent('Critical Mass', 'spell_nature_wispheal', ['Increases the critical strike chance of your Fire spells by ', '%.'], 3, [[2, 4, 6]], [{ x: null, y: null }], [{ x: 6, y: 1 }], null, null, null, null, ['D2']),
   new Talent(
     'Blast Wave',
     'spell_holy_excorcism_02',

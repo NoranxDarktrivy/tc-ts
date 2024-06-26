@@ -68,7 +68,7 @@ const tier5 = [
   new Talent(
     'Shamanistic Rage',
     'spell_nature_shamanrage',
-    ['Reduces all damage you take by 20% and gives your succesful melee attacks a chance to regenerate mana equal to 30% of your attack power. Lasts 15 sec.'],
+    ['Reduces all damage you take by 30% and gives your succesful melee attacks a chance to regenerate mana equal to 30% of your damage done. Lasts 15 sec.'],
     1,
     [[]],
     null,

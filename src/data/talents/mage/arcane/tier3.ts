@@ -1,7 +1,7 @@
 import { Talent } from '../../Classes'
 
 const tier3 = [
-  new Talent('Magic Attunement', 'spell_nature_abolishmagic', ['Increases the effect of your Amplify Magic and Dampen Magic spells by ', '%.'], 2, [[0.5, 1]], null, null, null, null, null, null, null, {
+  new Talent('Magic Attunement', 'spell_nature_abolishmagic', ['Increases the effect of your Amplify Magic and Dampen Magic spells by ', '%.'], 2, [[1, 2]], null, null, null, null, null, null, null, {
     isNew: false,
     isChanged: true,
     isMoved: false,
@@ -13,11 +13,11 @@ const tier3 = [
     isMoved: false,
   }),
   new Talent(
-    'Unstable Missiles',
-    'spell_arcane_starfire',
-    ['Casting Arcane Missiles reduces the casting time and increases the Mana cost of your Arcane Missiles by ', '%. This effect stacks up to 5 times and lasts 8 sec.'],
+    'Missile Barrage',
+    'ability_mage_missilebarrage',
+    ['Gives all your offensive spell crits a ', '% chance to increase the damage of your next Arcane Missiles spell by 50%, and reduce the mana cost by 100%.'],
     2,
-    [[5, 10]],
+    [[15, 30]],
     null,
     null,
     null,

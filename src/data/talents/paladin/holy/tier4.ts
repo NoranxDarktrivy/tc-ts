@@ -1,11 +1,25 @@
 import { Talent } from '../../Classes'
 
 const tier4 = [
-  new Talent('Sacred Seals', 'spell_holy_divinepurpose', ['Increases the effect of your Seal and Judgement of Light and Seal and Judgement of Wisdom spells by ', '%.'], 2, [[10, 20]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  new Talent(
+    'Blessed Surge',
+    'spell_holy_spellwarding',
+    ['Critical hits with weapons, spells and abilities have a ', '% chance to reset the cooldown of your Exorcism and Holy Wrath and reduce their mana cost by 100%. 5 sec cooldown.'],
+    2,
+    [[50, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     'Illumination',
     'spell_holy_greaterheal',

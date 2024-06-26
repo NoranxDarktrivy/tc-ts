@@ -1,11 +1,25 @@
 import { Talent } from '../../Classes'
 
 const tier5 = [
-  new Talent('Glacial Bolts', 'spell_frost_arcticwinds', ['Your Frostbolt critical strikes increase the critical strike chance of your damaging spells by ', '% for 6 sec.'], 3, [[2, 4, 6]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  new Talent(
+    'Fingers of Frost',
+    'ability_mage_wintersgrasp',
+    ['Gives your Chill effects a ', '% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen. Lasts 15 sec.'],
+    2,
+    [[8, 15]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     'Ice Block',
     'spell_frost_frost',

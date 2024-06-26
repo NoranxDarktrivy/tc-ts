@@ -7,7 +7,28 @@ const tier3 = [
     isChanged: false,
     isMoved: false,
   }),
-  new Talent('Improved Mind Blast', 'spell_shadow_unholyfrenzy', ['Reduces the cooldown of your Mind Blast by ', ' sec.'], 5, [[0.5, 1, 1.5, 2, 2.5]]),
+  new Talent(
+    'Improved Mind Blast',
+    'spell_shadow_unholyfrenzy',
+    ['Reduces the cooldown of your Mind Blast by ', ' sec and reduces the additional threat of your Mind Blast by ', '%.'],
+    5,
+    [
+      [0.5, 1, 1.5, 2, 2.5],
+      [20, 40, 60, 80, 100],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isChanged: true,
+      isMoved: false,
+      isNew: false,
+    }
+  ),
   new Talent(
     'Mind Flay',
     'spell_shadow_siphonmana',

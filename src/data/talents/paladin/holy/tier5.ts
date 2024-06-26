@@ -1,29 +1,15 @@
 import { Talent } from '../../Classes'
 
 const tier5 = [
-  new Talent(
-    'Blessed Surge',
-    'spell_holy_spellwarding',
-    ['Critical hits with weapons, spells and abilities have a ', '% chance to reset the cooldown of your Exorcism and Holy Wrath and reduce their mana cost by 100%. 5 sec cooldown.'],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  new Talent('Sacred Seals', 'spell_holy_divinepurpose', ['Increases the effect of your Seal and Judgement of Light and Seal and Judgement of Wisdom spells by ', '%.'], 3, [[10, 20, 30]], null, null, null, null, null, null, null, {
+    isNew: true,
+    isChanged: false,
+    isMoved: false,
+  }),
   new Talent(
     'Divine Favor',
     'spell_holy_heal',
-    ['When activated, gives your next Flash of Light, Holy Light or Holy Shock spell a 100% critical effect chance.'],
+    ['When activated, gives your next Flash of Light, Holy Light, Exorcism, Holy Wrath or Holy Shock spell a 100% critical effect chance.'],
     1,
     [[1]],
     [{ x: 3, y: 1 }],
@@ -32,7 +18,12 @@ const tier5 = [
     null,
     'Instant',
     '2 min cooldown',
-    ['D2']
+    ['D2'],
+    {
+      isChanged: true,
+      isMoved: false,
+      isNew: false,
+    }
   ),
   new Talent(
     "Light's Grace",
