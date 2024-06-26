@@ -20,20 +20,19 @@ const tier5 = [
       isMoved: true,
     }
   ),
-  // TODO
   new Talent(
-    'Fel Domination',
-    'spell_nature_removecurse',
-    ['Your next summon of Succubus, Incubus, Imp, Felhunter or Void Walker has its casting time reduced by 5.5 sec and Mana cost reduced by 50%.'],
+    'Demonic Empowerment',
+    'ability_warlock_demonicempowerment',
+    ['Makes your active demon immune to stun, snare and movement impairing effects and increases its damage by 20% for 15 sec.'],
     1,
     [[]],
     [{ x: 3, y: 0 }],
     null,
-    null,
-    null,
+    '6% of base mana',
+    '100 yd range',
     'Instant',
-    '15 min cooldown',
-    ['D2'],
+    '1 min cooldown',
+    null,
     {
       isNew: true,
       isChanged: false,
