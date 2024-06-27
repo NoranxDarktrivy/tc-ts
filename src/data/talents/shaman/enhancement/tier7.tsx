@@ -9,7 +9,7 @@ const tier7 = [
       <>
         Gives you an extra attack and grants an additional effect depending on your active weapon enhancement: <br />
         <br />
-        Rockbiter: Taunts the target to attack you. <br />
+        Rockbiter: Taunts the target to attack you and reduces damage taken by 10% for 6 sec. <br />
         <br />
         Windfury: Increases attack speed by 10% for 12 sec. <br />
         <br />

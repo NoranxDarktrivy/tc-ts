@@ -3,17 +3,17 @@ import { Talent } from '../../Classes'
 const tier5 = [
   new Talent(
     'Doctrine',
-    'spell_holy_rapture',
+    'ability_druid_dreamstate',
     [
       <>
         Improves one of your Priest racial abilities. <br />
         <br /> Human: Allows your Feedback to be cast on a friendly target within 30 yards and reduces the cooldown by 1 min.
         <br />
         <br />
-        Dwarf: Your Chastise increases the next source of direct spell damage to the target by 30%.
+        Dwarf: Your Chastise increases the next source of direct spell damage to the target by 50%.
         <br />
         <br />
-        Night Elf: Your Starfall also slows the target by 50%.
+        Night Elf: Your Starfall also slows the target's movement speed and attack speed by 50%.
         <br />
         <br />
         Troll: Allows your Shadowguard to be cast on friendly targets within 30 yards and increases the amount of orbs by 3.

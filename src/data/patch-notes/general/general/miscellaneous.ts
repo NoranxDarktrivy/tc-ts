@@ -1,6 +1,8 @@
 export default {
   title: 'Miscellaneous',
   content: [
+    'Hit chance now applies to both to both spells and physical attacks unless otherwise specified.',
+    'Crit chance now applies to both to both spells and physical attacks unless otherwise specified.',
     'Hit and spell hit are now one stat. Crit and spell crit are now one stat.',
     'A "duel as party" option has been added from the character dropdown menu for party leaders. This allows parties to duel each other.',
     'Quest log size increased to 30.',

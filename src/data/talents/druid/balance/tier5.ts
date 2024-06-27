@@ -3,7 +3,7 @@ import { Talent } from '../../Classes'
 const tier5 = [
   new Talent(
     'Caster Form Specialization',
-    'ability_druid_dreamstate',
+    'spell_holy_rapture',
     ['While in caster form, your Starfire hits reduce the cooldown of your spells that are on cooldown by ', ' sec and your Wrath hits reduce the cooldown of your spells that are on coolown by ', ' sec.'],
     2,
     [

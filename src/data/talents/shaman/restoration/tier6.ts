@@ -7,26 +7,7 @@ const tier6 = [
     isMoved: false,
   }),
   null,
-  new Talent(
-    'Purification',
-    'spell_frost_wizardmark',
-    ['Increases the effectiveness of your healing and lightning spells by ', '%.'],
-    5,
-    [[2, 4, 6, 8, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-
-    null,
-    {
-      isChanged: true,
-      isMoved: false,
-      isNew: false,
-    }
-  ),
+  new Talent('Purification', 'spell_frost_wizardmark', ['Increases the effectiveness of your healing spells by ', '%.'], 5, [[2, 4, 6, 8, 10]]),
   null,
 ]
 

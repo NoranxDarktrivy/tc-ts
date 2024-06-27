@@ -5,7 +5,7 @@ const tier7 = [
   new Talent(
     'Mutilate',
     'ability_rogue_shadowstrikes',
-    ['Instantly attacks with both weapons for 100% weapon damage with each weapon. Awards 2 combo points. Damage is increased by 20% against poisoned targets'],
+    ['Instantly attacks with both weapons for 100% weapon damage with each weapon. Awards 2 combo points. Damage is increased by 20% against poisoned targets.'],
     1,
     [[]],
     null,

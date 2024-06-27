@@ -15,7 +15,7 @@ const tier3 = [
   new Talent(
     'Missile Barrage',
     'ability_mage_missilebarrage',
-    ['Gives all your offensive spell crits a ', '% chance to increase the damage of your next Arcane Missiles spell by 50%, and reduce the mana cost by 100%.'],
+    ['Gives all your offensive spell crits a ', '% chance to increase the damage of your next Arcane Missiles spell by 50% and reduce the mana cost by 100%.'],
     2,
     [[15, 30]],
     null,

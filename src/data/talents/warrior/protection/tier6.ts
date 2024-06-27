@@ -4,7 +4,7 @@ const tier6 = [
   new Talent(
     'Devastation',
     'inv_sword_11',
-    ['Reduces the cost of your Sunder Armor by ', ' rage point. In addition, when you Sunder Armor, deal ', '% of weapon damage for each application of Sunder Armor on the target.'],
+    ['Reduces the cost of your Sunder Armor by ', ' rage point. In addition, when you Sunder Armor, deal ', '% weapon damage for each application of Sunder Armor on the target.'],
     3,
     [
       [1, 2, 3],

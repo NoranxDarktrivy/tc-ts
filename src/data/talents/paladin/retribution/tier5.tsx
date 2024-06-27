@@ -22,7 +22,7 @@ const tier5 = [
       isMoved: true,
     }
   ),
-  new Talent('Holy Fervor', 'spell_holy_blessedresillience', ['Your auras also increase healing done and healing taken by ', '%.'], 2, [[2, 4]], null, null, null, null, null, null, null, {
+  new Talent('Fervor', 'spell_holy_blessedresillience', ['Your auras also increase healing done and healing received by ', '%.'], 2, [[2, 4]], null, null, null, null, null, null, null, {
     isNew: true,
     isChanged: false,
     isMoved: false,

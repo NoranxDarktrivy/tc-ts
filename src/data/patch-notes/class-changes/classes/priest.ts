@@ -4,7 +4,6 @@ export default {
     'Holy Nova is now a baseline ability and learned at level 20.',
     'Increased the damage over time of Holy Fire.',
     'Damage absorbed by your Power Word: Shield now increases with spell healing.',
-    'When Fade expires, the threat is no longer reset to the state before Fade was used.',
     'Fear Ward is now available to all races. Cooldown increased to 3 minutes, last 3 minutes. Fear Ward is now a discipline spell.',
     'Feedback (Human) reduced mana cost and increased effect.',
     'Chastise (Dwarf): new spell: Deals Holy damage and immoblizes the target, causing low theat. 20 yd range, 30 sec cooldown.',

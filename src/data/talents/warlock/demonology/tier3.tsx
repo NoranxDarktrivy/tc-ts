@@ -35,28 +35,7 @@ const tier3 = [
       isMoved: true,
     }
   ),
-  new Talent(
-    'Fel Stamina',
-    'spell_shadow_antishadow',
-    ['Increases the Stamina of your Imp, Succubus, Incubus, Void Walker and Felhunter by ', '% and increases your maximum health by ', '%.'],
-    5,
-    [
-      [3, 6, 9, 12, 15],
-      [1, 2, 3, 4, 5],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
-  ),
+  new Talent('Fel Stamina', 'spell_shadow_antishadow', ['Increases the maximum Health of your Imp, Succubus, Incubus, Void Walker and Felhunter by ', '%.'], 5, [[3, 6, 9, 12, 15]]),
   new Talent('Mana Feed', 'spell_shadow_manafeed', ['When you gain mana from any source, your active demon gains ', '% of the mana you gain.'], 3, [[20, 40, 60]], null, null, null, null, null, null, null, {
     isNew: true,
     isChanged: false,
