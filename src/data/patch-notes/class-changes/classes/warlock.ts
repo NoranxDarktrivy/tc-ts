@@ -1,16 +1,16 @@
 export default {
-  title: 'Warlock',
+  title: "Warlock",
   content: [
-    'New ability: Ritual of Souls. Creates a Soulwell with Healthstones. Party and raid members can click on the well to acquire a Healthstone. Learned after completing a new level 60 quest.',
-    'New ability: Soulshatter: Reduces threat on the target by 100%. Reagents: Soul Shard. 2 min cooldown. Learned at lvl 60',
-    'New ability: Incinerate: Deals Fire damage to your target and additional Fire damage if the target is affected by an Immolate spell. Learned at lvl 54.',
-    'Firestone bonus fire spell damage increased. No longer grants attacks a chance to deal fire damage.',
-    'Spellstone now increases your spell damage by a small amount and increases hit chance by 2%.',
-    'Hellfire now deals increased damage. The Warlock now only takes 50% of the damage caused by Hellfire.',
-    'Increased the health gained from Demon Armor.',
+    "New ability: Ritual of Souls. Creates a Soulwell with Healthstones. Party and raid members can click on the well to acquire a Healthstone. Learned after completing a new level 60 quest.",
+    "New ability: Soulshatter: Reduces threat by 50% for all enemies within 40 yards. Reagents: Soul Shard. 5 min cooldown. Learned at lvl 60",
+    "New ability: Incinerate: Deals Fire damage to your target and additional Fire damage if the target is affected by an Immolate spell. Learned at lvl 54.",
+    "Firestone is now a consumable item and significantly increases the Warlock's fire damage for 30 sec. 10 min cooldown. No longer grants attacks a chance to deal fire damage.",
+    "Spellstone is now a consumable item.",
+    "Hellfire now deals increased damage. The Warlock now only takes 50% of the damage caused by Hellfire.",
+    "Increased the health gained from Demon Armor.",
     "Curse of Weakness now reduces the target's damage done by 5%. Only one rank available.",
-    'Warlocks can now summon party and raid members from within a dungeon or raid.',
+    "Warlocks can now summon party and raid members from within a dungeon or raid.",
     "All demons will now receive a percentage of their master's stats and their spell damage and attack power is increased by a percentage of their master’s spell damage.",
-    'Soul Shards now stack up to 20 per bag slot.',
+    "Soul Shards now stack up to 20 per bag slot.",
   ],
-}
+};

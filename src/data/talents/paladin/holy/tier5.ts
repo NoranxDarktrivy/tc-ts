@@ -1,24 +1,47 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent('Sacred Seals', 'spell_holy_divinepurpose', ['Increases the effect of your Seal and Judgement of Light and Seal and Judgement of Wisdom spells by ', '%.'], 3, [[10, 20, 30]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
   new Talent(
-    'Divine Favor',
-    'spell_holy_heal',
-    ['When activated, gives your next Flash of Light, Holy Light, Exorcism, Holy Wrath or Holy Shock spell a 100% critical effect chance.'],
+    "Sacred Seals",
+    "spell_holy_divinepurpose",
+    [
+      "Increases the effect of your Seal and Judgement of Light and Seal and Judgement of Wisdom spells by ",
+      "%. In addition, your Judgement has a ",
+      "% chance to not consume your active Seal.",
+    ],
+    2,
+    [
+      [10, 20],
+      [50, 100],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+  new Talent(
+    "Divine Favor",
+    "spell_holy_heal",
+    [
+      "When activated, gives your next Flash of Light, Holy Light, Exorcism, Holy Wrath or Holy Shock spell a 100% critical effect chance.",
+    ],
     1,
     [[1]],
     [{ x: 3, y: 1 }],
     [{ x: 6, y: 1 }],
-    '4% of base mana',
+    "4% of base mana",
     null,
-    'Instant',
-    '2 min cooldown',
-    ['D2'],
+    "Instant",
+    "2 min cooldown",
+    ["D2"],
     {
       isChanged: true,
       isMoved: false,
@@ -27,8 +50,11 @@ const tier5 = [
   ),
   new Talent(
     "Light's Grace",
-    'spell_holy_lightsgrace',
-    ['Gives your Holy Light spell a ', '% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.'],
+    "spell_holy_lightsgrace",
+    [
+      "Gives your Holy Light spell a ",
+      "% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
+    ],
     3,
     [[33, 67, 100]],
     null,
@@ -41,6 +67,6 @@ const tier5 = [
     { isNew: true, isChanged: false, isMoved: false }
   ),
   null,
-]
+];
 
-export default tier5
+export default tier5;

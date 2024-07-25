@@ -1,14 +1,18 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    'Caster Form Specialization',
-    'spell_holy_rapture',
-    ['While in caster form, your Starfire hits reduce the cooldown of your spells that are on cooldown by ', ' sec and your Wrath hits reduce the cooldown of your spells that are on coolown by ', ' sec.'],
+    "Caster Form Specialization",
+    "spell_holy_rapture",
+    [
+      "While in caster form, your Starfire hits reduce the cooldown of your cooldown spells by ",
+      " sec and your Wrath hits reduce the cooldown of your cooldown spells ",
+      " sec.",
+    ],
     2,
     [
-      [1, 2],
-      [0.5, 1],
+      [1, 2, 3],
+      [0.5, 1, 1.5],
     ],
     null,
     null,
@@ -25,8 +29,10 @@ const tier5 = [
   ),
   new Talent(
     "Nature's Grace",
-    'spell_nature_naturesblessing',
-    ['All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec.'],
+    "spell_nature_naturesblessing",
+    [
+      "All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec.",
+    ],
     1,
     [[1]],
     [{ x: null, y: null }],
@@ -35,10 +41,19 @@ const tier5 = [
     null,
     null,
     null,
-    ['D1']
+    ["D1"]
   ),
-  new Talent('Moonglow', 'spell_nature_sentinal', ['Reduces the mana cost of your Starfire, Moonfire, Wrath, Healing Touch, Rejuvenation and Regrowth spells by ', '%.'], 3, [[3, 6, 9]]),
+  new Talent(
+    "Moonglow",
+    "spell_nature_sentinal",
+    [
+      "Reduces the mana cost of your Starfire, Moonfire, Wrath, Healing Touch, Rejuvenation and Regrowth spells by ",
+      "%.",
+    ],
+    3,
+    [[3, 6, 9]]
+  ),
   null,
-]
+];
 
-export default tier5
+export default tier5;

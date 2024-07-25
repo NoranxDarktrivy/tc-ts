@@ -1,11 +1,33 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier1 = [
-  null,
   new Talent(
-    'Shield Specialization',
-    'inv_shield_06',
-    ['Increases your chance to block by ', '% and gives you a ', '% chance to gain an additional rage point when a block occurs.'],
+    "Precision",
+    "ability_rogue_ambush",
+    ["Increases your chance to hit by ", "%."],
+    3,
+    [[1, 2, 3]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+  new Talent(
+    "Shield Specialization",
+    "inv_shield_06",
+    [
+      "Increases your chance to block by ",
+      "% and gives you a ",
+      "% chance to gain an additional rage point when a block occurs.",
+    ],
     5,
     [
       [1, 2, 3, 4, 5],
@@ -17,12 +39,12 @@ const tier1 = [
     null,
     null,
     null,
-    ['D2']
+    ["D2"]
   ),
   new Talent(
-    'Iron Will',
-    'spell_magic_magearmor',
-    ['Increases your chance to resist Charm and Fear effects by ', '%.'],
+    "Iron Will",
+    "spell_magic_magearmor",
+    ["Increases your chance to resist Charm and Fear effects by ", "%."],
     5,
     [[3, 6, 9, 12, 15]],
     null,
@@ -39,6 +61,6 @@ const tier1 = [
     }
   ),
   null,
-]
+];
 
-export default tier1
+export default tier1;

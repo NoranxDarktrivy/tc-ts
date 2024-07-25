@@ -1,20 +1,20 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier7 = [
   null,
   new Talent(
-    'Moonkin Form',
-    'spell_nature_forceofnature',
+    "Moonkin Form",
+    "spell_nature_forceofnature",
     [
-      'Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical strike chance increased by 5%. The Moonkin can not cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.',
+      "Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical strike chance increased by 3%. The Moonkin can not cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
     ],
     1,
     [[]],
     null,
     null,
-    '35% of base mana',
+    "35% of base mana",
     null,
-    'Instant',
+    "Instant",
     null,
     null,
     {
@@ -25,6 +25,6 @@ const tier7 = [
   ),
   null,
   null,
-]
+];
 
-export default tier7
+export default tier7;
