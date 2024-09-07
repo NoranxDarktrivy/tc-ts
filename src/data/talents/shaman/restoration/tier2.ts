@@ -33,14 +33,11 @@ const tier2 = [
     [[5, 10, 15, 20, 25]]
   ),
   new Talent(
-    "Restorative Surge",
-    "spell_nature_giftofthewaterspirit",
-    [
-      "Critical strikes from your attacks have a ",
-      "% chance to trigger your active Mana Spring or Healing Stream Totem.",
-    ],
+    "Spiritual Blessing",
+    "spell_nature_natureblessing",
+    ["Increases your healing received by ", "%."],
     2,
-    [[25, 50]],
+    [[5, 10]],
     null,
     null,
     null,
@@ -48,7 +45,11 @@ const tier2 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
 ];
 

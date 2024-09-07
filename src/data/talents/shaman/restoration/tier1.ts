@@ -1,25 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier1 = [
-  new Talent(
-    "Spiritual Blessing",
-    "spell_nature_natureblessing",
-    ["Increases your healing received by ", "%."],
-    2,
-    [[5, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Improved Healing Wave",
     "spell_nature_magicimmunity",

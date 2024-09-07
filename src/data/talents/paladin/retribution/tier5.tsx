@@ -1,20 +1,28 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent('Two-Handed Weapon Specialization', 'inv_hammer_04', ['Increases the damage you deal with two-handed melee weapons by ', '%.'], 3, [[2, 4, 6]]),
+  new Talent(
+    "Two-Handed Weapon Specialization",
+    "inv_hammer_04",
+    ["Increases the damage you deal with two-handed melee weapons by ", "%."],
+    3,
+    [[2, 4, 6]]
+  ),
   null,
   new Talent(
-    'Repentance',
-    'spell_holy_prayerofhealing',
-    ['Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids.'],
+    "Repentance",
+    "spell_holy_prayerofhealing",
+    [
+      "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids.",
+    ],
     1,
     [[]],
     null,
     null,
-    '60 Mana',
-    '20 yd range',
-    'Instant',
-    '60 sec cooldown',
+    "60 Mana",
+    "20 yd range",
+    "Instant",
+    "60 sec cooldown",
     null,
     {
       isNew: false,
@@ -22,11 +30,28 @@ const tier5 = [
       isMoved: true,
     }
   ),
-  new Talent('Fervor', 'spell_holy_blessedresillience', ['Your auras also increase healing done and healing received by ', '%.'], 2, [[2, 4]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
-]
+  new Talent(
+    "Fervor",
+    "spell_holy_blessedresillience",
+    [
+      "Your critical strikes also increase the effect of all active Judgements on the target by ",
+      "%.",
+    ],
+    2,
+    [[15, 30]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+];
 
-export default tier5
+export default tier5;

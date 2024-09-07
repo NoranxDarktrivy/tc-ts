@@ -1,25 +1,21 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    'Natural Guardian',
-    'ability_druid_kingofthejungle',
-    ['When you deal a critical strike with an attack or spell, you have a ', '% chance to gain 5% armor for 8 sec. This effect stacks up to 5 times.'],
+    "Improved Shred",
+    "spell_shadow_vampiricaura",
+    ["Reduces the Energy cost of your Shred ability by ", "."],
     2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
+    [[6, 12]]
   ),
   new Talent(
-    'Predatory Strikes',
-    'ability_hunter_pet_cat',
-    ['Increases your melee attack power while in Bear, Dire Bear or Cat Form by ', '% of your level and increases your spell damage and healing by ', '% of your attack power.'],
+    "Predatory Strikes",
+    "ability_hunter_pet_cat",
+    [
+      "Increases your melee attack power while in Bear, Dire Bear or Cat Form by ",
+      "% of your level and increases your spell damage and healing by ",
+      "% of your attack power.",
+    ],
     3,
     [
       [50, 100, 150],
@@ -31,16 +27,16 @@ const tier4 = [
     null,
     null,
     null,
-    ['D2'],
+    ["D2"],
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
-    'Primal Fury',
-    'ability_racial_cannibalize',
+    "Primal Fury",
+    "ability_racial_cannibalize",
     [
-      'Gives you a ',
-      '% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points have a ',
-      '% chance to add an additional combo point.',
+      "Gives you a ",
+      "% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points have a ",
+      "% chance to add an additional combo point.",
     ],
     2,
     [
@@ -56,7 +52,28 @@ const tier4 = [
     null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
-  null,
-]
+  new Talent(
+    "Improved Swipe",
+    "inv_misc_monsterclaw_03",
+    [
+      "Increases the damage of your Swipe ability by ",
+      "% and increases the number of targets hit by your Swipe ability by ",
+      ".",
+    ],
+    2,
+    [
+      [10, 20],
+      [1, 2],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
+];
 
-export default tier4
+export default tier4;

@@ -1,12 +1,15 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier2 = [
   new Talent(
-    'Surge of Light',
-    'spell_holy_surgeoflight',
-    ['Your offensive spell criticals have a ', '% chance to heal a party member within 30 yard range by 50% of the damage dealt. Prioritizes party members with low health.'],
+    "Surge of Light",
+    "spell_holy_surgeoflight",
+    [
+      "Your spell criticals have a ",
+      "% chance to cause your next Smite spell to be instant cast and cost no mana. This effect lasts 10 sec.",
+    ],
     2,
-    [[50, 100]],
+    [[25, 50]],
     null,
     null,
     null,
@@ -20,11 +23,20 @@ const tier2 = [
       isMoved: false,
     }
   ),
-  new Talent('Spell Warding', 'spell_holy_spellwarding', ['Reduces all spell damage taken by ', '%.'], 5, [[2, 4, 6, 8, 10]]),
   new Talent(
-    'Divine Fury',
-    'spell_holy_sealofwrath',
-    ['Reduces the casting time of your Heal, Greater Heal, Smite and Holy Fire spells by ', ' sec.'],
+    "Spell Warding",
+    "spell_holy_spellwarding",
+    ["Reduces all spell damage taken by ", "%."],
+    5,
+    [[2, 4, 6, 8, 10]]
+  ),
+  new Talent(
+    "Divine Fury",
+    "spell_holy_sealofwrath",
+    [
+      "Reduces the casting time of your Heal, Greater Heal, Smite and Holy Fire spells by ",
+      " sec.",
+    ],
     5,
     [[0.1, 0.2, 0.3, 0.4, 0.5]],
     [{ x: null, y: null }],
@@ -33,9 +45,9 @@ const tier2 = [
     null,
     null,
     null,
-    ['D1']
+    ["D1"]
   ),
   null,
-]
+];
 
-export default tier2
+export default tier2;

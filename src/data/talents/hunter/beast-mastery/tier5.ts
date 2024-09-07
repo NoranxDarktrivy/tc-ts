@@ -1,32 +1,7 @@
 import { Talent } from "../../Classes";
 
 export default [
-  new Talent(
-    "Ferocious Inspiration",
-    "ability_hunter_ferociousinspiration",
-    [
-      "When your pet scores a critical hit, all party members have their damage and healing increased by ",
-      "% and all party members' pets and summons have their damage increased by ",
-      "% for 10 sec.",
-    ],
-    2,
-    [
-      [1, 2],
-      [5, 10],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Intimidation",
     "ability_devour",

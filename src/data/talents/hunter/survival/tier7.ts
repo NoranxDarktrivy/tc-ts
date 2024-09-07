@@ -6,7 +6,7 @@ export default [
     "Wyvern Shot",
     "spell_nature_nullifypoison",
     [
-      "When activated, your next succesful melee or ranged attack causes the target to fall asleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the venom causes 500 damage over 12 sec.",
+      "A shot that causes the target to fall asleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the venom causes 500 damage over 12 sec.",
     ],
     1,
     [[]],

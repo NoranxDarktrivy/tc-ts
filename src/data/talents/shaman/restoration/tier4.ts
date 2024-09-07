@@ -1,7 +1,24 @@
 import { Talent } from "../../Classes";
 
 const tier4 = [
-  null,
+  new Talent(
+    "Restorative Surge",
+    "spell_nature_giftofthewaterspirit",
+    [
+      "Critical strikes from your attacks and offensive spells have a ",
+      "% chance to trigger your active Mana Spring or Healing Stream Totem.",
+    ],
+    2,
+    [[25, 50]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   new Talent(
     "Restorative Totems",
     "spell_nature_manaregentotem",

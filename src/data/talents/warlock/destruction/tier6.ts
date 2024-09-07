@@ -1,14 +1,33 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent('Annihilation', 'ability_creature_cursed_03', ['Gives your spell critical strikes a ', '% chance to reduce the cooldown of your Soulshatter by 5 sec.'], 3, [[30, 60, 90]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  new Talent(
+    "Improved Soul Fire",
+    "spell_fire_fireball02",
+    [
+      "Critical strikes from your damaging spells have a ",
+      "% chance to increase the damage of your next Soul Fire by 10% and increase the cast time by 0.2 sec. This effect stacks up to 10 times.",
+    ],
+    2,
+    [[50, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   null,
-  new Talent('Emberstorm', 'spell_fire_selfdestruct', ['Increases the damage done by your Fire spells by ', '%.'], 5, [[2, 4, 6, 8, 10]]),
+  new Talent(
+    "Emberstorm",
+    "spell_fire_selfdestruct",
+    ["Increases the damage done by your Fire spells by ", "%."],
+    5,
+    [[2, 4, 6, 8, 10]]
+  ),
   null,
-]
+];
 
-export default tier6
+export default tier6;

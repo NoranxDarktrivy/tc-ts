@@ -16,7 +16,7 @@ export default [
   ),
   new Talent(
     "Swift Shots",
-    "ability_hunter_zenarchery",
+    "ability_hunter_assassinate2",
     ["Your Arcane Shot reduces the cooldown of your Rapid Fire by ", " sec."],
     2,
     [[1, 2]],
@@ -41,10 +41,13 @@ export default [
     [[2, 4, 6, 8, 10]]
   ),
   new Talent(
-    "Hawk Eye",
-    "ability_townwatch",
-    ["Increases the range of your ranged weapons by ", " yards."],
-    3,
-    [[2, 4, 6]]
+    "Careful Aim",
+    "ability_hunter_zenarchery",
+    [
+      "Increases the critical strike chance of your Steady Shot, Cobra Shot and Aimed Shot by ",
+      "% on targets who are above 90% health. ",
+    ],
+    2,
+    [[30, 66]]
   ),
 ];

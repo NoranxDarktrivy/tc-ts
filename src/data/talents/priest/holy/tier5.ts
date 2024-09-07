@@ -1,12 +1,15 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    'Serendipity',
-    'spell_holy_serendipity',
-    ['Healing with Flash Heal reduces the cast time of your next Lesser Heal, Heal, Greater Heal, or Prayer of Healing by ', '% for 20 sec, stacking up to 3 times.'],
-    2,
-    [[10, 20]],
+    "Blessed Resilience",
+    "spell_holy_blessedresillience",
+    [
+      "Critical hits against you have a ",
+      "% chance to prevent you from being critically hit again for 6 sec.",
+    ],
+    3,
+    [[20, 40, 60]],
     null,
     null,
     null,
@@ -21,10 +24,10 @@ const tier5 = [
     }
   ),
   new Talent(
-    'Spirit of Redemption',
-    'inv_enchant_essenceeternallarge',
+    "Spirit of Redemption",
+    "inv_enchant_essenceeternallarge",
     [
-      'Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot attack, be attacked or targeted or move. While in this form the priest can cast any healing spells free of cost. When the effect ends, the priest dies.',
+      "Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot attack, be attacked or targeted or move. While in this form the priest can cast any healing spells free of cost. When the effect ends, the priest dies.",
     ],
     1,
     [[]],
@@ -34,14 +37,31 @@ const tier5 = [
     null,
     null,
     null,
-    ['D2']
+    ["D2"]
   ),
-  new Talent('Improved Healing', 'spell_holy_heal02', ['Reduces the mana cost of your Lesser Heal, Heal and Greater Heal spells by ', '%.'], 3, [[5, 10, 15]], null, null, null, null, null, null, null, {
-    isNew: false,
-    isChanged: false,
-    isMoved: true,
-  }),
+  new Talent(
+    "Improved Healing",
+    "spell_holy_heal02",
+    [
+      "Reduces the mana cost of your Lesser Heal, Heal and Greater Heal spells by ",
+      "%.",
+    ],
+    3,
+    [[5, 10, 15]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    }
+  ),
   null,
-]
+];
 
-export default tier5
+export default tier5;

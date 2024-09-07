@@ -26,24 +26,7 @@ const tier4 = [
     [[33, 66, 100]]
   ),
   null,
-  new Talent(
-    "Storm Surge",
-    "spell_nature_regeneration_02",
-    [
-      "Reduces the penalty between jumps from your Chain Heal and Chain Lightning by ",
-      "%.",
-    ],
-    3,
-    [[25, 50, 75]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isChanged: false, isNew: true, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier4;

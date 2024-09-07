@@ -7,6 +7,7 @@ export default {
     "Firestone is now a consumable item and significantly increases the Warlock's fire damage for 30 sec. 10 min cooldown. No longer grants attacks a chance to deal fire damage.",
     "Spellstone is now a consumable item.",
     "Hellfire now deals increased damage. The Warlock now only takes 50% of the damage caused by Hellfire.",
+    "Life Tap now scales with spirit.",
     "Increased the health gained from Demon Armor.",
     "Curse of Weakness now reduces the target's damage done by 5%. Only one rank available.",
     "Warlocks can now summon party and raid members from within a dungeon or raid.",

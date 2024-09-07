@@ -9,7 +9,7 @@ const tier5 = [
       " sec and your Wrath hits reduce the cooldown of your cooldown spells ",
       " sec.",
     ],
-    2,
+    3,
     [
       [1, 2, 3],
       [0.5, 1, 1.5],
