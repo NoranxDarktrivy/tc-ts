@@ -4,6 +4,7 @@ export default {
     "New ability: Ritual of Souls. Creates a Soulwell with Healthstones. Party and raid members can click on the well to acquire a Healthstone. Learned after completing a new level 60 quest.",
     "New ability: Soulshatter: Reduces threat by 50% for all enemies within 40 yards. Reagents: Soul Shard. 5 min cooldown. Learned at lvl 60",
     "New ability: Incinerate: Deals Fire damage to your target and additional Fire damage if the target is affected by an Immolate spell. Learned at lvl 54.",
+    "Fel Domination is now a baseline ability and reduces the casting time and mana cost of your next summon spell by 100%.",
     "Firestone is now a consumable item and significantly increases the Warlock's fire damage for 30 sec. 10 min cooldown. No longer grants attacks a chance to deal fire damage.",
     "Spellstone is now a consumable item.",
     "Hellfire now deals increased damage. The Warlock now only takes 50% of the damage caused by Hellfire.",

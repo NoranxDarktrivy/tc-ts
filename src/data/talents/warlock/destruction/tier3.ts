@@ -48,19 +48,7 @@ const tier3 = [
       " sec.",
     ],
     2,
-    [[5, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    [[3, 6]]
   ),
 ];
 

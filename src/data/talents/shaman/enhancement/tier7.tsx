@@ -1,36 +1,38 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier7 = [
   null,
   new Talent(
-    'Stormstrike',
-    'spell_holy_sealofmight',
+    "Stormstrike",
+    "spell_holy_sealofmight",
     [
       <>
-        Gives you an extra attack and grants an additional effect depending on your active weapon enhancement: <br />
+        Gives you an extra attack and grants your next Shock spell an additional
+        effect:
         <br />
-        Rockbiter: Taunts the target to attack you and reduces damage taken by 10% for 6 sec. <br />
         <br />
-        Windfury: Increases attack speed by 10% for 12 sec. <br />
+        Earth Shock: Taunts the target to attack you
         <br />
-        Flametongue: Increases the damage done by your next spell by 50%. <br />
         <br />
-        Frostbrand: Roots the target in place for 4 sec.
+        Flame Shock: Applies the damage over time effect to all enemies within
+        10 yards of the target. <br />
+        <br />
+        Frost Shock: Roots the target in place for 5 sec. <br />
       </>,
     ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
-    'Melee range',
-    '8% of base mana',
-    'Instant',
-    '12 sec cooldown',
+    "Melee range",
+    "21% of base mana",
+    "Instant",
+    "20 sec cooldown",
     null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
   null,
   null,
-]
+];
 
-export default tier7
+export default tier7;

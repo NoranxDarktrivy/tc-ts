@@ -2,22 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    "Restorative Surge",
-    "spell_nature_giftofthewaterspirit",
+    "Tidal Mastery",
+    "spell_nature_tranquility",
     [
-      "Critical strikes from your attacks and offensive spells have a ",
-      "% chance to trigger your active Mana Spring or Healing Stream Totem.",
+      "Increases the critical effect chance of your Healing and Lightning spells by ",
+      "%.",
     ],
-    2,
-    [[25, 50]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
+    5,
+    [[1, 2, 3, 4, 5]]
   ),
   new Talent(
     "Restorative Totems",
@@ -42,14 +34,26 @@ const tier4 = [
     }
   ),
   new Talent(
-    "Tidal Mastery",
-    "spell_nature_tranquility",
+    "Water Shield",
+    "ability_shaman_watershield",
     [
-      "Increases the critical effect chance of your Healing and Lightning spells by ",
-      "%.",
+      "Your critical strikes from attacks and heals have a ",
+      "% chance to trigger one of your Water Shield globes.",
     ],
-    5,
-    [[1, 2, 3, 4, 5]]
+    2,
+    [[50, 100]],
+    [{ x: 2, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
   null,
 ];

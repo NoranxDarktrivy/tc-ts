@@ -1,6 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier4 = [
+  null,
   new Talent(
     "Fel Protection",
     "spell_shadow_demonictactics",
@@ -25,32 +26,6 @@ const tier4 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
-  ),
-  new Talent(
-    "Master Summoner",
-    "spell_shadow_impphaseshift",
-    [
-      "Reduces the casting time of your summon Succubus, Incubus, Imp, Felhunter or Void Walker by ",
-      " sec and Mana cost reduced by ",
-      "%.",
-    ],
-    2,
-    [
-      [2, 4],
-      [20, 40],
-    ],
-    null,
-    [{ x: 4, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    ["D1"],
-    {
-      isNew: false,
-      isChanged: false,
-      isMoved: true,
     }
   ),
   new Talent(

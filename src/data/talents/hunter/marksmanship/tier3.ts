@@ -41,13 +41,25 @@ export default [
     [[2, 4, 6, 8, 10]]
   ),
   new Talent(
-    "Careful Aim",
-    "ability_hunter_zenarchery",
+    "Lone Wolf",
+    "ability_mount_whitedirewolf",
     [
-      "Increases the critical strike chance of your Steady Shot, Cobra Shot and Aimed Shot by ",
-      "% on targets who are above 90% health. ",
+      "You deal ",
+      "% increased damage with all attacks while you do not have an active pet.",
     ],
     2,
-    [[30, 66]]
+    [[15, 30]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
 ];

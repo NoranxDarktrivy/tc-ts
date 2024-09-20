@@ -32,25 +32,7 @@ const tier2 = [
     5,
     [[5, 10, 15, 20, 25]]
   ),
-  new Talent(
-    "Spiritual Blessing",
-    "spell_nature_natureblessing",
-    ["Increases your healing received by ", "%."],
-    2,
-    [[5, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier2;

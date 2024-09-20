@@ -24,24 +24,34 @@ const tier5 = [
     }
   ),
   new Talent(
-    "Fel Domination",
-    "spell_nature_removecurse",
+    "Demonic Sacrifice",
+    "spell_shadow_psychicscream",
     [
-      "Your next summon of Succubus, Incubus, Imp, Felhunter or Void Walker has its casting time reduced by 5.5 sec and Mana cost reduced by 50%.",
+      <>
+        Sacrifices your demon to get an effect that lasts 30 min. Any demon
+        summoned cancels the effect. <br />
+        <br /> Imp: increases your Fire damage by 15%. <br />
+        <br /> Void Walker: Restores 6% of total Health every 4 sec.
+        <br />
+        <br />
+        Succubus/Incubus: increases your Shadow damage 15%. <br />
+        <br />
+        Felhunter: Restores 3% of total Mana every 4 sec.
+      </>,
     ],
     1,
     [[]],
-    [{ x: 3, y: 1 }],
-    [{ x: 6, y: 1 }],
     null,
+    [{ x: 6, y: 1 }],
+    "100 yd range",
     null,
     "Instant",
-    "15 min cooldown",
+    null,
     ["D2"],
     {
       isNew: false,
-      isChanged: false,
-      isMoved: true,
+      isChanged: true,
+      isMoved: false,
     }
   ),
   null,

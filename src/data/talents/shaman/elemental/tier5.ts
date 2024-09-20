@@ -29,14 +29,14 @@ const tier5 = [
   ),
   null,
   new Talent(
-    "Burning Inspiration",
-    "spell_shaman_stormearthfire",
+    "Elemental Impact",
+    "spell_nature_unrelentingstorm",
     [
-      "Your Fire totems also increase the spell damage and healing of party members within 30 yards by ",
+      "Your critical strikes from offensive spells increase the damage of the next non-periodic spell on the target by ",
       "%.",
     ],
     2,
-    [[2, 4]],
+    [[5, 10]],
     null,
     null,
     null,
