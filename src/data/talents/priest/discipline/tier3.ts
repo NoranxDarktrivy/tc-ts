@@ -2,8 +2,8 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Absolution",
-    "spell_holy_absolution",
+    "Exculpation",
+    "spell_holy_fanaticism",
     [
       "Your offensive spell criticals have a ",
       "% chance to heal a party member within 30 yard range by 50% of the damage dealt. Prioritizes party members with low health.",

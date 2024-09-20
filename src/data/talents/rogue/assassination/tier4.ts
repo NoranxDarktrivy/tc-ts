@@ -2,14 +2,11 @@ import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    "Envenom",
-    "ability_creature_poison_06",
-    [
-      "Your Eviscerate and Rupture attempt to consume one stack of your Deadly Poison per combo point, increasing the damage by ",
-      "% per consumed stack.",
-    ],
+    "Vigor",
+    "spell_nature_earthbindtotem",
+    ["Increases your maximum Energy by ", "."],
     2,
-    [[3, 6]],
+    [[5, 10]],
     null,
     null,
     null,
@@ -18,9 +15,9 @@ const tier4 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
     }
   ),
   new Talent(

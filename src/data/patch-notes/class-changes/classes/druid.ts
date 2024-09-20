@@ -7,5 +7,6 @@ export default {
     "Frenzied Regeneration is now percentage based. Only one rank available.",
     "Barkskin now reduces all damage taken by 25%, no longer reduces cast time and attack speed, and can be cast while frozen, incapacitated or feared. Cooldown is increased to 2 min.",
     "Swipe now scales with attack power.",
+    "Several weapons that increase a druid's attack power while in cat, bear and dire bear forms have been added.",
   ],
 };

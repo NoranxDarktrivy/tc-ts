@@ -1,14 +1,18 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    'Abundance',
-    'ability_druid_empoweredrejuvination',
-    ['Inreases your damage over time and healing over time done by ', '% and reduces the chance these effects are dispelled by ', '%.'],
+    "Fury of Stormrage",
+    "inv_staff_90",
+    [
+      "Reduces the mana cost of Wrath by ",
+      "% and each time you deal damage with Wrath you have a ",
+      "% chance to reduce the cast time of your next Healing Touch within 15 sec by 1.5 sec.",
+    ],
     2,
     [
-      [5, 10],
-      [25, 50],
+      [50, 100],
+      [10, 20],
     ],
     null,
     null,
@@ -24,8 +28,14 @@ const tier6 = [
     }
   ),
   null,
-  new Talent('Improved Regrowth', 'spell_nature_resistnature', ['Increases the critical effect chance of your Regrowth spell by ', '%.'], 5, [[10, 20, 30, 40, 50]]),
+  new Talent(
+    "Improved Regrowth",
+    "spell_nature_resistnature",
+    ["Increases the critical effect chance of your Regrowth spell by ", "%."],
+    5,
+    [[10, 20, 30, 40, 50]]
+  ),
   null,
-]
+];
 
-export default tier6
+export default tier6;

@@ -5,24 +5,9 @@ const tier1 = [
   new Talent(
     "Master of Deception",
     "spell_shadow_charm",
-    [
-      "Reduces the chance enemies can detect you while in stealth. In addition, increases your chance to avoid area of effect damage by ",
-      "%.",
-    ],
+    ["Reduces the chance enemies can detect you while in stealth. "],
     5,
-    [[3, 6, 9, 12, 15]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    [[]]
   ),
   new Talent(
     "Opportunity",

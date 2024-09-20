@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Mana Adept",
-    "spell_arcane_manatap",
-    [
-      "Increases all spell damage done by up to ",
-      "%, based on the amount of mana you have unspent.",
-    ],
-    2,
-    [[7, 15]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Presence of Mind",
     "spell_nature_enchantarmor",

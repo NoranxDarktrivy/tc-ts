@@ -3,25 +3,19 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Living Bomb",
-    "ability_mage_livingbomb",
+    "Combustion",
+    "spell_fire_sealoffire",
     [
-      "The target becomes a Living Bomb, taking 588 Fire damage over 12 sec. After 12 sec or when the spell is dispelled, the target explodes dealing 390 Fire damage to all enemies within 10 yards.",
+      "When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 3 critical strikes with Fire spells.",
     ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
-    "22% of base mana",
+    null,
     null,
     "Instant",
-    "30 yd range",
-    null,
-    {
-      isChanged: false,
-      isMoved: false,
-      isNew: true,
-    }
+    "3 min cooldown"
   ),
   null,
   null,

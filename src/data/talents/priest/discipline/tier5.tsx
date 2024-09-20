@@ -20,8 +20,8 @@ const tier5 = [
         <br />
         <br />
         Troll: Allows your Shadowguard to be cast on friendly targets within 30
-        yards and increases the amount of orbs by 3. Can affect one target at a
-        time.
+        yards and increases the amount of orbs by 3. Can affect up to 2 targets
+        at a time.
         <br />
         <br />
         Undead: Your Devouring Plague now also returns mana equal to the damage

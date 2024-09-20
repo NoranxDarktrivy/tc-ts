@@ -2,44 +2,35 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
+    "Searing Armor",
+    "ability_mage_moltenarmor",
+    [
+      "Increases your critical strike chance by 5, but critical strikes burn 1% of your base mana and base health. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "270 Mana",
+    null,
+    "Instant",
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
+  new Talent(
     "Critical Mass",
     "spell_nature_wispheal",
     ["Increases the critical strike chance of your Fire spells by ", "%."],
     3,
     [[2, 4, 6]],
     [{ x: null, y: null }],
-    [{ x: 4, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    ["R1"],
-    {
-      isChanged: false,
-      isMoved: true,
-      isNew: false,
-    }
-  ),
-  new Talent(
-    "Combustion",
-    "spell_fire_sealoffire",
-    [
-      "When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 3 critical strikes with Fire spells.",
-    ],
-    1,
-    [[]],
-    [{ x: 4, y: 0 }],
     [{ x: 6, y: 1 }],
     null,
     null,
-    "Instant",
-    "3 min cooldown",
-    ["D2"],
-    {
-      isChanged: false,
-      isMoved: true,
-      isNew: false,
-    }
+    null,
+    null,
+    ["D2"]
   ),
   new Talent(
     "Blast Wave",

@@ -2,26 +2,20 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Improved Blessing of Freedom",
-    "spell_holy_sealofvalor",
+    "Blessing of Sanctuary",
+    "spell_nature_lightningshield",
     [
-      "Reduces the cooldown of your Blessing of Freedom by ",
-      " sec. In addition, your Blessing of Freedom also reduces the target's threat if they are not affected by Righteous Fury.",
+      "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to 10 for 5 min.  In addition, when the target blocks a melee attack the attacker will take 14 Holy damage.  Players may only have one Blessing on them per Paladin at any one time.",
     ],
-    3,
-    [[1, 2, 3]],
+    1,
+    [[]],
     null,
+    [{ x: 4, y: 1 }],
+    "60 Mana",
+    "30 yd range",
+    "Instant",
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    ["R1"]
   ),
   new Talent(
     "Holy Shield",
@@ -31,7 +25,7 @@ const tier5 = [
     ],
     1,
     [[]],
-    null,
+    [{ x: 4, y: 0 }],
     [{ x: 6, y: 1 }],
     "150 Mana",
     null,
@@ -66,7 +60,28 @@ const tier5 = [
       isMoved: false,
     }
   ),
-  null,
+  new Talent(
+    "Improved Blessing of Freedom",
+    "spell_holy_sealofvalor",
+    [
+      "Reduces the cooldown of your Blessing of Freedom by ",
+      " sec. In addition, your Blessing of Freedom also reduces the target's threat if they are not affected by Righteous Fury.",
+    ],
+    3,
+    [[1, 2, 3]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];
 
 export default tier5;

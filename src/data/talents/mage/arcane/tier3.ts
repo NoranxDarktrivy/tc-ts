@@ -34,19 +34,17 @@ const tier3 = [
     [[2, 4, 6]]
   ),
   new Talent(
-    "Incanter's Absorption",
-    "spell_arcane_arcanepotency",
-    [
-      "After gaining clearcasting, you gain an Incanter's Shield for 6 sec. The shield absorbs up to 80 Magic damage and increases you critical strike chance by 10%.",
-    ],
+    "Chrono Shift",
+    "spell_holy_borrowedtime",
+    ["When activated, reduces the cooldown of your next mage spell by 50%."],
     1,
     [[]],
-    [{ x: 1, y: 2 }],
     null,
     null,
     null,
     null,
-    null,
+    "Instant",
+    "3 min cooldown",
     null,
     {
       isNew: true,

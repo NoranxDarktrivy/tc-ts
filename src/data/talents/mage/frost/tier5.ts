@@ -1,12 +1,19 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    'Fingers of Frost',
-    'ability_mage_wintersgrasp',
-    ['Gives your Chill effects a ', '% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen. Lasts 15 sec.'],
-    2,
-    [[8, 15]],
+    "Piercing Chill",
+    "spell_frost_piercing-chill",
+    [
+      "Your Frostbolt criticals apply the chill effect to ",
+      " additional nearby targets. In addition, increases your damage by ",
+      "% for each of your active chill effects, up to 10%.",
+    ],
+    3,
+    [
+      [1, 2],
+      [1, 2],
+    ],
     null,
     null,
     null,
@@ -14,16 +21,14 @@ const tier5 = [
     null,
     null,
     null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
-    'Ice Block',
-    'spell_frost_frost',
-    ['You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec. During that time you cannot move, attack or cast spells.'],
+    "Cold Snap",
+    "spell_frost_wizardmark",
+    [
+      "When activated, this spell finishes the cooldown on all of your Frost spells.",
+    ],
     1,
     [[]],
     [{ x: null, y: null }],
@@ -33,14 +38,21 @@ const tier5 = [
         y: 1,
       },
     ],
-    '15 mana',
     null,
-    'Instant',
-    '5 min cooldown',
-    ['D2']
+    null,
+    "Instant",
+    "10 min cooldown",
+    ["D2"],
+    { isNew: false, isChanged: false, isMoved: true }
   ),
-  new Talent('Improved Cone of Cold', 'spell_frost_glacier', ['Increases the damage done by your Cone of Cold spell by ', '%.'], 3, [[15, 30, 45]]),
+  new Talent(
+    "Improved Cone of Cold",
+    "spell_frost_glacier",
+    ["Increases the damage done by your Cone of Cold spell by ", "%."],
+    3,
+    [[15, 30, 45]]
+  ),
   null,
-]
+];
 
-export default tier5
+export default tier5;

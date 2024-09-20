@@ -4,9 +4,28 @@ const tier5 = [
   new Talent(
     "Two-Handed Weapon Specialization",
     "inv_hammer_04",
-    ["Increases the damage you deal with two-handed melee weapons by ", "%."],
+    [
+      "Increases the damage you deal with two-handed melee weapons by ",
+      "% and increases your spell damage by ",
+      "% of your attack power.",
+    ],
     3,
-    [[2, 4, 6]]
+    [
+      [2, 4, 6],
+      [10, 20, 30],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   null,
   new Talent(
@@ -31,14 +50,14 @@ const tier5 = [
     }
   ),
   new Talent(
-    "Fervor",
+    "Reprieve",
     "spell_holy_blessedresillience",
     [
-      "Your critical strikes also increase the effect of all active Judgements on the target by ",
-      "%.",
+      "Your critical strikes with melee attacks, spells and heals also heal all party members within 40 yards for ",
+      "% of the damage or healing done.",
     ],
     2,
-    [[15, 30]],
+    [[5, 10]],
     null,
     null,
     null,

@@ -1,20 +1,20 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent('Thunder Strike', 'spell_nature_thunderclap', ['Increases the damage of your Thunder Clap by ', '% when hitting only one target.'], 3, [[100, 200, 300]], null, null, null, null, null, null, null, {
-    isNew: true,
-    isChanged: false,
-    isMoved: false,
-  }),
+  null,
   null,
   new Talent(
-    'Blood Frenzy',
-    'ability_warrior_bloodfrenzy',
-    ['Each time you deal Bleed damage, you gain ', ' Rage. In addition, increases your attack speed by ', '% for each of your active bleed effects, up to 30%'],
-    2,
+    "Master at Arms",
+    "ability_warrior_weaponmastery",
     [
-      [3, 6],
-      [3, 6],
+      "Increases your skill with all weapons by ",
+      " and increases your rage generated from damage dealt by ",
+      "%.",
+    ],
+    5,
+    [
+      [3, 6, 9, 12, 15],
+      [5, 10, 15, 20, 25],
     ],
     null,
     null,
@@ -30,6 +30,6 @@ const tier6 = [
     }
   ),
   null,
-]
+];
 
-export default tier6
+export default tier6;
