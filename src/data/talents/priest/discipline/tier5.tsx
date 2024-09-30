@@ -7,8 +7,8 @@ const tier5 = [
     [
       <>
         Improves one of your Priest racial abilities. <br />
-        <br /> Human: Allows your Feedback to be cast on a friendly target
-        within 30 yards and reduces the cooldown by 1 min.
+        <br /> Human: Allows your Desperate Prayer to be cast on a friendly
+        target within 30 yards.
         <br />
         <br />
         Dwarf: Your Chastise increases the next source of direct spell damage to
@@ -20,7 +20,7 @@ const tier5 = [
         <br />
         <br />
         Troll: Allows your Shadowguard to be cast on friendly targets within 30
-        yards and increases the amount of orbs by 3. Can affect up to 2 targets
+        yards and increases the amount of orbs by 5. Can affect up to 1 target
         at a time.
         <br />
         <br />

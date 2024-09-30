@@ -34,28 +34,7 @@ const tier3 = [
     null,
     ["D3"]
   ),
-  new Talent(
-    "Focused Insight",
-    "spell_shaman_measuredinsight",
-    [
-      "After casting any Shock spell, your next heal's mana cost is reduced by ",
-      "% of the cost of the Shock spell, and its healing effectiveness is increased by ",
-      "%.",
-    ],
-    3,
-    [
-      [25, 50, 75],
-      [10, 20, 30],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isChanged: false, isNew: true, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier3;

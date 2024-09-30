@@ -5,7 +5,7 @@ const tier5 = [
     "Searing Armor",
     "ability_mage_moltenarmor",
     [
-      "Increases your critical strike chance by 5, but critical strikes burn 1% of your base mana and base health. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
+      "Increases your critical strike chance by 5%, but critical strikes burn 1% of your base mana and base health. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
     ],
     1,
     [[]],

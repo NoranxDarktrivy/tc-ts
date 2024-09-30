@@ -29,9 +29,9 @@ export default [
     null,
     null,
     {
-      isNew: false,
-      isChanged: true,
-      isMoved: true,
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
     }
   ),
   null,

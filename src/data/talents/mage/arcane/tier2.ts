@@ -64,7 +64,7 @@ const tier2 = [
     "ability_mage_potentspirit",
     [
       "When you deal direct damage with a spell, the next damaging spell of another school you cast within 10 sec deals ",
-      "% increased damage. This effect stacks up to 3 times.",
+      "% increased damage. This effect stacks up to 3 times. This effects resets after you cast two damaging spells of the same school in a row.",
     ],
     2,
     [[3, 6]],

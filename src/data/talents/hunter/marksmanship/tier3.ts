@@ -40,26 +40,5 @@ export default [
     5,
     [[2, 4, 6, 8, 10]]
   ),
-  new Talent(
-    "Lone Wolf",
-    "ability_mount_whitedirewolf",
-    [
-      "You deal ",
-      "% increased damage with all attacks while you do not have an active pet.",
-    ],
-    2,
-    [[15, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];

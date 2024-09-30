@@ -6,7 +6,7 @@ const tier3 = [
     "spell_holy_fanaticism",
     [
       "Your offensive spell criticals have a ",
-      "% chance to heal a party member within 30 yard range by 50% of the damage dealt. Prioritizes party members with low health.",
+      "% chance to heal a party member within 30 yard range by 30% of the damage dealt. Prioritizes party members with low health.",
     ],
     2,
     [[50, 100]],

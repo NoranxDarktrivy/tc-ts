@@ -9,7 +9,7 @@ const tier5 = [
       " additional nearby targets. In addition, increases your damage by ",
       "% for each of your active chill effects, up to 10%.",
     ],
-    3,
+    2,
     [
       [1, 2],
       [1, 2],

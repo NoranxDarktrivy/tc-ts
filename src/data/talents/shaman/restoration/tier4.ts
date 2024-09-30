@@ -34,10 +34,10 @@ const tier4 = [
     }
   ),
   new Talent(
-    "Water Shield",
+    "Improved Water Shield",
     "ability_shaman_watershield",
     [
-      "Your critical strikes from attacks and heals have a ",
+      "Your critical strikes from attacks and spells have a ",
       "% chance to trigger one of your Water Shield globes.",
     ],
     2,

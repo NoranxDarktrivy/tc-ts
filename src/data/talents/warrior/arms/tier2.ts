@@ -13,10 +13,14 @@ const tier2 = [
     "spell_nature_enchantarmor",
     [
       "You retain up to an additional ",
-      " rage points when you change stances.",
+      " rage points when you change stances and increases your chance to hit by ",
+      "%.",
     ],
     3,
-    [[5, 10, 15]],
+    [
+      [5, 10, 15],
+      [1, 2, 3],
+    ],
     null,
     null,
     null,

@@ -1,25 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier1 = [
-  new Talent(
-    "Precision",
-    "ability_marksmanship",
-    ["Increases your chance to hit by ", "%."],
-    3,
-    [[1, 2, 3]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Shield Specialization",
     "inv_shield_06",

@@ -24,8 +24,8 @@ const tier4 = [
     "Vile Poisons",
     "ability_rogue_feigndeath",
     [
-      "Increases the damage dealt by your poisons by ",
-      "% and gives your poisons an additional ",
+      "Increases the damage dealt by your poisons up to by ",
+      "% of your attack power and gives your poisons an additional ",
       "% increased chance to resist dispel effects.",
     ],
     3,

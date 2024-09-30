@@ -9,9 +9,11 @@ const tier3 = [
     [[25, 50]]
   ),
   new Talent(
-    "Heroic Focus",
-    "ability_warrior_bullrush",
-    ["Reduces the rage cost of your next two abilities by 100%."],
+    "Second Wind",
+    "ability_hunter_harass",
+    [
+      "Removes all movement impairing effects, generates 10 range and heals you for 10% of your total health over 10 sec.",
+    ],
     1,
     [[]],
     null,
@@ -19,7 +21,7 @@ const tier3 = [
     null,
     null,
     "Instant",
-    "2 min cooldown",
+    "3 min cooldown",
     null,
     {
       isNew: true,
