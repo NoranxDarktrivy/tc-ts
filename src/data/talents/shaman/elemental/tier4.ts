@@ -26,7 +26,28 @@ const tier4 = [
     [[33, 66, 100]]
   ),
   null,
-  null,
+  new Talent(
+    "Elemental Impact",
+    "spell_nature_unrelentingstorm",
+    [
+      "Your criticals from direct damage spells refund ",
+      "% of their base mana cost.",
+    ],
+    3,
+    [[10, 20, 30]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];
 
 export default tier4;

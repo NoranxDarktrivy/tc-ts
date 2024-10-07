@@ -5,8 +5,8 @@ const tier6 = [
     "Devotion",
     "ability_racial_avatar",
     [
-      "Your damaging spells increase your damage dealt to the target by ",
-      "% and your healing spells increase your healing done to the target ",
+      "Your direct damaging spells increase your damage dealt to the target by ",
+      "% and your direct healing spells increase your healing done to the target ",
       "%. Both effects last 15 sec and stack up to 3 times.",
     ],
     2,

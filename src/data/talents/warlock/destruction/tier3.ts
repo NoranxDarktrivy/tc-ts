@@ -9,19 +9,14 @@ const tier3 = [
     [[0.5, 1]]
   ),
   new Talent(
-    "Shadowburn",
-    "spell_shadow_scourgebuild",
+    "Improved Lash of Pain",
+    "spell_shadow_curse",
     [
-      "Reagents: Soul Shard. Instantly blasts the target for 91 to 104 shadow damage. If the target dies within 5 sec and yields experience or honor, gain a Soul Shard.",
+      "Reduces the cooldown of your Succubus' and Incubus' Lash of Pain by ",
+      " sec.",
     ],
-    1,
-    [[]],
-    null,
-    null,
-    "105 Mana",
-    "20 yd range",
-    "Instant",
-    "15 sec cooldown"
+    2,
+    [[3, 6]]
   ),
   new Talent(
     "Devastation",
@@ -41,14 +36,19 @@ const tier3 = [
     ["D2"]
   ),
   new Talent(
-    "Improved Lash of Pain",
-    "spell_shadow_curse",
+    "Shadowburn",
+    "spell_shadow_scourgebuild",
     [
-      "Reduces the cooldown of your Succubus' and Incubus' Lash of Pain by ",
-      " sec.",
+      "Reagents: Soul Shard. Instantly blasts the target for 91 to 104 shadow damage. If the target dies within 5 sec and yields experience or honor, gain a Soul Shard.",
     ],
-    2,
-    [[3, 6]]
+    1,
+    [[]],
+    null,
+    null,
+    "105 Mana",
+    "20 yd range",
+    "Instant",
+    "15 sec cooldown"
   ),
 ];
 

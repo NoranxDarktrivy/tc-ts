@@ -33,14 +33,11 @@ export default [
     ["D2"]
   ),
   new Talent(
-    "Lone Wolf",
-    "ability_mount_whitedirewolf",
-    [
-      "While you have no active pet, you deal ",
-      "% increased damage each second while standing still, up to 40%.",
-    ],
-    2,
-    [[15, 30]],
+    "Improved Stings",
+    "spell_nature_nullifypoison",
+    ["Increases the effect of your Stings by ", "%."],
+    3,
+    [[10, 20, 30]],
     null,
     null,
     null,

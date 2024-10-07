@@ -1,42 +1,58 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from "react";
 
-import styles from './cell.module.css'
+import styles from "./cell.module.css";
 
 interface TooltipProps {
-  value: number
-  description: string[] | ReactNode[]
-  maxValue: number
-  valueIteration: (string[] | number[])[]
-  manaCost: string | null
-  range: string | null
-  castTime: string | null
-  cooldown: string | null
-  name: string
+  value: number;
+  description: string[] | ReactNode[];
+  maxValue: number;
+  valueIteration: (string[] | number[])[];
+  manaCost: string | null;
+  range: string | null;
+  castTime: string | null;
+  cooldown: string | null;
+  name: string;
 }
 
-const Tooltip: React.FC<TooltipProps> = ({ value, description, maxValue, valueIteration, manaCost, range, castTime, cooldown, name }) => {
-  const activeTalent = !!manaCost || !!range || !!castTime || !!cooldown
+const Tooltip: React.FC<TooltipProps> = ({
+  value,
+  description,
+  maxValue,
+  valueIteration,
+  manaCost,
+  range,
+  castTime,
+  cooldown,
+  name,
+}) => {
+  const activeTalent = !!manaCost || !!range || !!castTime || !!cooldown;
 
-  const renderDescription: any[] = []
+  const renderDescription: any[] = [];
 
   description.forEach((text, index) => {
-    renderDescription.push(text)
+    renderDescription.push(text);
     if (value === 0 && index < description.length - 1) {
-      renderDescription.push(<span key={Math.random()}>{valueIteration[index][value]}</span>)
+      renderDescription.push(
+        <span key={Math.random()}>{valueIteration[index][value]}</span>
+      );
     } else if (index < description.length - 1) {
-      renderDescription.push(<span key={Math.random()}>{valueIteration[index][value - 1]}</span>)
+      renderDescription.push(
+        <span key={Math.random()}>{valueIteration[index][value - 1]}</span>
+      );
     }
-  })
+  });
 
-  const renderDescriptionNext: any[] = []
+  const renderDescriptionNext: any[] = [];
 
   if (value < maxValue && !!value) {
     description.forEach((text, index) => {
-      renderDescriptionNext.push(<span key={Math.random()}>{text}</span>)
+      renderDescriptionNext.push(<span key={Math.random()}>{text}</span>);
       if (index < description.length - 1) {
-        renderDescriptionNext.push(<span key={Math.random()}>{valueIteration[index][value]}</span>)
+        renderDescriptionNext.push(
+          <span key={Math.random()}>{valueIteration[index][value]}</span>
+        );
       }
-    })
+    });
   }
 
   return (
@@ -44,13 +60,16 @@ const Tooltip: React.FC<TooltipProps> = ({ value, description, maxValue, valueIt
       className={styles.tooltipStyle}
       style={{
         backgroundImage: `url("${process.env.PUBLIC_URL}/img/background/tooltip.png")`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat',
-      }}>
+        backgroundSize: "cover",
+        backgroundPosition: "center center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className={styles.tooltipHeader}>
         <div className={styles.tooltipTitle}>{name}</div>
-        {!activeTalent && <div className={styles.tooltipRank}>{`Rank ${value}`}</div>}
+        {!activeTalent && (
+          <div className={styles.tooltipRank}>{`Rank ${value}`}</div>
+        )}
       </div>
       {activeTalent && (
         <>
@@ -66,11 +85,15 @@ const Tooltip: React.FC<TooltipProps> = ({ value, description, maxValue, valueIt
       )}
       <div className={styles.tooltipDescription}>
         {renderDescription}
-        <div>{value < maxValue && !!value && <div className={styles.tooltipNextRank}>Next rank:</div>}</div>
+        <div>
+          {value < maxValue && !!value && (
+            <div className={styles.tooltipNextRank}>Next rank:</div>
+          )}
+        </div>
         {renderDescriptionNext}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Tooltip
+export default Tooltip;

@@ -1,7 +1,25 @@
 import { Talent } from "../../Classes";
 
 const tier2 = [
-  null,
+  new Talent(
+    "Malevolence",
+    "spell_shadow_charm",
+    ["Increases your chance to hit with Destruction spells by ", "%."],
+    2,
+    [[2, 4]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     "Improved Shadow Bolt",
     "spell_shadow_shadowbolt",

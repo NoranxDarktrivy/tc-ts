@@ -12,7 +12,7 @@ const tier3 = [
     "Second Wind",
     "ability_hunter_harass",
     [
-      "Removes all movement impairing effects, generates 10 range and heals you for 10% of your total health over 10 sec.",
+      "Removes all movement impairing effects and generates 10 rage and 10% of your total health over 10 sec.",
     ],
     1,
     [[]],

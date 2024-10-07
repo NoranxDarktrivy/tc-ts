@@ -2,25 +2,6 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Improved Serpent Sting",
-    "ability_hunter_quickshot",
-    ["Increases the damage done by your Serpent Sting by ", "%."],
-    3,
-    [[10, 20, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
-  ),
-  new Talent(
     "Bow Specialization",
     "inv_weapon_bow_03",
     [
@@ -71,4 +52,5 @@ export default [
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),
+  null,
 ];

@@ -61,14 +61,14 @@ const tier5 = [
     }
   ),
   new Talent(
-    "Improved Blessing of Freedom",
-    "spell_holy_sealofvalor",
+    "Ardent Defender",
+    "spell_holy_ardentdefender",
     [
-      "Reduces the cooldown of your Blessing of Freedom by ",
-      " sec. In addition, your Blessing of Freedom also reduces the target's threat if they are not affected by Righteous Fury.",
+      "When you have less than 35% health, all damage taken is reduced by ",
+      "%.",
     ],
     3,
-    [[1, 2, 3]],
+    [[10, 20, 30]],
     null,
     null,
     null,

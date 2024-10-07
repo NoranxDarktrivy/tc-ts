@@ -2,14 +2,18 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Demonic Decree",
-    "spell_shadow_demonicempathy",
+    "Fel Protection",
+    "spell_shadow_demonictactics",
     [
-      "Damage done by you or your summoned demon has a ",
-      "% chance to increase the damage done by the other by 10% for 15 sec.",
+      "Increases the armor rating of your active demon by ",
+      "% and reduces area of effect damage taken by your active demon ",
+      "%.",
     ],
-    2,
-    [[5, 10]],
+    3,
+    [
+      [10, 20, 30],
+      [20, 40, 60],
+    ],
     null,
     null,
     null,

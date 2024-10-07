@@ -27,16 +27,16 @@ const tier5 = [
     null,
     ["D2"]
   ),
-  null,
   new Talent(
-    "Wrath of Fire Totem",
-    "spell_frost_fireresistancetotem",
+    "Lightning Mastery",
+    "spell_lightning_lightningbolt01",
     [
-      "Summons a Wrath of Fire Totem with 5 health at the feet of the caster. Party members within 20 yards of the totem have their spell damage and healing increased by up to 38. Lasts 2 min.",
+      "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by ",
+      " sec.",
     ],
-    1,
-    [[]],
-    null,
+    2,
+    [[0.5, 1]],
+    [{ x: 2, y: 2 }],
     null,
     null,
     null,
@@ -44,11 +44,12 @@ const tier5 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
     }
   ),
+  null,
 ];
 
 export default tier5;

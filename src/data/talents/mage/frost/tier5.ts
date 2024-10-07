@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Piercing Chill",
-    "spell_frost_piercing-chill",
-    [
-      "Your Frostbolt criticals apply the chill effect to ",
-      " additional nearby targets. In addition, increases your damage by ",
-      "% for each of your active chill effects, up to 10%.",
-    ],
-    2,
-    [
-      [1, 2],
-      [1, 2],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
   new Talent(
     "Cold Snap",
     "spell_frost_wizardmark",

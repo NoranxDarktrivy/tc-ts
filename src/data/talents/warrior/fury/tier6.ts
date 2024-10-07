@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Relentless Onslaught",
-    "ability_warrior_intensifyrage",
-    [
-      "Increases your movement speed by ",
-      "% while under the effect of Bloodrage or Berserker Rage.",
-    ],
-    2,
-    [[15, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   null,
   new Talent(
     "Flurry",

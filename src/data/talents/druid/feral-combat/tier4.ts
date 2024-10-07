@@ -52,28 +52,7 @@ const tier4 = [
     null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
-  new Talent(
-    "Improved Swipe",
-    "inv_misc_monsterclaw_03",
-    [
-      "Increases the damage of your Swipe ability by ",
-      "% and increases the number of targets hit by your Swipe ability by ",
-      ".",
-    ],
-    2,
-    [
-      [10, 20],
-      [1, 2],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier4;

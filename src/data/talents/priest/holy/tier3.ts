@@ -2,25 +2,18 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Prayer of Mending",
-    "spell_holy_prayerofmendingtga",
+    "Holy Nova",
+    "spell_holy_holynova",
     [
-      "Places a spell on the target that heals the next time they take damage. When the heal occurs, Prayer of Mending jumps to a raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time.",
+      "Causes an explosion of holy light around the caster, causing 29 to 34 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63. These effects cause no threat.",
     ],
     1,
     [[]],
     null,
     null,
-    "85 Mana",
-    "40 yd range",
-    "Instant",
-    "10 sec cooldown",
+    "185 Mana",
     null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    "Instant"
   ),
   new Talent(
     "Blessed Recovery",

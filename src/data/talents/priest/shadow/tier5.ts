@@ -1,10 +1,10 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    'Silence',
-    'spell_shadow_impphaseshift',
-    ['Silence the target, preventing them from casting spells for 5 sec.'],
+    "Silence",
+    "spell_shadow_impphaseshift",
+    ["Silence the target, preventing them from casting spells for 5 sec."],
     1,
     [[]],
     [
@@ -14,15 +14,17 @@ const tier5 = [
       },
     ],
     null,
-    '255 Mana',
-    '20 yd range',
-    'Instant',
-    '45 sec cooldown'
+    "255 Mana",
+    "20 yd range",
+    "Instant",
+    "45 sec cooldown"
   ),
   new Talent(
-    'Vampiric Embrace',
-    'spell_shadow_unsummonbuilding',
-    ['Inflicts the target with Shadow energy, causing all party members to be healed by 20% of the damage you deal to the target.'],
+    "Vampiric Embrace",
+    "spell_shadow_unsummonbuilding",
+    [
+      "Inflicts the target with Shadow energy, causing all party members to be healed by 20% of the damage you deal to the target.",
+    ],
     1,
     [[]],
     [{ x: null, y: null }],
@@ -30,16 +32,19 @@ const tier5 = [
       { x: 4, y: 2 },
       { x: 6, y: 1 },
     ],
-    '40 Mana',
-    '30 yd range',
-    'Instant',
-    '10 sec cooldown',
-    ['R1', 'D2']
+    "40 Mana",
+    "30 yd range",
+    "Instant",
+    "10 sec cooldown",
+    ["R1", "D2"]
   ),
   new Talent(
-    'Improved Vampiric Embrace',
-    'spell_shadow_improvedvampiricembrace',
-    ['Your Vampiric Embrace also causes party members to restore mana equal to ', '% of damage you deal to the target.'],
+    "Vampiric Touch",
+    "spell_holy_stoicism",
+    [
+      "Your Vampiric Embrace also causes party members to restore mana equal to ",
+      "% of damage you deal to the target.",
+    ],
     2,
     [[3, 5]],
     [{ x: 4, y: 1 }],
@@ -50,12 +55,12 @@ const tier5 = [
     null,
     null,
     {
-      isNew: false,
-      isChanged: true,
+      isNew: true,
+      isChanged: false,
       isMoved: false,
     }
   ),
   null,
-]
+];
 
-export default tier5
+export default tier5;

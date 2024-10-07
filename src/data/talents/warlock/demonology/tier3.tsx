@@ -16,40 +16,20 @@ const tier3 = [
     ]
   ),
   new Talent(
-    "Demonic Empowerment",
-    "ability_warlock_demonicempowerment",
+    "Fel Domination",
+    "spell_nature_removecurse",
     [
-      <>
-        Grants the Warlock's summoned demon Empowerment. <br />
-        <br />
-        Imp - Increases the Imp's spell critical strike chance by 20% for 30
-        sec.
-        <br />
-        <br />
-        Voidwalker - Increases the Voidwalker's health by 20%, and its threat
-        generated from spells and attacks by 20% for 20 sec. <br />
-        <br />
-        Succubus and Incubus - Instantly vanishes, causing the demon to go into
-        an improved Invisibility state. The vanish effect removes all stuns,
-        snares and movement impairing effects from the demon. <br />
-        <br />
-        Felhunter - Dispels all magical effects from the Felhunter.
-      </>,
+      "Your next Imp, Voidwalker, Succubus, Incubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%.",
     ],
     1,
     [[]],
+    [{ x: null, y: null }],
+    [{ x: 3, y: 1 }],
+    "Instant",
+    "15 min cooldown",
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    ["D1"]
   ),
   new Talent(
     "Fel Stamina",

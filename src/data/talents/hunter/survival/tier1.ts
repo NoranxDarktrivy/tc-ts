@@ -1,13 +1,7 @@
 import { Talent } from "../../Classes";
 
 export default [
-  new Talent(
-    "Hawk Eye",
-    "ability_townwatch",
-    ["Increases the range of your ranged weapons by ", " yards."],
-    3,
-    [[2, 4, 6]]
-  ),
+  null,
   new Talent(
     "Untamed",
     "spell_nature_dryaddispelmagic",
