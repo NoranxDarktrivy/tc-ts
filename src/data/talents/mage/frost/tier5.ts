@@ -1,7 +1,23 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  null,
+  new Talent(
+    "Flash Freeze",
+    "spell_frost_chainsofice",
+    [
+      "Freezes you in place for up to 10 sec. For the duration, your critical strike chance and critical strike damage are increased by 30%.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    null,
+    null,
+    "Instant",
+    "30 sec cooldown",
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   new Talent(
     "Cold Snap",
     "spell_frost_wizardmark",

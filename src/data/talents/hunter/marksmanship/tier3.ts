@@ -15,30 +15,34 @@ export default [
     "6 sec cooldown"
   ),
   new Talent(
-    "Swift Shots",
-    "ability_hunter_assassinate2",
-    ["Your Arcane Shot reduces the cooldown of your Rapid Fire by ", " sec."],
-    2,
-    [[1, 2]],
-    [{ x: 1, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
-  new Talent(
     "Efficiency",
     "spell_frost_wizardmark",
     ["Reduces the Mana cost of your Shots and Stings by ", "%."],
     5,
-    [[2, 4, 6, 8, 10]]
+    [[2, 4, 6, 8, 10]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: false, isMoved: true }
+  ),
+  new Talent(
+    "Mortal Shots",
+    "ability_piercedamage",
+    ["Increases your ranged critical strike damage bonus by ", "%."],
+    5,
+    [[6, 12, 18, 24, 39]],
+    [{ x: 1, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: false, isMoved: true }
   ),
   new Talent(
     "Hawk Eye",

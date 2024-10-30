@@ -41,11 +41,14 @@ const tier2 = [
     [[8, 16, 24, 32, 40]]
   ),
   new Talent(
-    "Precision",
-    "ability_marksmanship",
-    ["Increases your chance to hit with melee weapons by ", "%."],
+    "Furious Focus",
+    "ability_warrior_focusedrage",
+    [
+      "Increases your chance to hit with melee weapons by while affected by Berserker Rage, Bloodrage or Death Wish by ",
+      "%.",
+    ],
     3,
-    [[1, 2, 3]],
+    [[3, 6, 9]],
     null,
     null,
     null,

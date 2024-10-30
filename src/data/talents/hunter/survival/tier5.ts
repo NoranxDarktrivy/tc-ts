@@ -2,14 +2,14 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Hunting Party",
-    "ability_hunter_huntingparty",
+    "Survival of the Fittest",
+    "ability_hunter_mastertactitian",
     [
-      "After dealing a melee or ranged critical strike, you and a random party member within 40 yards gain ",
-      "% increased attack speed for 6 sec.",
+      "When you deal Arcane, Fire or Nature damage with one of you abilities, you have a ",
+      "% chance to reduce the cooldown of all party members' abilities by 1 sec.",
     ],
     2,
-    [[5, 10]],
+    [[10, 20]],
     null,
     null,
     null,
@@ -18,9 +18,9 @@ export default [
     null,
     null,
     {
-      isNew: true,
       isChanged: false,
       isMoved: false,
+      isNew: true,
     }
   ),
   new Talent(

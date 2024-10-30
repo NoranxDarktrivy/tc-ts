@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Unfair Advantage",
-    "ability_rogue_unfairadvantage",
-    [
-      "Whenever you dodge an attack you gain an Unfair Advantage, striking back for ",
-      "% of your main hand weapon's damage. This cannot occur more than once per second.",
-    ],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Weapon Expertise",
     "spell_holy_blessingofstrength",

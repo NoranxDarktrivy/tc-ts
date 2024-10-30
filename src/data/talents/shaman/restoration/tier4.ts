@@ -11,13 +11,13 @@ const tier4 = [
     ],
     3,
     [[10, 20, 30]],
-    [{ x: null, y: null }],
-    [{ x: 6, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D3"],
+    null,
+    null,
+    null,
     {
       isNew: false,
       isChanged: true,
@@ -32,7 +32,14 @@ const tier4 = [
       "%.",
     ],
     5,
-    [[1, 2, 3, 4, 5]]
+    [[1, 2, 3, 4, 5]],
+    [{ x: null, y: null }],
+    [{ x: 5, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    ["D2"]
   ),
   null,
 ];

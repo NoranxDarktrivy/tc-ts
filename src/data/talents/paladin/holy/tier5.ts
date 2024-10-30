@@ -5,13 +5,13 @@ const tier5 = [
     "Sacred Seals",
     "spell_holy_divinepurpose",
     [
-      "Increases the effect of your Seal and Judgement of Light and Seal and Judgement of Wisdom spells by ",
-      "%. In addition, your Judgement reduces the mana cost of your next Seal spell by ",
+      "Increases the range of your Judgement by ",
+      " yards. In addition, your Judgement reduces the mana cost of your next Seal spell by ",
       "%.",
     ],
     2,
     [
-      [10, 20],
+      [5, 10],
       [35, 70],
     ],
     null,

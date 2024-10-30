@@ -5,7 +5,7 @@ export default [
     "Ferocious Inspiration",
     "ability_hunter_ferociousinspiration",
     [
-      "When your pet scores a critical hit, all party members have their damage and healing increased by ",
+      "When your pet scores a critical hit, all party members have their damage increased by ",
       "% and all party members' pets and summons have their damage increased by ",
       "% for 10 sec.",
     ],

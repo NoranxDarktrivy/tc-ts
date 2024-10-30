@@ -52,26 +52,5 @@ export default [
     "5 min cooldown",
     ["D2"]
   ),
-  new Talent(
-    "Diligence",
-    "spell_shadow_summonimp",
-    [
-      "When you deal Arcane, Fire or Nature damage with one of you abilities, you have a ",
-      "% chance reset the cooldown of you Aimed Shot, Arcane Shot and Raptor Strike.",
-    ],
-    2,
-    [[3, 6]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isChanged: false,
-      isMoved: false,
-      isNew: true,
-    }
-  ),
+  null,
 ];

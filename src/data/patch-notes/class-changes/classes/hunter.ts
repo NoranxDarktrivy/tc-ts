@@ -10,7 +10,6 @@ export default {
     "All pets will now receive a percentage of their master's stats and their spell damage and attack power is increased by a percentage of their master’s attack power.",
     "Stable slots increased to 5.",
     "Traps can be set while in combat, but require a 2 second arming time.",
-    "Freezing Trap will now cancel combat when cast.",
     "Auto shot will be automatically enabled if the Hunter steps out of melee range while in combat with target.",
     "1 Agility will now grant 1 ranged and melee attack power.",
   ],

@@ -1,27 +1,71 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent('Mace Specialization', 'inv_mace_01', ['Gives you a ', '% chance to stun your target for 3 sec and generate 25 energy with a Mace.'], 5, [[1, 2, 3, 4, 5]], null, null, null, null, null, null, null, {
-    isNew: false,
-    isChanged: true,
-    isMoved: false,
-  }),
   new Talent(
-    'Blade Flurry',
-    'ability_warrior_punishingblow',
-    ['Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec.'],
+    "Mace Specialization",
+    "inv_mace_01",
+    [
+      "Gives you a ",
+      "% chance to stun your target for 3 sec and generate 25 energy with a Mace.",
+    ],
+    5,
+    [[1, 2, 3, 4, 5]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
+  ),
+  new Talent(
+    "Blade Flurry",
+    "ability_warrior_punishingblow",
+    [
+      "Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec.",
+    ],
     1,
     [[]],
     null,
     [{ x: 5, y: 1 }],
-    '25 Energy',
+    "25 Energy",
     null,
-    'Instant',
-    '2 min cooldown',
-    ['D1']
+    "Instant",
+    "2 min cooldown",
+    ["D1"]
   ),
-  new Talent('Sword Specialization', 'inv_sword_27', ['Gives you a ', '% chance to trigger an additional attack against the same target when using swords.'], 5, [[1, 2, 3, 4, 5]]),
-  null,
-]
+  new Talent(
+    "Sword Specialization",
+    "inv_sword_27",
+    [
+      "Gives you a ",
+      "% chance to trigger an additional attack against the same target when using swords.",
+    ],
+    5,
+    [[1, 2, 3, 4, 5]]
+  ),
+  new Talent(
+    "Fatal Throw",
+    "ability_rogue_throwingspecialization",
+    [
+      "Throw your throwing weapon, dealing weapon damage and incapacitating the target for 4 sec. Adds 1 combo point.",
+    ],
+    1,
+    [[]],
+    null,
+    [{ x: 5, y: 1 }],
+    "40 Energy",
+    null,
+    "Instant",
+    "15 sec cooldown",
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
+];
 
-export default tier5
+export default tier5;
