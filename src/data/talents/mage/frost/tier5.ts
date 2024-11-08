@@ -5,7 +5,7 @@ const tier5 = [
     "Flash Freeze",
     "spell_frost_chainsofice",
     [
-      "Freezes you in place for up to 10 sec. For the duration, your critical strike chance and critical strike damage are increased by 30%.",
+      "Freezes you in place for up to 10 sec. While frozen, your critical strike chance and critical strike damage are increased by 30%.",
     ],
     1,
     [[]],
@@ -14,7 +14,7 @@ const tier5 = [
     null,
     null,
     "Instant",
-    "30 sec cooldown",
+    "1 min cooldown",
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),

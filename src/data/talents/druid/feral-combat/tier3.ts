@@ -47,7 +47,24 @@ const tier3 = [
     null,
     ["D1"]
   ),
-  null,
+  new Talent(
+    "Leader of the Pack",
+    "spell_nature_unyeildingstamina",
+    [
+      "While in Cat, Bear, or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by ",
+      "3%.",
+    ],
+    3,
+    [[1, 2, 3]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: true }
+  ),
 ];
 
 export default tier3;

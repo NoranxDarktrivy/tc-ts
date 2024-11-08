@@ -49,23 +49,7 @@ const tier5 = [
     5,
     [[1, 2, 3, 4, 5]]
   ),
-  new Talent(
-    "Fatal Throw",
-    "ability_rogue_throwingspecialization",
-    [
-      "Throw your throwing weapon, dealing weapon damage and incapacitating the target for 4 sec. Adds 1 combo point.",
-    ],
-    1,
-    [[]],
-    null,
-    [{ x: 5, y: 1 }],
-    "40 Energy",
-    null,
-    "Instant",
-    "15 sec cooldown",
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier5;

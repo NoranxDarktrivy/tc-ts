@@ -4,16 +4,9 @@ const tier3 = [
   new Talent(
     "Damnation",
     "spell_shadow_curseofsargeras",
-    [
-      "Increases the damage done by your Curse of Agony by ",
-      "% and increases the effect of your Curse of Weakness by ",
-      "%.",
-    ],
+    ["Increases the effect of all your Curse spells by ", "%."],
     3,
-    [
-      [2, 4, 6],
-      [1, 2, 3],
-    ],
+    [[1, 2, 3]],
     null,
     null,
     null,
@@ -41,7 +34,7 @@ const tier3 = [
     "Amplify Affliction",
     "spell_shadow_contagion",
     [
-      "Increases the effect of your next damage over time or drain effect by 50%. Lasts 30 sec.",
+      "Increases the effect of your next damage over time or drain effect by 100%. Lasts 30 sec.",
     ],
     1,
     [[]],

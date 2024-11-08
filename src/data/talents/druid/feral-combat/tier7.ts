@@ -3,13 +3,21 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Leader of the Pack",
-    "spell_nature_unyeildingstamina",
+    "Mangle",
+    "ability_druid_mangle2",
     [
-      "While in Cat, Bear, or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%.",
+      "Mangle the target, inflicting damage and causing the target to take additional damage from bleed effects for 12 sec. This ability can be used in Cat Form, Bear Form or Dire Bear Form.",
     ],
     1,
-    [[]]
+    [[]],
+    [{ x: 3, y: 2 }],
+    null,
+    "45 Energy or 20 Rage",
+    null,
+    "Instant",
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   null,
   null,

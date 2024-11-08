@@ -13,23 +13,6 @@ const tier5 = [
   ),
   null,
   new Talent(
-    "Mangle",
-    "ability_druid_mangle2",
-    [
-      "Mangle the target, inflicting damage and causing the target to take additional damage from bleed effects for 12 sec.  This ability can be used in Cat Form or Dire Bear Form.",
-    ],
-    1,
-    [[]],
-    [{ x: 3, y: 2 }],
-    null,
-    "20 Rage or 45 Energy",
-    null,
-    "Instant",
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
-  new Talent(
     "Survival Instincts",
     "ability_druid_tigersroar",
     [
@@ -53,6 +36,7 @@ const tier5 = [
       isNew: true,
     }
   ),
+  null,
 ];
 
 export default tier5;

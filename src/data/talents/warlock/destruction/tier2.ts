@@ -48,7 +48,32 @@ const tier2 = [
     5,
     [[2, 4, 6, 8, 10]]
   ),
-  null,
+  new Talent(
+    "Shadow and Flame",
+    "spell_shadow_shadowandflame",
+    [
+      "Gives your Shadowbolt a ",
+      "% chance to increase the damage of your next Incinerate by 50% and gives your Incinerate a ",
+      "% chance to increase the damage of your next Shadowbolt by 50%.",
+    ],
+    3,
+    [
+      [10, 20, 30],
+      [10, 20, 30],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];
 
 export default tier2;

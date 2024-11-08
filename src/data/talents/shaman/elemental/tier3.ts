@@ -8,7 +8,14 @@ const tier3 = [
       "Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
     ],
     1,
-    [[]]
+    [[]],
+    null,
+    [{ x: 3, y: 0 }],
+    null,
+    null,
+    null,
+    null,
+    ["D1"]
   ),
   new Talent(
     "Reverberation",

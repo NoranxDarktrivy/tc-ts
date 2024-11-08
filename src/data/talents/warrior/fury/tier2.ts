@@ -44,7 +44,7 @@ const tier2 = [
     "Furious Focus",
     "ability_warrior_focusedrage",
     [
-      "Increases your chance to hit with melee weapons by while affected by Berserker Rage, Bloodrage or Death Wish by ",
+      "Increases your chance to hit while affected by Berserker Rage, Bloodrage or Death Wish by ",
       "%.",
     ],
     3,

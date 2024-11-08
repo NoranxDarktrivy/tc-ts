@@ -49,28 +49,7 @@ const tier5 = [
       isMoved: true,
     }
   ),
-  new Talent(
-    "Reprieve",
-    "spell_holy_blessedresillience",
-    [
-      "Your critical strikes with melee attacks, spells and heals also heal all party members within 40 yards for ",
-      "% of the damage or healing done.",
-    ],
-    2,
-    [[5, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier5;

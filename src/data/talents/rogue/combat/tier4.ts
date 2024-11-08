@@ -38,7 +38,24 @@ const tier4 = [
     [[10, 20, 30, 40, 50]],
     [{ x: 1, y: 2 }]
   ),
-  null,
+  new Talent(
+    "Throwing Specialization",
+    "ability_throw",
+    [
+      "Your throwing weapons also have a ",
+      "% chance to add a combo point and slow the target for 2 sec. This effect cannot occur more than once every 5 sec.",
+    ],
+    2,
+    [[50, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
 ];
 
 export default tier4;
