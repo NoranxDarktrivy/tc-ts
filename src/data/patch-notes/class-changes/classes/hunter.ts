@@ -8,7 +8,7 @@ export default {
     "Mend pet is now instant cast and has 40 yard range. It is still a heal over time effect.",
     "Aspect of the Beast now also greatly reduces the range at which hostile beasts will attack you and your pet.",
     "All pets will now receive a percentage of their master's stats and their spell damage and attack power is increased by a percentage of their master’s attack power.",
-    "Stable slots increased to 5.",
+    "Stable slots increased.",
     "Traps can be set while in combat, but require a 2 second arming time.",
     "Auto shot will be automatically enabled if the Hunter steps out of melee range while in combat with target.",
     "1 Agility will now grant 1 ranged and melee attack power.",

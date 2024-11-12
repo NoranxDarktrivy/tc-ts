@@ -1,10 +1,14 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    'Devastation',
-    'inv_sword_11',
-    ['Reduces the cost of your Sunder Armor by ', ' rage point. In addition, when you Sunder Armor, deal ', '% weapon damage for each application of Sunder Armor on the target.'],
+    "Demolition",
+    "inv_sword_11",
+    [
+      "Reduces the cost of your Sunder Armor by ",
+      " rage point. In addition, when you Sunder Armor, deal ",
+      "% weapon damage for each application of Sunder Armor on the target.",
+    ],
     3,
     [
       [1, 2, 3],
@@ -24,8 +28,14 @@ const tier6 = [
     }
   ),
   null,
-  new Talent('One-Handed Weapon Specialization', 'inv_sword_20', ['Increases the damage you deal with One-Handed weapons by ', '%.'], 5, [[2, 4, 6, 8, 10]]),
+  new Talent(
+    "One-Handed Weapon Specialization",
+    "inv_sword_20",
+    ["Increases the damage you deal with One-Handed weapons by ", "%."],
+    5,
+    [[2, 4, 6, 8, 10]]
+  ),
   null,
-]
+];
 
-export default tier6
+export default tier6;

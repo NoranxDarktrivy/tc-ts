@@ -6,7 +6,7 @@ const tier4 = [
     "spell_nature_unrelentingstorm",
     [
       "Your criticals from direct damage spells have a ",
-      "% chance to activate Elemental Focus. In addition, your critical strike chance with offensive spells is increased by ",
+      "% chance to activate Elemental Focus. In addition, your spell critical strike chance is increased by ",
       "% while Elemental Focus is active.",
     ],
     3,

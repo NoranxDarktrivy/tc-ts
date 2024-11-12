@@ -59,7 +59,32 @@ const tier5 = [
     }
   ),
   null,
-  null,
+  new Talent(
+    "Shadow and Flame",
+    "spell_shadow_shadowandflame",
+    [
+      "Causes your Shadowbolt to increase Fire damage dealt by your and your pet by ",
+      "% for 8 sec and your Incinerate a to increase Shadow damage dealt by your and your pet by ",
+      "% for 8 sec.",
+    ],
+    3,
+    [
+      [5, 10, 15],
+      [5, 10, 15],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];
 
 export default tier5;

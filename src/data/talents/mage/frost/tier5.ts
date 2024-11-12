@@ -2,19 +2,20 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Flash Freeze",
-    "spell_frost_chainsofice",
+    "Piercing Chill",
+    "spell_frost_piercing-chill",
     [
-      "Freezes you in place for up to 10 sec. While frozen, your critical strike chance and critical strike damage are increased by 30%.",
+      "Your Frostbolt criticals apply the chill effect to ",
+      " additional nearby target(s).",
     ],
-    1,
-    [[]],
+    2,
+    [[1, 2]],
     null,
     null,
     null,
     null,
-    "Instant",
-    "1 min cooldown",
+    null,
+    null,
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),

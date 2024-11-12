@@ -2,12 +2,15 @@ import { Talent } from "../../Classes";
 
 const tier2 = [
   new Talent(
-    "Malevolence",
+    "Gloom",
     "spell_shadow_charm",
-    ["Increases your chance to hit with Destruction spells by ", "%."],
+    [
+      "Gives your Shadow Bolt critical strikes a ",
+      "% chance to reset the duration of your active damage over time effects on the target.",
+    ],
     2,
-    [[2, 4]],
-    null,
+    [[50, 100]],
+    [{ x: 1, y: 1 }],
     null,
     null,
     null,
@@ -30,12 +33,12 @@ const tier2 = [
     5,
     [[4, 8, 12, 16, 20]],
     null,
+    [{ x: 1, y: 0 }],
     null,
     null,
     null,
     null,
-    null,
-    null,
+    ["L1"],
     { isNew: false, isChanged: false, isMoved: true }
   ),
   new Talent(
@@ -48,32 +51,7 @@ const tier2 = [
     5,
     [[2, 4, 6, 8, 10]]
   ),
-  new Talent(
-    "Shadow and Flame",
-    "spell_shadow_shadowandflame",
-    [
-      "Gives your Shadowbolt a ",
-      "% chance to increase the damage of your next Incinerate by 50% and gives your Incinerate a ",
-      "% chance to increase the damage of your next Shadowbolt by 50%.",
-    ],
-    3,
-    [
-      [10, 20, 30],
-      [10, 20, 30],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier2;

@@ -10,8 +10,7 @@ export default {
     "Life Tap now scales with spirit.",
     "Increased the health gained from Demon Armor.",
     "Curse of Weakness now reduces the target's damage done by 5%. Only one rank available.",
-    "Warlocks can now summon party and raid members from within a dungeon or raid.",
     "All demons will now receive a percentage of their master's stats and their spell damage and attack power is increased by a percentage of their master’s spell damage.",
-    "Soul Shards now stack up to 20 per bag slot.",
+    "Increased Soul Shards stack size.",
   ],
 };

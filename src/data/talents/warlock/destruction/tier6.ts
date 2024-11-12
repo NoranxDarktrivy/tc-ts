@@ -1,24 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Improved Soul Fire",
-    "spell_fire_fireball02",
-    [
-      "Critical strikes from your damaging spells have a ",
-      "% chance to reduce the cooldown of your Soul Fire by 5 sec and increase its damage by 10%. This effect stacks up to 10 times.",
-    ],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
   null,
   new Talent(
     "Emberstorm",

@@ -34,7 +34,7 @@ const tier3 = [
     }
   ),
   new Talent(
-    "Devastation",
+    "Primal Devastation",
     "classic_spell_fire_elementaldevastation",
     [
       "Causes your offensive spell crits to increase your chance to get a critical strike with melee attacks by ",

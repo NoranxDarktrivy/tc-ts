@@ -52,7 +52,7 @@ const tier3 = [
     "spell_nature_unyeildingstamina",
     [
       "While in Cat, Bear, or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by ",
-      "3%.",
+      "%.",
     ],
     3,
     [[1, 2, 3]],

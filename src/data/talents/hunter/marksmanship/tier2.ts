@@ -22,7 +22,7 @@ export default [
   ),
   new Talent(
     "Swift Shots",
-    "ability_hunter_assassinate2",
+    "ability_hunter_zenarchery",
     ["Your Arcane Shot reduces the cooldown of your Rapid Fire by ", " sec."],
     2,
     [[1, 2]],
