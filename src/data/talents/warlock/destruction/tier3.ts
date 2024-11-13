@@ -22,7 +22,7 @@ const tier3 = [
     "Devastation",
     "spell_fire_flameshock",
     [
-      "Increases the hit chance and critical strike chance of your Destruction spells by ",
+      "Increases the  critical strike chance of your Destruction spells by ",
       "%.",
     ],
     5,
@@ -33,8 +33,7 @@ const tier3 = [
     null,
     null,
     null,
-    ["D2"],
-    { isNew: false, isChanged: true, isMoved: false }
+    ["D2"]
   ),
   new Talent(
     "Shadowburn",

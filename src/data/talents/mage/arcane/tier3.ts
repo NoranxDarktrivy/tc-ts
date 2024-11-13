@@ -36,7 +36,9 @@ const tier3 = [
   new Talent(
     "Chrono Shift",
     "spell_holy_borrowedtime",
-    ["When activated, reduces the cooldown of your next mage spell by 50%."],
+    [
+      "When activated, reduces the base cooldown of your next mage spell by 50%.",
+    ],
     1,
     [[]],
     null,
@@ -56,7 +58,7 @@ const tier3 = [
     "Missile Barrage",
     "ability_mage_missilebarrage",
     [
-      "Gives your offensive spell crits from Arcane Blast, Fireball, Frostbolt and Scorch a ",
+      "Gives your crits from Arcane Blast, Fireball, Frostbolt and Scorch a ",
       "% chance to increase the damage of your next Arcane Missiles spell by 50% and reduce the mana cost by 100%.",
     ],
     2,

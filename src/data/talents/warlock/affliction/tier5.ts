@@ -5,8 +5,8 @@ const tier5 = [
     "Channel Affliction",
     "spell_shadow_shadowward",
     [
-      "Your Drain Health also grants Health to a nearby party member equal to ",
-      "% of the Health you gain. Your Drain Mana also grants Mana to a nearby party member equal to ",
+      "Your Drain Health also grants Health to nearby party members equal to ",
+      "% of the Health you gain. Your Drain Mana also grants Mana to nearby party members equal to ",
       "% of the Mana you gain. ",
     ],
     2,
