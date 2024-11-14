@@ -10,7 +10,6 @@ export default {
         "Each spec, and each race/class combination should have its place in both PvE and PvP - in theory.",
         "Some classes and specs require more adjustments than others.",
         "Healers should be more independent and able to grind mobs and resources more easily.",
-        "Players should have an easier time fulfilling more than one role in a group.",
         "Adjust useless or boring talents and abilities.",
         "Don't change things just for the sake of change.",
         "All while staying true to the classic fantasy and mechanics and the uniqueness of each class and spec.",
