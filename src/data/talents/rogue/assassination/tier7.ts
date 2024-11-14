@@ -1,19 +1,21 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier7 = [
   null,
   new Talent(
-    'Mutilate',
-    'ability_rogue_shadowstrikes',
-    ['Instantly attacks with both weapons for 100% weapon damage with each weapon. Awards 2 combo points. Damage is increased by 20% against poisoned targets.'],
+    "Mutilate",
+    "ability_rogue_shadowstrikes",
+    [
+      "Instantly attacks with both weapons for 100% weapon damage with each weapon. Awards 2 combo points. Damage is increased by 20% against poisoned targets.",
+    ],
     1,
     [[]],
     null,
     null,
-    '60 Energy',
+    "60 Energy",
+    "Melee range",
+    "Instant",
     null,
-    'Instant',
-    'Melee range',
     null,
     {
       isNew: true,
@@ -23,6 +25,6 @@ const tier7 = [
   ),
   null,
   null,
-]
+];
 
-export default tier7
+export default tier7;

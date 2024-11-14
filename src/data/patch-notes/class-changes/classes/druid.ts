@@ -9,5 +9,6 @@ export default {
     "Swipe now scales with attack power.",
     "Several weapons that increase a druid's attack power while in cat, bear and dire bear forms have been added.",
     "Rejuvenation and Regrowth spells can now be active on targets affected by another Druid's Rejuvenation or Regrowth.",
+    "Reduced the mana cost of Mark of the Wild and Gift of the Wild.",
   ],
 };

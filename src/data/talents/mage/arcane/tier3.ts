@@ -2,14 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Magic Attunement",
-    "spell_nature_abolishmagic",
+    "Missile Barrage",
+    "ability_mage_missilebarrage",
     [
-      "Increases the effect of your Amplify Magic and Dampen Magic spells by ",
-      "%.",
+      "Gives your crits from Arcane Blast, Fireball, Frostbolt and Scorch a ",
+      "% chance to increase the damage of your next Arcane Missiles spell by 50% and reduce the mana cost by 100%.",
     ],
     2,
-    [[1, 2]],
+    [[15, 30]],
     null,
     null,
     null,
@@ -18,8 +18,8 @@ const tier3 = [
     null,
     null,
     {
-      isNew: false,
-      isChanged: true,
+      isNew: true,
+      isChanged: false,
       isMoved: false,
     }
   ),
@@ -54,28 +54,7 @@ const tier3 = [
       isMoved: false,
     }
   ),
-  new Talent(
-    "Missile Barrage",
-    "ability_mage_missilebarrage",
-    [
-      "Gives your crits from Arcane Blast, Fireball, Frostbolt and Scorch a ",
-      "% chance to increase the damage of your next Arcane Missiles spell by 50% and reduce the mana cost by 100%.",
-    ],
-    2,
-    [[15, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier3;

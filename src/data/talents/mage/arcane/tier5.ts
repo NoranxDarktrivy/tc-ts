@@ -1,7 +1,28 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  null,
+  new Talent(
+    "Improved Arcane Blast",
+    "spell_arcane_blast",
+    [
+      "Causes your Arcane Blast to also slow the target's movement speed by ",
+      "%. This effect stacks up to 3 times and lasts 8 sec.",
+    ],
+    2,
+    [[10, 20]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     "Presence of Mind",
     "spell_nature_enchantarmor",

@@ -13,7 +13,7 @@ const tier7 = [
     [{ x: 3, y: 2 }],
     null,
     "45 Energy or 20 Rage",
-    null,
+    "Melee range",
     "Instant",
     null,
     null,

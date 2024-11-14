@@ -21,10 +21,14 @@ const tier6 = [
     "spell_shaman_tidalwaves",
     [
       "Causes your Lightning spells to restore mana equal to ",
-      "% of the damage dealt.",
+      "% of the damage dealt. In addition gives your Lightning spells a ",
+      "% chance to not lose casting time when you take damage.",
     ],
     2,
-    [[20, 40]],
+    [
+      [20, 40],
+      [35, 70],
+    ],
     [{ x: 3, y: 2 }],
     null,
     null,

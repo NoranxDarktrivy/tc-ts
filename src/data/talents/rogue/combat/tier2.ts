@@ -52,14 +52,11 @@ const tier2 = [
     ["D2"]
   ),
   new Talent(
-    "Brutal Assault",
-    "spell_shadow_deathpact",
-    [
-      "When you add a combo point using a different ability from your previously added combo point, you have a ",
-      "% chance to regain the energy cost.",
-    ],
+    "Endurance",
+    "spell_shadow_shadowward",
+    ["Reduces the cooldown of your Evasion and Sprint abilities by ", " sec."],
     2,
-    [[15, 30]],
+    [[45, 90]],
     null,
     null,
     null,
@@ -67,7 +64,7 @@ const tier2 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: false, isChanged: false, isMoved: true }
   ),
 ];
 

@@ -34,12 +34,12 @@ const tier3 = [
     5,
     [[1, 2, 3, 4, 6]],
     [{ x: null, y: null }],
-    [{ x: 4, y: 2 }],
+    [{ x: 5, y: 2 }],
     null,
     null,
     null,
     null,
-    ["D2"]
+    ["D3"]
   ),
   null,
 ];

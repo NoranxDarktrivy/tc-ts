@@ -6,7 +6,7 @@ export default {
     "Hit and spell hit are now one stat. Crit and spell crit are now one stat.",
     'A "duel as party" option has been added from the character dropdown menu for party leaders. This allows parties to duel each other.',
     "Quest log size increased.",
-    "New class quests have been added.",
+    // "New class quests have been added.",
     "Normal, elite and boss target dummies have been added to all major cities. Attacking these dummies does not increase weapon skill.",
     "All gathering professions can now be learned in Elwynn Forest, Dun Morogh, Teldrassil, Durotar, Mulgore and Tirisfal Glades. This means players no longer have to travel to a Capital City to learn these professions.",
     "New titles have been added: [City] Ambassador [Name] for exalted city reputation; [Name], The Explorer for uncovering all of Azeroth; [Rank] [Profession] [Name]; [Name] the Exalted for exalted reputation at all of your faction's capital cities.",
