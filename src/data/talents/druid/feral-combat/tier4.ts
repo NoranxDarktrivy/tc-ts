@@ -2,11 +2,22 @@ import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    "Improved Shred",
-    "spell_shadow_vampiricaura",
-    ["Reduces the Energy cost of your Shred ability by ", "."],
-    2,
-    [[6, 12]]
+    "Leader of the Pack",
+    "spell_nature_unyeildingstamina",
+    [
+      "While in Cat, Bear, or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by ",
+      "%.",
+    ],
+    3,
+    [[1, 2, 3]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: true }
   ),
   new Talent(
     "Predatory Strikes",

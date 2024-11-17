@@ -12,7 +12,6 @@ import warrior from "./classes/warrior";
 
 export default {
   title: "Class changes",
-  note: "The aim of these class changes is to add diversity and improve specs that are lacking in certain areas of the game. Additionaly, some underused or awkward abilities are targeted to make them more interesting. Keep in mind that these changes are not balanced and weren't actually tested.",
   content: [
     druid,
     hunter,
