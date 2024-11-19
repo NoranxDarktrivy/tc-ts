@@ -27,7 +27,7 @@ const tier5 = [
   null,
   new Talent(
     "Crushing Rush",
-    "ability_warrior_weaponmastery",
+    "ability_warrior_trauma",
     ["Your Slam increases your attack speed by ", "% for 6 sec."],
     2,
     [[5, 10]],

@@ -6,7 +6,6 @@ export default {
     "Mongoose Bite now also activates after the hunter lands a melee critical strike.",
     "Aspect of the Beast reworked: now also increases the melee attack power of the hunter and the hunter's pet by 10%. Learned at lvl 12.",
     "Mend pet is now instant cast and has 40 yard range. It is still a heal over time effect.",
-    "Aspect of the Beast now also greatly reduces the range at which hostile beasts will attack you and your pet.",
     "All pets will now receive a percentage of their master's stats and their spell damage and attack power is increased by a percentage of their master’s attack power.",
     "Number of stable slots increased.",
     "Traps can be set while in combat, but require a 2 second arming time.",

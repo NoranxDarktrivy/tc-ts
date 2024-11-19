@@ -6,7 +6,7 @@ export default {
       content: [
         "Diversity and variety! The more ways in which a class can be played the better.",
         "Focus on class design and some QoL. Leave content, professions and itemization to people with better ideas.",
-        "More utility, dps meters will take care of themselves. Each spec should be great to have in a group, while none should be mandatory.",
+        "Each spec should be great to have in a group, while none should be mandatory.",
         "Each spec, and each race/class combination should have its place in both PvE and PvP.",
         "Each spec gets something new. Some specs need more than others.",
         "Healers should be more independent and able to grind mobs and resources more easily.",
