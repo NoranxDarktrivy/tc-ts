@@ -30,7 +30,7 @@ const tier5 = [
     "ability_warrior_trauma",
     ["Your Slam increases your attack speed by ", "% for 6 sec."],
     2,
-    [[5, 10]],
+    [[10, 20]],
     [{ x: 3, y: 3 }],
     null,
     null,
