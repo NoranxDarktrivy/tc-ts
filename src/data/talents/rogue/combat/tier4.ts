@@ -42,11 +42,15 @@ const tier4 = [
     "Throwing Specialization",
     "ability_throw",
     [
-      "Your throwing weapons also have a ",
-      "% chance to add a combo point and slow the target for 2 sec. This effect cannot occur more than once every 5 sec.",
+      "Increases your damage from Throwing Weapons by ",
+      "%. In addition, your throwing weapons have a ",
+      "% chance to add a combo point and slow the target by 50% for 2 sec. This effect cannot occur more than once every 5 sec.",
     ],
     2,
-    [[50, 100]],
+    [
+      [5, 10],
+      [50, 100],
+    ],
     null,
     null,
     null,

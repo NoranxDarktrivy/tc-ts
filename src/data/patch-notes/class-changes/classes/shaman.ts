@@ -1,7 +1,7 @@
 export default {
   title: "Shaman",
   content: [
-    "New ability: Totemic Recall: Removes all your totems and returns mana equal to 25% of their cost. Learned at lvl 4.",
+    "New ability: Totemic Recall: Removes all your totems and returns mana equal to 25% of their cost.",
     "Searing Totem now only attacks enemies that are in combat with the Shaman.",
     "Chain Lightning and Lightning Bolt cast time reduced by 0.5 sec.",
     "Increased the slow effect of Frostbrand Weapon to 50%.",

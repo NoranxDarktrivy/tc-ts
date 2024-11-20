@@ -1,7 +1,13 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  null,
+  new Talent(
+    "Improved Hamstring",
+    "ability_shockwave",
+    ["Gives your Hamstring a ", "% chance to immobilize the target for 5 sec."],
+    3,
+    [[10, 20, 30]]
+  ),
   null,
   new Talent(
     "Master at Arms",
@@ -11,10 +17,10 @@ const tier6 = [
       " and increases your rage generated from damage dealt by ",
       "%.",
     ],
-    5,
+    3,
     [
-      [3, 6, 9, 12, 15],
-      [5, 10, 15, 20, 25],
+      [5, 10, 15],
+      [10, 20, 30],
     ],
     null,
     null,
