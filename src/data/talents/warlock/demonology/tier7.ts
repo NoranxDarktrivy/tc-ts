@@ -20,7 +20,7 @@ const tier7 = [
     "Improved Master Demonologist",
     "spell_shadow_shadowpact",
     [
-      "Grants party members within 30 yards ",
+      "Grants party members within 40 yards ",
       "% of your active Master Demonologist effect.",
     ],
     2,

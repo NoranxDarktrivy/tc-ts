@@ -5,11 +5,15 @@ const tier3 = [
     "Vindication",
     "spell_holy_vindication",
     [
-      "Gives the Paladin's damaging melee attacks a chance to deal Holy damage and reduce the target's attributes by ",
+      "Gives the Paladin's damaging melee attacks a chance to deal ",
+      "% weapon damage as Holy and reduce the target's attributes by ",
       "% for 10 sec.",
     ],
     3,
-    [[5, 10, 15]],
+    [
+      [10, 20, 30],
+      [5, 10, 15],
+    ],
     null,
     null,
     null,

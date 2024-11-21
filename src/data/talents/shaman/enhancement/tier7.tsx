@@ -11,7 +11,7 @@ const tier7 = [
         effect:
         <br />
         <br />
-        Earth Shock: Taunts the target to attack you
+        Earth Shock: Taunts the target to attack you.
         <br />
         <br />
         Flame Shock: Applies the damage over time effect to all enemies within

@@ -5,9 +5,9 @@ const tier5 = [
     "Two-Handed Weapon Specialization",
     "inv_hammer_04",
     [
-      "Increases the damage you deal with two-handed melee weapons by ",
+      "Increases the damage you deal with Two-Handed melee weapons by ",
       "% and increases your spell damage by ",
-      "% of your attack power.",
+      "% of your attack power while wielding Two-Handed melee weapons.",
     ],
     3,
     [

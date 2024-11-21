@@ -9,7 +9,7 @@ const tier6 = [
     [
       "Increases all damage you deal while wielding One-Handed melee weapons by ",
       "% and increases your spell damage by ",
-      "% of your attack power.",
+      "% of your attack power while wielding One-Handed melee weapons.",
     ],
     5,
     [
