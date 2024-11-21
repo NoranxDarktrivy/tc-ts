@@ -7,6 +7,7 @@ export default {
     "Shred energy cost reduced to 45.",
     "Barkskin now reduces all damage taken by 25%, no longer reduces cast time and attack speed, and can be cast while frozen, incapacitated or feared. Cooldown is increased to 2 min.",
     "Swipe now scales with attack power.",
+    "Tranquility no longer causes threat.",
     "Several weapons that increase a druid's attack power while in cat, bear and dire bear forms have been added.",
     "Rejuvenation and Regrowth spells can now be active on targets affected by another Druid's Rejuvenation or Regrowth.",
     "Reduced the mana cost of Mark of the Wild and Gift of the Wild.",
