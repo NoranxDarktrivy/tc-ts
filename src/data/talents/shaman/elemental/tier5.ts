@@ -28,7 +28,23 @@ const tier5 = [
     ["D2"]
   ),
   null,
-  null,
+  new Talent(
+    "Wrath of Air Totem",
+    "spell_nature_slowingtotem",
+    [
+      "Summons a Wrath of Air Totem with 5 health at the feet of the caster.  Party members within 20 yards of the totem have their spell damage and healing increased by up to 86. Lasts 2 min.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "290 Mana",
+    null,
+    "Instant",
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
 ];
 
 export default tier5;

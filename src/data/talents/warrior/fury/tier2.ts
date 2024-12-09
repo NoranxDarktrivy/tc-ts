@@ -28,7 +28,7 @@ const tier2 = [
       "%.",
     ],
     5,
-    [[18, 16, 24, 32, 40]]
+    [[8, 16, 24, 32, 40]]
   ),
   new Talent(
     "Unbridled Wrath",
@@ -43,12 +43,9 @@ const tier2 = [
   new Talent(
     "Furious Focus",
     "ability_warrior_focusedrage",
-    [
-      "Gives your damaging abilities a ",
-      "% chance to increase your hit chance by 1%. This effect stacks up to 5 times and lasts 10 sec.",
-    ],
+    ["Increases your hit chance on targets that are below 50% health by ", "%"],
     2,
-    [[50, 100]],
+    [[2, 4]],
     null,
     null,
     null,

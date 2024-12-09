@@ -6,6 +6,8 @@ export default {
     "Chain Lightning and Lightning Bolt cast time reduced by 0.5 sec.",
     "Increased the slow effect of Frostbrand Weapon to 50%.",
     "Flametongue, Frostbrand, Rockbiter and Windfury Weapon effects and Flametongue and Windfury Totem effects are now catagorized as generic buffs instead of weapon buffs.",
+    "Flametongue, Frostbrand, Rockbiter and Windfury Weapon effects should now deal similar damage.",
+    "Flametongue and Windfury Totems should now deal similar damage.",
     "Increased the radius of totems that affect friendly targets to 30 yards.",
     "Sentry Totem now has stealth.",
     "Stoneskin Totem now also reduces damage taken from ranged attacks.",
