@@ -3,7 +3,7 @@ import { Talent } from "../../Classes";
 const tier2 = [
   new Talent(
     "Demonic Destruction",
-    "spell_shadow_curseoftounges",
+    "ability_racial_bloodrage",
     [
       "Reduces the cast time of your Imp's Firebolt by ",
       " sec. and reduces the cooldown of your Succubus' and Incubus' Lash of Pain by ",
