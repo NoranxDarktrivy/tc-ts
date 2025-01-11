@@ -33,7 +33,7 @@ const tier5 = [
     "First Strike",
     "ability_hunter_swiftstrike",
     [
-      "Your first weapon attack against an enemy always hits and generates 50% additional rage.",
+      "Your first weapon attack against an enemy always hits and generates 100% additional rage.",
     ],
     1,
     [[]],
