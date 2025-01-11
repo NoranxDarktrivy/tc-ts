@@ -14,8 +14,8 @@ const tier7 = [
         Earth Shock: Taunts the target to attack you.
         <br />
         <br />
-        Flame Shock: Applies the damage over time effect to all enemies within
-        10 yards of the target. <br />
+        Flame Shock: Applies the damage over time effect to all enemies within 8
+        yards of the target. <br />
         <br />
         Frost Shock: Roots the target in place for 5 sec. <br />
       </>,

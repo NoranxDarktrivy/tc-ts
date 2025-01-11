@@ -1,25 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier4 = [
-  new Talent(
-    "Contagion",
-    "spell_shadow_painfulafflictions",
-    ["Reduces the chance your affliction effects are dispelled by ", "%."],
-    2,
-    [[25, 50]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Grim Reach",
     "spell_shadow_callofbone",

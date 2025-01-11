@@ -38,17 +38,36 @@ const tier2 = [
     "spell_holy_magicalsentry",
     [
       "Increases the maximum Mana of your Imp, Succubus, Incubus, Void Walker and Felhunter by ",
+      "% and increases your maximum Mana by ",
       "%.",
     ],
-    5,
-    [[3, 6, 9, 12, 15]]
+    3,
+    [
+      [5, 10, 15],
+      [1, 2, 3],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Master Conjuror",
     "spell_shadow_sealofkings",
-    ["Increases the effect of your your Firestone and Spellstone by ", "%."],
+    [
+      "Your Firestone and Spellstone also increase your chance to hit by ",
+      "%. ",
+    ],
     3,
-    [[15, 30, 45]],
+    [[1, 2, 3]],
     null,
     null,
     null,

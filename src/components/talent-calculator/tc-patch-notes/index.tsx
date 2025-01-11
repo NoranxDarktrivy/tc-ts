@@ -1,8 +1,8 @@
-import styles from './index.module.css'
+import styles from "./index.module.css";
 
 const TcPatchNotes = ({ selectedClass }: { selectedClass: string }) => {
-  const patchnotedModule = require(`../../../data/patch-notes/class-changes/classes/${selectedClass}`)
-  const patchnotes: string[] = patchnotedModule.default.content
+  const patchnotedModule = require(`../../../data/patch-notes/class-changes/classes/${selectedClass}`);
+  const patchnotes: string[] = patchnotedModule.default.content;
 
   return (
     <div className={styles.tcPatchNotes}>
@@ -16,7 +16,7 @@ const TcPatchNotes = ({ selectedClass }: { selectedClass: string }) => {
         ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default TcPatchNotes
+export default TcPatchNotes;

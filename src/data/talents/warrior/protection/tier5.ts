@@ -30,19 +30,24 @@ const tier5 = [
     [[50, 100]]
   ),
   new Talent(
-    "Intervene",
-    "ability_warrior_victoryrush",
+    "First Strike",
+    "ability_hunter_swiftstrike",
     [
-      "Run at high speed towards a party member, intercepting the next melee or ranged attack made against them.",
+      "Your first weapon attack against an enemy has a ",
+      "% chance to hit and generates ",
+      "% additional rage.",
     ],
-    1,
-    [[]],
+    2,
+    [
+      [50, 100],
+      [50, 100],
+    ],
     null,
     null,
-    "10 Rage",
-    "8 - 25 yd range",
-    "Instant cast",
-    "30 sec cooldown",
+    null,
+    null,
+    null,
+    null,
     null,
     {
       isNew: true,

@@ -34,7 +34,7 @@ export default [
     "ability_piercedamage",
     ["Increases your ranged critical strike damage bonus by ", "%."],
     5,
-    [[6, 12, 18, 24, 39]],
+    [[6, 12, 18, 24, 30]],
     [{ x: 1, y: 2 }],
     null,
     null,

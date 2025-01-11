@@ -5,7 +5,7 @@ const tier3 = [
     "Missile Barrage",
     "ability_mage_missilebarrage",
     [
-      "Gives your crits from Arcane Blast, Fireball, Frostbolt and Scorch a ",
+      "Gives your crits from Arcane Blast, Fireball, Frostbolt, Icicles and Scorch a ",
       "% chance to increase the damage of your next Arcane Missiles spell by 50% and reduce the mana cost by 100%.",
     ],
     2,

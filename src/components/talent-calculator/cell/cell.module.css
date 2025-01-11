@@ -52,7 +52,7 @@
   padding: 8px;
   position: absolute;
   border: 1px solid black;
-  z-index: 3;
+  z-index: 1000;
 }
 
 @media only screen and (max-width: 500px) {

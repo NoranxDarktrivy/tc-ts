@@ -49,14 +49,14 @@ const tier5 = [
     }
   ),
   new Talent(
-    "Light's Grace",
-    "spell_holy_lightsgrace",
+    "Reprisal",
+    "spell_holy_harmundeadaura",
     [
-      "Gives your Holy Light spell a ",
-      "% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
+      "Your critical strikes have a ",
+      "% chance to reset the cooldown of your Exorcism and Holy Wrath. This effect cannot occur more than once every 10 sec.",
     ],
-    3,
-    [[33, 67, 100]],
+    2,
+    [[50, 100]],
     null,
     null,
     null,
@@ -64,8 +64,13 @@ const tier5 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
+  null,
   null,
 ];
 

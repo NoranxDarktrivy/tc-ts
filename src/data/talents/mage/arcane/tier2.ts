@@ -6,10 +6,10 @@ const tier2 = [
     "inv_wand_01",
     [
       "When you deal damage with your wand, you have ",
-      " chance to return 20% of the damage dealt as mana to you.",
+      "% chance to return 100% of the damage dealt as mana to you.",
     ],
     2,
-    [["a", "an increased"]],
+    [[10, 20]],
     null,
     null,
     null,

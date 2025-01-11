@@ -3,11 +3,26 @@ import { Talent } from "../../Classes";
 const tier4 = [
   null,
   new Talent(
-    "Improved Sap",
-    "ability_sap",
-    ["Gives you a ", "% chance to return to stealth mode after using sap."],
-    3,
-    [[30, 60, 90]]
+    "Setup",
+    "spell_nature_mirrorimage",
+    [
+      "Gives you a ",
+      "% chance to add a combo point to your current target after dodging their attack or fully resisting one of their spells. This cannot happen more than once per second.",
+    ],
+    2,
+    [[50, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Serrated Blades",

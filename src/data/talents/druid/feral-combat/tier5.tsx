@@ -13,12 +13,13 @@ const tier5 = [
   ),
   null,
   new Talent(
-    "Survival Instincts",
-    "ability_druid_tigersroar",
+    "Adaptive instincts",
+    "ability_druid_predatoryinstincts",
     [
       <>
-        When activated, this grants you 30% of your maximum health for 20 sec.
-        After the effect expires, the health is lost. Useable in any form.
+        When activated, Grants you 30% spell damage and healing when in caster
+        form, 30% increased health when in Bear Form or Dire Bear Form, or 50%
+        energy regeneration when in Cat Form. Lasts 20 sec.
       </>,
     ],
     1,

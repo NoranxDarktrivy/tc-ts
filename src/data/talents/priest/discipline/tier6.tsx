@@ -2,17 +2,17 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Devotion",
-    "ability_racial_avatar",
+    "Grace of Mind",
+    "spell_holy_symbolofhope",
     [
-      "Your direct damaging spells increase your damage dealt to the target by ",
-      "% and your direct healing spells increase your healing done to the target ",
-      "%. Both effects last 15 sec and stack up to 3 times.",
+      "Increases your healing done by ",
+      "% and increases the critical strike chance of your healing spells by ",
+      "%.",
     ],
-    2,
+    5,
     [
-      [2, 4],
-      [2, 4],
+      [1, 2, 3, 4, 5],
+      [1, 2, 3, 4, 5],
     ],
     null,
     null,

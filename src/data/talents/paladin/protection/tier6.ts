@@ -1,7 +1,32 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  null,
+  new Talent(
+    "Ardent Defender",
+    "spell_holy_ardentdefender",
+    [
+      "When you have less than 35% health, all damage taken is reduced by ",
+      "% and you have a ",
+      "% chance to not lose casting time when taking damage.",
+    ],
+    2,
+    [
+      [10, 20],
+      [35, 70],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   null,
   new Talent(
     "One-Handed Weapon Specialization",

@@ -2,8 +2,8 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Channel Affliction",
-    "spell_shadow_shadowward",
+    "Soul Conduit",
+    "ability_warlock_improvedsoulleech",
     [
       "Your Drain Health also grants Health to nearby party members equal to ",
       "% of the Health you gain. Your Drain Mana also grants Mana to nearby party members equal to ",

@@ -33,8 +33,20 @@ const tier4 = [
       "Increases the critical strike chance of your Searing Pain spell by ",
       "%.",
     ],
-    5,
-    [[2, 4, 6, 8, 10]]
+    3,
+    [[3, 6, 9]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isMoved: false,
+      isChanged: true,
+      isNew: false,
+    }
   ),
 ];
 

@@ -60,32 +60,7 @@ const tier5 = [
       isMoved: false,
     }
   ),
-  new Talent(
-    "Ardent Defender",
-    "spell_holy_ardentdefender",
-    [
-      "When you have less than 35% health, all damage taken is reduced by ",
-      "% and you have a ",
-      "% chance to not lose casting time when taking damage.",
-    ],
-    3,
-    [
-      [10, 20, 30],
-      [30, 60, 90],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier5;

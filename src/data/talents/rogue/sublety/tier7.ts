@@ -3,10 +3,10 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Cloak of Shadows",
-    "spell_shadow_nethercloak",
+    "Premeditation",
+    "spell_shadow_possession",
     [
-      "Instantly removes all existing harmful spell effects and increases your chance to resist all spells by 90% for 5 sec. Your abilities generate an additional combo point while Cloak of Shadows is active.",
+      "When used, adds 2 combo points to your current target and increases the damage of your next ability by 30%.",
     ],
     1,
     [[]],
@@ -15,9 +15,9 @@ const tier7 = [
     null,
     null,
     "Instant",
-    "1 min cooldown",
+    "2 min cooldown",
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false }
   ),
   null,
   null,

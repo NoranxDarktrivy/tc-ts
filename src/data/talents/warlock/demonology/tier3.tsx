@@ -36,10 +36,26 @@ const tier3 = [
     "spell_shadow_antishadow",
     [
       "Increases the maximum Health of your Imp, Succubus, Incubus, Void Walker and Felhunter by ",
+      "% and increases your maximum Health by ",
       "%.",
     ],
-    5,
-    [[3, 6, 9, 12, 15]]
+    3,
+    [
+      [5, 10, 15],
+      [1, 2, 3],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Mana Feed",

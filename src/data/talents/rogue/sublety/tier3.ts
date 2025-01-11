@@ -15,7 +15,7 @@ const tier3 = [
     "Ghostly Strike",
     "spell_shadow_curse",
     [
-      "A strike that deals 125% weapon damage and increases your chance to dodge by 25% and causes your attacks to ignore 25% armor for 6 sec. Awards 1 combo point.",
+      "A strike that deals 100% weapon damage and increases your chance to dodge by 25% for 7 sec. Awards 1 combo point. After 7 sec, deals 100% weapon damage and adds 1 combo point to your current target.",
     ],
     1,
     [[]],
@@ -35,28 +35,7 @@ const tier3 = [
     3,
     [[15, 30, 45]]
   ),
-  new Talent(
-    "Setup",
-    "spell_nature_mirrorimage",
-    [
-      "Gives you a ",
-      "% chance to add a combo point to your current target after dodging their attack or fully resisting one of their spells. This cannot happen more than once per second.",
-    ],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: true,
-    }
-  ),
+  null,
 ];
 
 export default tier3;

@@ -2,14 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Reprisal",
-    "spell_holy_harmundeadaura",
+    "Light's Grace",
+    "spell_holy_lightsgrace",
     [
-      "Your critical strikes have a ",
-      "% chance to reset the cooldown of your Exorcism and Holy Wrath. This effect cannot occur more than once every 10 sec.",
+      "Gives your Holy Light spell a ",
+      "% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
     ],
-    2,
-    [[50, 100]],
+    3,
+    [[33, 67, 100]],
     null,
     null,
     null,
@@ -17,11 +17,7 @@ const tier6 = [
     null,
     null,
     null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   null,
   new Talent(

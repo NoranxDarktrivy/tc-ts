@@ -9,7 +9,7 @@ export default [
       "% and all party members' pets and summons have their damage increased by ",
       "% for 10 sec.",
     ],
-    2,
+    3,
     [
       [1, 2, 3],
       [3, 6, 9],

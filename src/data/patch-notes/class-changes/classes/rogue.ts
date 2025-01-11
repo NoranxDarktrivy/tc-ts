@@ -5,6 +5,8 @@ export default {
     "New ability: Numbing Poison: Coats a weapon with poison that lasts for 30 minutes. Each strike has a 30% chance of poisoning the enemy, dealing Nature damage and increasing the time between the enemy's melee attacks by 20% for 15 sec.",
     "New ability: Occult Poison: Coats a weapon with poison that lasts for 30 minutes. Each strike has a 30% chance of poisoning the enemy, dealing Nature damage and causing the enemy to take 4% increased Arcane, Fire, Frost, Nature, and Shadow damage. Stacks up to 5 times on a single target.",
     "A new Evasion rank has been added that also increases the rogue's chance to dodge ranged attacks by 25%.",
+    "Sap now has a 90% chance to return the rogue to stealth.",
+    "Throwing Weapons can now be poisoned.",
     "Wound Poison effect now reduces the target's healing received by 10%, stacking up to 5 times.",
     "All poisons except Deadly Poison now deal instant Nature damage.",
     "Instant Poison removed.",
