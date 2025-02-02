@@ -2,14 +2,11 @@ import { Talent } from "../../Classes";
 
 const tier2 = [
   new Talent(
-    "Surge of Light",
-    "spell_holy_surgeoflight",
-    [
-      "Your spell criticals have a ",
-      "% chance to cause your next Smite spell to be instant cast and cost no mana. This effect lasts 10 sec.",
-    ],
-    2,
-    [[25, 50]],
+    "Spiritual Guidance",
+    "spell_holy_spiritualguidence",
+    ["Increases healing and spell damage by ", "% of your total Spirit."],
+    5,
+    [[3, 6, 9, 12, 15]],
     null,
     null,
     null,
@@ -18,9 +15,9 @@ const tier2 = [
     null,
     null,
     {
-      isNew: true,
+      isNew: false,
       isChanged: false,
-      isMoved: false,
+      isMoved: true,
     }
   ),
   new Talent(

@@ -3,18 +3,20 @@ import { Talent } from "../../Classes";
 export default [
   null,
   new Talent(
-    "Wyvern Coil",
-    "ability_hunter_potentvenom",
-    ["Roots the target in place and deals 174 Nature damage over 6 sec."],
+    "Wyvern Sting",
+    "inv_spear_02",
+    [
+      "A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes 300 Nature damage over 6 sec. Only one Sting per Hunter can be active on the target at a time.",
+    ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
     "115 Mana",
-    "20 yd range",
+    "8 - 35 yd range",
     "Instant",
-    "30 sec cooldown",
+    "1 min cooldown",
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false }
   ),
 ];

@@ -5,7 +5,7 @@ export default [
     "Survival of the Fittest",
     "ability_hunter_mastertactitian",
     [
-      "When you deal Arcane, Fire or Nature damage with one of you abilities, you have a ",
+      "When you deal Arcane, Fire or Nature damage with one of your abilities, you have a ",
       "% chance to reduce the cooldown of all party members' abilities by 1 sec.",
     ],
     2,

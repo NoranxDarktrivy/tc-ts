@@ -6,13 +6,13 @@ const tier2 = [
     "ability_rogue_feint",
     [
       "Reduces the chance you are critically hit by enemy melee and ranged attacks by ",
-      "% and reduces the energy cost of your Feint by ",
-      ".",
+      "% and gives your Feint a ",
+      "% chance to add a combo point.",
     ],
     2,
     [
       [2, 4],
-      [8, 15],
+      [50, 100],
     ],
     null,
     null,
@@ -49,14 +49,14 @@ const tier2 = [
     ]
   ),
   new Talent(
-    "Bloodshed",
-    "spell_shadow_deathpact",
+    "Setup",
+    "spell_nature_mirrorimage",
     [
-      "Your Garrote and Rupture ticks have a ",
-      "% chance to add a combo point to your current target.",
+      "Gives you a ",
+      "% chance to add a combo point to your current target after a party member dodges or parries an attack or fully resists a spell. This cannot occur more than once per second.",
     ],
-    2,
-    [[15, 30]],
+    3,
+    [[25, 50, 75]],
     null,
     null,
     null,
@@ -65,9 +65,9 @@ const tier2 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
     }
   ),
 ];

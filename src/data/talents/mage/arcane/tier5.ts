@@ -6,10 +6,14 @@ const tier5 = [
     "spell_arcane_blast",
     [
       "Causes your Arcane Blast to also slow the target's movement speed by ",
-      "%. This effect stacks up to 3 times and lasts 8 sec.",
+      "% and an additional ",
+      "% for each of your active Arcane Blast stacks. Lasts 8 sec.",
     ],
     2,
-    [[10, 20]],
+    [
+      [8, 15],
+      [8, 15],
+    ],
     null,
     null,
     null,

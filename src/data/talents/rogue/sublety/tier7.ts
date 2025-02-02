@@ -6,7 +6,7 @@ const tier7 = [
     "Premeditation",
     "spell_shadow_possession",
     [
-      "When used, adds 2 combo points to your current target and increases the damage of your next ability by 30%.",
+      "When used, adds 2 combo points to your current target. When the target dies, the cooldown of Premeditation is reset.",
     ],
     1,
     [[]],

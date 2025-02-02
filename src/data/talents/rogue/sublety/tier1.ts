@@ -13,11 +13,19 @@ const tier1 = [
     "Opportunity",
     "ability_warrior_warcry",
     [
-      "Increases the damage when striking from behind with your Backstab, Ambush and Garrote abilities by ",
+      "Increases the damage when striking from behind with your Backstab, Mutilate, Ambush and Garrote abilities by ",
       "%.",
     ],
     5,
-    [[4, 8, 12, 16, 20]]
+    [[4, 8, 12, 16, 20]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: false }
   ),
   null,
 ];

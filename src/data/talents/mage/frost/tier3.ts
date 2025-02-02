@@ -9,10 +9,10 @@ const tier3 = [
     [[2, 4, 6]]
   ),
   new Talent(
-    "Icilcles",
+    "Icicles",
     "ability_mage_coldasice",
     [
-      "Launches an icicle at all chilled and frozen enemies, dealing 64 to 72 Frost damage.",
+      "Launches an icicle at up to 5 chilled or frozen enemies, dealing 84 to 92 Frost damage.",
     ],
     1,
     [[]],
@@ -21,7 +21,7 @@ const tier3 = [
     "110 mana",
     "30 yd range",
     "1.5 sec cast",
-    null,
+    "8 sec cooldown",
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),

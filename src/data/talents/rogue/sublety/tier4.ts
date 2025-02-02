@@ -3,26 +3,26 @@ import { Talent } from "../../Classes";
 const tier4 = [
   null,
   new Talent(
-    "Setup",
-    "spell_nature_mirrorimage",
+    "Phantom Echo",
+    "spell_deathknight_scourgestrike",
     [
-      "Gives you a ",
-      "% chance to add a combo point to your current target after dodging their attack or fully resisting one of their spells. This cannot happen more than once per second.",
+      "7 sec after using Ghsotly Strike, you strike your current target for ",
+      "% weapon damage and adding ",
+      " combo point(s).",
     ],
     2,
-    [[50, 100]],
+    [
+      [63, 125],
+      [1, 2],
+    ],
+    [{ x: 2, y: 1 }],
     null,
     null,
     null,
     null,
     null,
     null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
     "Serrated Blades",

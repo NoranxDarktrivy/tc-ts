@@ -20,14 +20,14 @@ const tier4 = [
     [[25, 50]]
   ),
   new Talent(
-    "Sanctity",
-    "spell_holy_mindvision",
+    "Crusade",
+    "spell_holy_crusade",
     [
-      "Your auras also increase Holy damage by party members affected by them by ",
-      "%.",
+      "Your Judgement of any seal has a ",
+      "% chance to apply Judgement of the Crusader in addition to its usual effect.",
     ],
     2,
-    [[5, 10]],
+    [[50, 100]],
     null,
     null,
     null,
@@ -35,7 +35,11 @@ const tier4 = [
     null,
     null,
     null,
-    { isMoved: false, isChanged: false, isNew: true }
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
 ];
 
