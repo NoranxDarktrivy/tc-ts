@@ -1,7 +1,6 @@
 export default {
   title: "Rogue",
   content: [
-    "New ability: Redirect: Transfers any existing combo points to the current enemy target. 30 sec cooldown.",
     "A new Evasion rank has been added that also increases the rogue's chance to dodge ranged attacks by 25%.",
     "Sap now has a 90% chance to return the rogue to stealth.",
     "Throwing Weapons can now be poisoned.",
