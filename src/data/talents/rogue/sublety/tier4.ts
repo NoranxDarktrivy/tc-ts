@@ -6,7 +6,7 @@ const tier4 = [
     "Phantom Echo",
     "spell_deathknight_scourgestrike",
     [
-      "7 sec after using Ghsotly Strike, attack your current target for ",
+      "7 sec after using Ghsotly Strike, strikes your current target for ",
       "% weapon damage and adds ",
       " combo point(s).",
     ],
