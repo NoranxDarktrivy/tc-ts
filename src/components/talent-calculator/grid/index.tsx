@@ -2,10 +2,7 @@ import React from "react";
 
 import { Talent } from "../../../data/talents/Classes";
 import { capitalizer, getBorderColor } from "../../../lib/ui-utils";
-import {
-  checkAvailableTalentPointsPerTree,
-  checkPointsPerTree,
-} from "../../../lib/handle-talents";
+import { checkPointsPerTree } from "../../../lib/handle-talents";
 import Cell from "../cell";
 import styles from "./grid.module.css";
 import { URLParams } from "../../../types";
@@ -44,7 +41,6 @@ const Grid: React.FC<GridProps> = ({
   displayChanged,
 }) => {
   const { talentPoints } = useParams<URLParams>();
-  const totalAvailablePoints = checkAvailableTalentPointsPerTree(gridData);
   const currentPoints = checkPointsPerTree(gridData);
   return (
     <div className={styles.tree}>
@@ -60,7 +56,7 @@ const Grid: React.FC<GridProps> = ({
             />
           </div>
           <div>
-            {capitalizer(specName)} ({currentPoints}) | {totalAvailablePoints}
+            {capitalizer(specName)} ({currentPoints})
           </div>
         </div>
         <div onClick={() => resetTree(i)} className={styles.reset}>
