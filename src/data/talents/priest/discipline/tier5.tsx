@@ -8,7 +8,7 @@ const tier5 = [
       <>
         Improves one of your Priest racial abilities. <br />
         <br /> Human: Allows your Desperate Prayer to be cast on a friendly
-        target within 30 yards.
+        target within 40 yards.
         <br />
         <br />
         Dwarf: Your Chastise increases the next source of direct spell damage to

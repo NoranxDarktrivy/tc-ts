@@ -16,7 +16,8 @@ const tier3 = [
     "Melee Range",
     "Instant",
     "20 sec cooldown",
-    ["D1"]
+    ["D1"],
+    { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
     "Initiative",
