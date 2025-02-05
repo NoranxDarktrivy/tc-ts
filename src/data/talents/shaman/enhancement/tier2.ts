@@ -48,7 +48,7 @@ const tier2 = [
     "Improved Elemental Shields",
     "spell_nature_lightningshield",
     [
-      "Increases the effect of your Lightning Shield orbs, Water Shield and Earth Shield orbs by ",
+      "Increases the effect of your Lightning Shield, Water Shield and Earth Shield orbs by ",
       "%.",
     ],
     3,

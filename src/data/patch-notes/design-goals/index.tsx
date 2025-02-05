@@ -11,7 +11,7 @@ export default {
         "Each spec gets something new. Some specs need more than others.",
         "Healers should be more independent and able to grind mobs and resources more easily.",
         "Adjust useless or boring talents and abilities.",
-        "All while staying true to the classic fantasy and mechanics and the uniqueness of each class and spec.",
+        "All while staying true to the classic fantasy and mechanics and leaning into the uniqueness of each class and spec.",
       ],
     },
   ],
