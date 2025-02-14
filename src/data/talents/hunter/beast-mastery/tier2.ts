@@ -5,11 +5,15 @@ const tier2 = [
     "Spirit Bond",
     "classic_ability_druid_demoralizingroar",
     [
-      "Increases the damage dealt by you and your pet ",
-      "% while within 10 yards of each other.",
+      "While your pet is active, you and your pet will regenerate ",
+      "% of total health every 10 sec and increases healing done to you and your pet by ",
+      "%.",
     ],
     2,
-    [[2, 4]],
+    [
+      [1, 2],
+      [5, 10],
+    ],
     null,
     null,
     null,

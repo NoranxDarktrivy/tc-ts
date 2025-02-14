@@ -22,12 +22,12 @@ const tier4 = [
       [10, 20, 30],
     ],
     [{ x: null, y: null }],
-    [{ x: 5, y: 1 }],
+    [{ x: 4, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D2"],
+    ["D1"],
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
@@ -53,14 +53,11 @@ const tier4 = [
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
-    "Leader of the Pack",
-    "spell_nature_unyeildingstamina",
-    [
-      "While in Cat, Bear, or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by ",
-      "%.",
-    ],
-    3,
-    [[1, 2, 3]],
+    "Improved Swipe",
+    "inv_misc_monsterclaw_03",
+    ["Icreases the damage of Swipe against your current target by ", "%."],
+    2,
+    [[35, 70]],
     null,
     null,
     null,
@@ -68,8 +65,9 @@ const tier4 = [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: true }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
+  ,
 ];
 
 export default tier4;

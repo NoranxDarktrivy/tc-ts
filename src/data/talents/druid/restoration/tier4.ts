@@ -21,15 +21,11 @@ const tier4 = [
     "Abundance",
     "ability_druid_empoweredrejuvination",
     [
-      "Inreases your damage over time and healing over time done by ",
-      "% and reduces the chance these effects are dispelled by ",
+      "Reduces the chance your damage over time and healing over time effects are dispelled by ",
       "%.",
     ],
     2,
-    [
-      [5, 10],
-      [25, 50],
-    ],
+    [[25, 50]],
     null,
     null,
     null,

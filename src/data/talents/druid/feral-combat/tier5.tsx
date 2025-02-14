@@ -11,7 +11,6 @@ const tier5 = [
     2,
     [[10, 20]]
   ),
-  null,
   new Talent(
     "Adaptive instincts",
     "ability_druid_predatoryinstincts",
@@ -24,19 +23,20 @@ const tier5 = [
     ],
     1,
     [[]],
-    null,
-    null,
-    null,
+    [{ x: 3, y: 1 }],
+    [{ x: 5, y: 1 }],
     null,
     "Instant",
     "5 min cooldown",
     null,
+    ["D1"],
     {
       isChanged: false,
       isMoved: false,
       isNew: true,
     }
   ),
+  null,
   null,
 ];
 

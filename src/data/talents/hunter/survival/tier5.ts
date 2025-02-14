@@ -2,14 +2,14 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Survival of the Fittest",
-    "ability_hunter_mastertactitian",
+    "Improved Tracking",
+    "ability_hunter_improvedtracking",
     [
-      "When you deal Arcane, Fire or Nature damage with one of your abilities, you have a ",
-      "% chance to reduce the cooldown of all party members' abilities by 1 sec.",
+      "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by party members within 45 yards is increased by ",
+      "%",
     ],
-    2,
-    [[10, 20]],
+    3,
+    [[1, 2, 3]],
     null,
     null,
     null,

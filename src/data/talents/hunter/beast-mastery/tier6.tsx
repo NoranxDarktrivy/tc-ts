@@ -2,18 +2,14 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Ferocious Inspiration",
-    "ability_hunter_ferociousinspiration",
+    "Primalist",
+    "ability_druid_predatoryinstincts",
     [
-      "When your pet scores a critical hit, all party members have their damage increased by ",
-      "% and all party members' pets and summons have their damage increased by ",
-      "% for 10 sec.",
+      "Reduces the cooldown and focus cost of your pet's family abilities by ",
+      "%.",
     ],
-    3,
-    [
-      [1, 2, 3],
-      [3, 6, 9],
-    ],
+    2,
+    [[20, 40]],
     null,
     null,
     null,

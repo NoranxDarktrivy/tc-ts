@@ -52,5 +52,23 @@ export default [
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),
-  null,
+  new Talent(
+    "Improved Stings",
+    "spell_nature_nullifypoison",
+    ["Increases the effect of your Stings by ", "%."],
+    3,
+    [[3, 6, 9]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];

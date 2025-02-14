@@ -1,25 +1,7 @@
 import { Talent } from "../../Classes";
 
 export default [
-  new Talent(
-    "Improved Stings",
-    "spell_nature_nullifypoison",
-    ["Increases the effect of your Stings by ", "%."],
-    3,
-    [[3, 6, 9]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Swift Shots",
     "ability_hunter_zenarchery",
@@ -53,5 +35,6 @@ export default [
     null,
     ["D1"]
   ),
+  null,
   null,
 ];
