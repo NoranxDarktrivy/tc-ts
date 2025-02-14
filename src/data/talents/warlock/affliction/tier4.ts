@@ -1,7 +1,28 @@
 import { Talent } from "../../Classes";
 
 const tier4 = [
-  null,
+  new Talent(
+    "Gloom",
+    "spell_shadow_animatedead",
+    [
+      "Reduces the chance your damage over time effects are dispelled by ",
+      "%.",
+    ],
+    2,
+    [[25, 50]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     "Grim Reach",
     "spell_shadow_callofbone",

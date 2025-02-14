@@ -42,7 +42,28 @@ const tier2 = [
       isMoved: false,
     }
   ),
-  null,
+  new Talent(
+    "Unyielding Momentum",
+    "ability_warrior_focusedrage",
+    [
+      "When your main hand weapon attack fails to hit, you generate rage equal to ",
+      "% of the amount you would have gained.",
+    ],
+    2,
+    [[25, 50]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];
 
 export default tier2;

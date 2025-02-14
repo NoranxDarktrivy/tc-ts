@@ -16,28 +16,6 @@ const tier7 = [
     "100 yd range",
     "Instant"
   ),
-  new Talent(
-    "Improved Master Demonologist",
-    "spell_shadow_shadowpact",
-    [
-      "Grants party members within 40 yards ",
-      "% of your active Master Demonologist effect.",
-    ],
-    2,
-    [[50, 100]],
-    [{ x: 5, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
   null,
 ];
 

@@ -20,9 +20,16 @@ const tier5 = [
   new Talent(
     "Improved Immolate",
     "spell_fire_immolation",
-    ["Increases the initial damage of your Immolate by ", "%."],
-    3,
-    [[10, 20, 30]],
+    [
+      "Increases the initial damage of your Immolate by ",
+      "% and an additional ",
+      "% if the target is already affected by Immolate.",
+    ],
+    5,
+    [
+      [6, 12, 18, 24, 30],
+      [6, 12, 18, 24, 30],
+    ],
     [{ x: null, y: null }],
     [{ x: 6, y: 1 }],
     null,

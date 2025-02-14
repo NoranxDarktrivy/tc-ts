@@ -58,14 +58,18 @@ const tier3 = [
     }
   ),
   new Talent(
-    "Mana Feed",
-    "spell_shadow_manafeed",
+    "Fel Protection",
+    "spell_shadow_demonictactics",
     [
-      "When you gain mana from any source, your active demon gains ",
-      "% of the mana you gain.",
+      "Increases the armor rating of your active demon by ",
+      "% and reduces area of effect damage taken by your active demon ",
+      "%.",
     ],
     3,
-    [[20, 40, 60]],
+    [
+      [10, 20, 30],
+      [20, 40, 60],
+    ],
     null,
     null,
     null,

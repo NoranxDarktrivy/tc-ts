@@ -17,20 +17,19 @@ const tier3 = [
     "15 sec cooldown"
   ),
   new Talent(
-    "Gloom",
-    "ability_warlock_everlastingaffliction",
+    "Demonic Destruction",
+    "ability_racial_bloodrage",
     [
-      "Your Shadow Bolt critical strikes increase periodic shadow damage taken by the target by ",
-      "% for 8 sec",
+      "Reduces the cast time of your Imp's Firebolt by ",
+      " sec. and reduces the cooldown of your Succubus' and Incubus' Lash of Pain by ",
+      " sec.",
     ],
     2,
-    [[10, 20]],
     [
-      {
-        x: 1,
-        y: 1,
-      },
+      [0.5, 1],
+      [3, 6],
     ],
+    null,
     null,
     null,
     null,

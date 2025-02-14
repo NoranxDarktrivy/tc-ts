@@ -1,32 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier2 = [
-  new Talent(
-    "Demonic Destruction",
-    "ability_racial_bloodrage",
-    [
-      "Reduces the cast time of your Imp's Firebolt by ",
-      " sec. and reduces the cooldown of your Succubus' and Incubus' Lash of Pain by ",
-      " sec.",
-    ],
-    2,
-    [
-      [0.5, 1],
-      [3, 6],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Improved Shadow Bolt",
     "spell_shadow_shadowbolt",
@@ -37,17 +12,12 @@ const tier2 = [
     5,
     [[4, 8, 12, 16, 20]],
     null,
-    [
-      {
-        x: 2,
-        y: 1,
-      },
-    ],
     null,
     null,
     null,
     null,
-    ["D1"],
+    null,
+    null,
     { isNew: false, isChanged: false, isMoved: true }
   ),
   new Talent(

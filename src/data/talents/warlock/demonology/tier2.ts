@@ -2,14 +2,20 @@ import { Talent } from "../../Classes";
 
 const tier2 = [
   new Talent(
-    "Improved Demon Armor",
-    "spell_shadow_ragingscream",
+    "Improved Health Funnel",
+    "spell_shadow_lifedrain",
     [
-      "Causes your Demon Armor to also restore mana equal to ",
-      "% the restored health.",
+      "Increases the amount of Health transferred by your Health Funnel spell by ",
+      "% and reduces the health cost by ",
+      "%. In addition, your summoned Demon takes ",
+      "% less damage while under the effect of your Health Funnel.",
     ],
     2,
-    [[50, 100]],
+    [
+      [10, 20],
+      [10, 20],
+      [15, 30],
+    ],
     null,
     null,
     null,
@@ -18,8 +24,8 @@ const tier2 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     }
   ),

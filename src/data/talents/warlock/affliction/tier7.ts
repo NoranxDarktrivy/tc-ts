@@ -3,23 +3,23 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Haunt",
-    "ability_warlock_haunt",
+    "Dark Pact",
+    "spell_shadow_darkritual",
     [
-      "Unleash a ghostly soul on an enemy, dealing Shadow damage, and increasing all Shadow damage over time you deal to that target by 20% for 12 sec. When the Haunt ends or is dispelled, you will be healed for all the damage it dealt to your target.",
+      "Drains up to 520 mana from your Demon over 12 sec, increasing your spell damage by 50% of the mana drained over time.",
     ],
     1,
     [[]],
     null,
     null,
-    "12% of base mana",
-    "30 yd range",
-    "Instant",
-    "12 sec cooldown",
+    null,
+    null,
+    "40 yd range",
+    "1 min cooldown",
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     }
   ),

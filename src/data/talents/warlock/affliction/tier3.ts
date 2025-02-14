@@ -2,9 +2,12 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Damnation",
-    "spell_shadow_curseofsargeras",
-    ["Increases the effect of all your Curse spells by ", "%."],
+    "Malediction",
+    "spell_shadow_curseofachimonde",
+    [
+      "Increases the damage bonus effect of your Curse of the Elements spell by an additional ",
+      "%.",
+    ],
     3,
     [[1, 2, 3]],
     null,

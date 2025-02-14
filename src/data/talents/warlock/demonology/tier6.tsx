@@ -1,53 +1,52 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier6 = [
-  null,
-  null,
   new Talent(
-    'Master Demonologist',
-    'spell_shadow_shadowpact',
+    "Mana Feed",
+    "spell_shadow_manafeed",
     [
-      <>
-        Gives the Warlock and the summoned Demon an effect as long as the Demon is active.
-        <br />
-        <br />
-        Imp: increases Fire damage by{' '}
-      </>,
-      <>
-        %. <br />
-        <br />
-        Void Walker: Restores{' '}
-      </>,
-      <>
-        % of total Health every 4 sec.
-        <br />
-        <br />
-        Succubus/Incubus: increases Shadow damage by{' '}
-      </>,
-      <>
-        %. <br />
-        <br />
-        Felhunter: Restores{' '}
-      </>,
-      '% of total Mana every 4 sec.',
+      "When you gain mana from any source, your active demon gains ",
+      "% of the mana you gain.",
     ],
-    5,
-    [
-      [2, 4, 6, 8, 10],
-      [0.8, 1.6, 2.4, 3.2, 4],
-      [2, 4, 6, 8, 10],
-      [0.4, 0.8, 1.2, 1.6, 2],
-    ],
-    [{ x: 3, y: 2 }],
-    [{ x: 6, y: 2 }],
+    3,
+    [[30, 60, 90]],
     null,
     null,
     null,
     null,
-    ['D1'],
-    { isNew: false, isChanged: true, isMoved: false }
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
   null,
-]
+  new Talent(
+    "Improved Master Demonologist",
+    "spell_shadow_felmending",
+    [
+      "Grants party members within 40 yards ",
+      "% of your active Master Demonologist effect.",
+    ],
+    2,
+    [[50, 100]],
+    [{ x: 4, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+  null,
+];
 
-export default tier6
+export default tier6;

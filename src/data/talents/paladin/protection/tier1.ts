@@ -3,7 +3,7 @@ import { Talent } from "../../Classes";
 const tier1 = [
   new Talent(
     "Holy Bulwark",
-    "spell_holy_powerwordshield",
+    "inv_chest_plate_23",
     ["Increases your spell damage and healing by ", "% of your total armor."],
     2,
     [[1, 2]],

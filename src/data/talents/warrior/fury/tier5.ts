@@ -4,9 +4,24 @@ const tier5 = [
   new Talent(
     "Improved Intercept",
     "ability_rogue_sprint",
-    ["Reduces the cooldown by ", " sec."],
+    ["Reduces the cooldown by ", " sec and reduces the rage cost by ", "."],
     2,
-    [[5, 10]]
+    [
+      [5, 10],
+      [5, 10],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Death Wish",

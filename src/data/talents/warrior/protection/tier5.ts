@@ -29,27 +29,7 @@ const tier5 = [
     2,
     [[50, 100]]
   ),
-  new Talent(
-    "First Strike",
-    "ability_hunter_swiftstrike",
-    [
-      "Your first weapon attack against an enemy always hits and generates 100% additional rage.",
-    ],
-    1,
-    [[]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier5;

@@ -40,25 +40,7 @@ const tier2 = [
     5,
     [[8, 16, 24, 32, 40]]
   ),
-  new Talent(
-    "Furious Focus",
-    "ability_warrior_focusedrage",
-    ["Increases your hit chance on targets that are below 50% health by ", "%"],
-    3,
-    [[2, 4, 6]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier2;
