@@ -1,7 +1,25 @@
 import { Talent } from "../../Classes";
 
 const tier1 = [
-  null,
+  new Talent(
+    "Holy Bulwark",
+    "spell_holy_powerwordshield",
+    ["Increases your spell damage and healing by ", "% of your total armor."],
+    2,
+    [[1, 2]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     "Improved Devotion Aura",
     "spell_holy_devotionaura",

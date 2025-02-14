@@ -1,26 +1,30 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier7 = [
   null,
   new Talent(
-    "Avenger's Shield",
-    'spell_holy_avengersshield',
-    ['Hurls a holy shield at the enemy, dealing Holy damage, Dazing them and then jumping to additional nearby enemies. Affects 3 total targets. Lasts 10 sec.'],
+    "Holy Shield",
+    "spell_holy_blessingofprotection",
+    [
+      "Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges.",
+    ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
-    '26% of base Mana',
-    '30 yd range',
-    'Instant',
-    '30 sec cooldown',
+    "150 Mana",
+    null,
+    "Instant",
+    "10 sec cooldown",
     null,
     {
-      isNew: true,
+      isNew: false,
       isChanged: false,
-      isMoved: false,
+      isMoved: true,
     }
   ),
-]
+  null,
+  null,
+];
 
-export default tier7
+export default tier7;
