@@ -2,26 +2,18 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Totemic Fury",
-    "spell_fire_totemofwrath",
+    "Improved Weapon Totems",
+    "spell_fire_enchantweapon",
     [
-      "Your critical strikes with melee attacks increase the effect of your totems that affect friendly targets by ",
-      "% for 8 sec and reduce the cooldown of your totems that are on cooldown by 1 sec.",
+      "Increases the melee attack power bonus of your Windfury Totem by ",
+      "% and increases the damage caused by your Flametongue Totem by ",
+      "%.",
     ],
     2,
-    [[15, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    [
+      [15, 30],
+      [6, 12],
+    ]
   ),
   new Talent(
     "Elemental Weapons",
@@ -66,17 +58,17 @@ const tier5 = [
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
-    "Shamanistic Rage",
-    "spell_nature_shamanrage",
+    "Totemic Fury",
+    "spell_fire_totemofwrath",
     [
-      "Reduces all damage you take by 30% and gives your succesful melee attacks a chance to regenerate mana equal to 30% of your damage done. Lasts 15 sec.",
+      "Your critical strikes with melee attacks increase the effect of your totems that affect friendly targets by 30% for 8 sec and reduce the cooldown of your totems that are on cooldown by 1 sec.",
     ],
     1,
     [[]],
     null,
     null,
-    "Instant",
-    "2 min cooldown",
+    null,
+    null,
     null,
     null,
     null,

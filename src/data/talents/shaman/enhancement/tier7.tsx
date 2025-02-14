@@ -6,26 +6,14 @@ const tier7 = [
     "Stormstrike",
     "spell_holy_sealofmight",
     [
-      <>
-        Gives you an extra attack and grants your next Shock spell an additional
-        effect:
-        <br />
-        <br />
-        Earth Shock: Taunts the target to attack you.
-        <br />
-        <br />
-        Flame Shock: Applies the damage over time effect to all enemies within 8
-        yards of the target. <br />
-        <br />
-        Frost Shock: Roots the target in place for 5 sec. <br />
-      </>,
+      "Gives you an extra attack that deals Nature damage and generates 10% of your maximum mana. In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%. Lasts 30 sec.",
     ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
     "Melee range",
-    "21% of base mana",
+    null,
     "Instant",
     "20 sec cooldown",
     null,

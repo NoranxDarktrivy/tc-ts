@@ -14,7 +14,7 @@ const tier3 = [
       [20, 40],
       [5, 10],
     ],
-    null,
+    [{ x: 1, y: 0 }],
     null,
     null,
     null,

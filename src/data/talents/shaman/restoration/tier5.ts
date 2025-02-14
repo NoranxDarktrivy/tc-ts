@@ -11,6 +11,7 @@ const tier5 = [
     3,
     [[33, 66, 100]]
   ),
+  null,
   new Talent(
     "Nature's Swiftness",
     "spell_nature_ravenform",
@@ -24,7 +25,6 @@ const tier5 = [
     "Instant",
     "3 min cooldown"
   ),
-  null,
   null,
 ];
 
