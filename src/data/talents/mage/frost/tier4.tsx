@@ -47,7 +47,28 @@ const tier4 = [
       isMoved: false,
     }
   ),
-  null,
+  new Talent(
+    "Piercing Chill",
+    "spell_frost_piercing-chill",
+    [
+      "Your Frostbolt criticals apply the chill effect to ",
+      " additional nearby target(s). In addition, your chill effects also reduce the attack speed of the target by ",
+      "%.",
+    ],
+    2,
+    [
+      [1, 2],
+      [5, 10],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
 ];
 
 export default tier4;

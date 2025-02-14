@@ -2,14 +2,26 @@ import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    "Improved Mana Shield",
+    "Arcane Shielding",
     "spell_shadow_detectlesserinvisibility",
     [
-      "Decreases the mana lost per point of damage when Mana Shield is active by ",
+      "Decreases the mana lost per point of damage taken when Mana Shield is active by ",
+      "% and increases the resistances granted by Mage Armor by ",
       "%.",
     ],
     2,
-    [[10, 20]]
+    [
+      [15, 30],
+      [25, 50],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
     "Improved Counterspell",

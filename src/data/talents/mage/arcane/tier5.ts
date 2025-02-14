@@ -2,18 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Improved Arcane Blast",
-    "spell_arcane_blast",
+    "Arcane Burn",
+    "spell_arcane_arcanepotency",
     [
-      "Causes your Arcane Blast to also slow the target's movement speed by ",
-      "% and an additional ",
-      "% for each of your active Arcane Blast stacks. Lasts 8 sec.",
+      "Critical strikes from your arcane spells also burn mana equal to ",
+      "% of the damage done.",
     ],
     2,
-    [
-      [8, 15],
-      [8, 15],
-    ],
+    [[15, 30]],
     null,
     null,
     null,

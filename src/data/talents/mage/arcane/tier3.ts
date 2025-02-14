@@ -2,26 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Missile Barrage",
-    "ability_mage_missilebarrage",
+    "Magic Attunement",
+    "spell_nature_abolishmagic",
     [
-      "Gives your crits from Arcane Blast, Fireball, Frostbolt, Icicles and Scorch a ",
-      "% chance to increase the damage of your next Arcane Missiles spell by 50% and reduce the mana cost by 100%.",
+      "Increases the effect of your Amplify Magic and Dampen Magic spells by ",
+      "%.",
     ],
     2,
-    [[15, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    [[25, 50]]
   ),
   new Talent(
     "Improved Arcane Explosion",
@@ -34,11 +22,9 @@ const tier3 = [
     [[2, 4, 6]]
   ),
   new Talent(
-    "Chrono Shift",
-    "spell_holy_borrowedtime",
-    [
-      "When activated, reduces the base cooldown of your next mage spell by 50%.",
-    ],
+    "Mana Tap",
+    "spell_frost_manarecharge",
+    ["When activated, reduces the mana cost of your spells by 50% for 6 sec."],
     1,
     [[]],
     null,
@@ -46,7 +32,7 @@ const tier3 = [
     null,
     null,
     "Instant",
-    "3 min cooldown",
+    "5 min cooldown",
     null,
     {
       isNew: true,
@@ -54,7 +40,28 @@ const tier3 = [
       isMoved: false,
     }
   ),
-  null,
+  new Talent(
+    "Unstable Missiles",
+    "ability_druid_starfall",
+    [
+      "Each time you cast Arcane Missiles, the casting time is reduced by ",
+      " sec while the mana cost is increased by 10%. This effect stacks up to 3 times and lasts 8 sec.",
+    ],
+    2,
+    [[0.3, 0.6]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];
 
 export default tier3;

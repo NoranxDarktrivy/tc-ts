@@ -9,21 +9,25 @@ const tier3 = [
     [[2, 4, 6]]
   ),
   new Talent(
-    "Icicles",
-    "ability_mage_coldasice",
+    "Cold Snap",
+    "spell_frost_wizardmark",
     [
-      "Launches an icicle at up to 5 chilled or frozen enemies, dealing 84 to 92 Frost damage.",
+      "When activated, this spell finishes the cooldown on all of your Frost spells.",
     ],
     1,
     [[]],
+    [{ x: null, y: null }],
+    [
+      {
+        x: 6,
+        y: 1,
+      },
+    ],
     null,
     null,
-    "110 mana",
-    "30 yd range",
-    "1.5 sec cast",
-    "8 sec cooldown",
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
+    "Instant",
+    "10 min cooldown",
+    null
   ),
   null,
   new Talent(

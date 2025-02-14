@@ -2,28 +2,27 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Piercing Chill",
-    "spell_frost_piercing-chill",
+    "Icy Veins",
+    "spell_frost_coldhearted",
     [
-      "Your Frostbolt criticals apply the chill effect to ",
-      " additional nearby target(s).",
+      "Hastens your spellcasting, increasing spell casting speed by 20% and gives you 100% chance to avoid interruption caused by damage while casting. Lasts 20 sec.",
     ],
-    2,
-    [[1, 2]],
+    1,
+    [[]],
     null,
     null,
+    "3% of base mana",
     null,
-    null,
-    null,
-    null,
+    "Instant",
+    "3 min cooldown",
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
-    "Cold Snap",
-    "spell_frost_wizardmark",
+    "Ice Block",
+    "spell_frost_frost",
     [
-      "When activated, this spell finishes the cooldown on all of your Frost spells.",
+      "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move or cast spells.",
     ],
     1,
     [[]],
@@ -34,12 +33,11 @@ const tier5 = [
         y: 1,
       },
     ],
-    null,
+    "15 Mana",
     null,
     "Instant",
-    "10 min cooldown",
-    ["D2"],
-    { isNew: false, isChanged: false, isMoved: true }
+    "5 min cooldown",
+    ["D2"]
   ),
   new Talent(
     "Improved Cone of Cold",
