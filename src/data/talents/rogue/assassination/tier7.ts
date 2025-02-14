@@ -3,23 +3,23 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Mutilate",
-    "ability_rogue_shadowstrikes",
+    "Vigor",
+    "spell_nature_earthbindtotem",
     [
-      "Instantly attacks with both weapons for 100% weapon damage with each weapon. Awards 2 combo points. Damage is increased by 20% against poisoned targets.",
+      "Increases your maximum Energy by 10. In addition, your abilities that add combo points return 10 Energy when cast on enemies below 35% health.",
     ],
     1,
     [[]],
     null,
     null,
-    "60 Energy",
-    "Melee range",
-    "Instant",
+    null,
+    null,
+    null,
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     }
   ),

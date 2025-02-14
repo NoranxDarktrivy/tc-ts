@@ -2,11 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    "Vigor",
-    "spell_nature_earthbindtotem",
-    ["Increases your maximum Energy by ", "."],
+    "Toxicology",
+    "ability_rogue_deviouspoisons",
+    [
+      "Gives your Deadly Poison, Wound Poison, Mind-numbing Poison and Crippling poison applications a ",
+      "% chance to also apply Instant Poison.",
+    ],
     2,
-    [[5, 10]],
+    [[25, 50]],
     null,
     null,
     null,
@@ -15,9 +18,9 @@ const tier4 = [
     null,
     null,
     {
-      isNew: false,
-      isChanged: true,
-      isMoved: true,
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
     }
   ),
   new Talent(

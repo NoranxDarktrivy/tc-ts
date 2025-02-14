@@ -3,19 +3,19 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Circle of Healing",
-    "spell_holy_circleofrenewal",
+    "Lightwell",
+    "spell_holy_summonlightwell",
     [
-      "Heals friendly target and that target's party members within 15 yards of the target for 186 to 210.",
+      "Creates a holy Lightwell at target location that heals a nearby party member for 284 to 321 every second for 10 sec. Prioritizes party members with low health.",
     ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
     "225 Mana",
-    "30 yd range",
-    "Instant cast",
-    null,
+    "40 yd range",
+    "1.5 sec cast",
+    "3 min cooldown",
     null,
     {
       isNew: true,

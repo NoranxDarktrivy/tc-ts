@@ -3,26 +3,14 @@ import { Talent } from "../../Classes";
 const tier4 = [
   null,
   new Talent(
-    "Phantom Echo",
-    "spell_deathknight_scourgestrike",
+    "Improved Sap",
+    "ability_sap",
     [
-      "7 sec after using Ghsotly Strike, strikes your current target for ",
-      "% weapon damage and adds ",
-      " combo point(s).",
+      "Gives you a ",
+      "% chance to return to stealth mode after using your Sap ability.",
     ],
-    2,
-    [
-      [63, 125],
-      [1, 2],
-    ],
-    [{ x: 2, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
+    3,
+    [[30, 60, 90]]
   ),
   new Talent(
     "Serrated Blades",

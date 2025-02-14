@@ -2,26 +2,11 @@ import { Talent } from "../../Classes";
 
 const tier2 = [
   new Talent(
-    "Puncturing Wounds",
-    "ability_druid_ravage",
-    [
-      "Increases the critical strike chance of your Backstab ability by ",
-      "% and the critical strike chance of you Mutilate by ",
-      "%.",
-    ],
+    "Improved Backstab",
+    "ability_backstab",
+    ["Increases the critical strike chance of your Backstab ability by ", "%."],
     3,
-    [
-      [10, 20, 30],
-      [5, 10, 15],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
+    [[10, 20, 30]]
   ),
   new Talent(
     "Deflection",

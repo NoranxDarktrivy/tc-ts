@@ -1,23 +1,42 @@
 import { Talent } from "../../Classes";
 
 const tier3 = [
-  null,
+  new Talent(
+    "Enveloping Shadows",
+    "ability_rogue_envelopingshadows",
+    [
+      "Reduces the damage taken by area of effect attacks by ",
+      "% and reduces the energy cost of your Feint ability by ",
+      " .",
+    ],
+    2,
+    [
+      [20, 40],
+      [5, 10],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isMoved: false, isChanged: false }
+  ),
   new Talent(
     "Ghostly Strike",
     "spell_shadow_curse",
     [
-      "A strike that deals 125% weapon damage and increases your chance to dodge by 25% for 7 sec. Awards 1 combo point.",
+      "A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
     ],
     1,
     [[]],
     null,
-    [{ x: 3, y: 1 }],
+    null,
     "40 Energy",
     "Melee Range",
     "Instant",
-    "20 sec cooldown",
-    ["D1"],
-    { isNew: false, isChanged: true, isMoved: false }
+    "20 sec cooldown"
   ),
   new Talent(
     "Initiative",

@@ -3,10 +3,10 @@ import { Talent } from "../../Classes";
 const tier3 = [
   new Talent(
     "Exculpation",
-    "spell_holy_fanaticism",
+    "spell_holy_serendipity",
     [
       "Your offensive spell criticals have a ",
-      "% chance to heal a party or raid member within 40 yard range by 30% of the damage dealt. Prioritizes party or raid members with low health.",
+      "% chance to heal a party member within 40 yard range by 30% of the damage dealt. Prioritizes party members with low health.",
     ],
     2,
     [[50, 100]],
