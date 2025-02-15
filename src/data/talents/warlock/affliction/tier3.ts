@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier3 = [
-  new Talent(
-    "Malediction",
-    "spell_shadow_curseofachimonde",
-    [
-      "Increases the damage bonus effect of your Curse of the Elements spell by an additional ",
-      "%.",
-    ],
-    3,
-    [[1, 2, 3]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Fel Concentration",
     "spell_shadow_fingerofdeath",

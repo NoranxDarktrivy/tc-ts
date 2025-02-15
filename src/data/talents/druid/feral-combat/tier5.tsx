@@ -36,7 +36,21 @@ const tier5 = [
       isNew: true,
     }
   ),
-  null,
+  new Talent(
+    "Improved Swipe",
+    "inv_misc_monsterclaw_03",
+    ["Icreases the damage of Swipe against your current target by ", "%."],
+    2,
+    [[35, 70]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   null,
 ];
 

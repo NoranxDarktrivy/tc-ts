@@ -32,7 +32,7 @@ const tier6 = [
       "% of your active Master Demonologist effect.",
     ],
     2,
-    [[50, 100]],
+    [[25, 50]],
     [{ x: 4, y: 2 }],
     null,
     null,

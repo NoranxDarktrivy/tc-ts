@@ -2,14 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier4 = [
   new Talent(
-    "Gloom",
-    "spell_shadow_animatedead",
+    "Malediction",
+    "spell_shadow_curseofachimonde",
     [
-      "Reduces the chance your damage over time effects are dispelled by ",
+      "Increases the damage bonus effect of your Curse of the Elements spell by an additional ",
       "%.",
     ],
-    2,
-    [[25, 50]],
+    3,
+    [[1, 2, 3]],
     null,
     null,
     null,

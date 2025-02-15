@@ -1,7 +1,23 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  null,
+  new Talent(
+    "Searing Armor",
+    "ability_mage_moltenarmor",
+    [
+      "Increases your critical strike chance by 5%, but critical strikes burn 1% of your base mana and base health. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "270 Mana",
+    null,
+    "Instant",
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   new Talent(
     "Critical Mass",
     "spell_nature_wispheal",

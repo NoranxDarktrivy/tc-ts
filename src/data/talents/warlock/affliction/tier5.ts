@@ -2,18 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Soul Conduit",
-    "ability_warlock_improvedsoulleech",
+    "Gloom",
+    "spell_shadow_animatedead",
     [
-      "Your Drain Health also grants Health to nearby party members equal to ",
-      "% of the Health you gain. Your Drain Mana also grants Mana to nearby party members equal to ",
-      "% of the Mana you gain. ",
+      "Reduces the chance your damage over time effects are dispelled by ",
+      "%.",
     ],
     2,
-    [
-      [25, 50],
-      [25, 50],
-    ],
+    [[25, 50]],
     null,
     null,
     null,
@@ -22,9 +18,9 @@ const tier5 = [
     null,
     null,
     {
+      isNew: true,
       isChanged: false,
       isMoved: false,
-      isNew: true,
     }
   ),
   new Talent(

@@ -18,8 +18,8 @@ const tier7 = [
     "3 min cooldown",
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     }
   ),

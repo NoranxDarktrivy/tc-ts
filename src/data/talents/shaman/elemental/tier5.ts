@@ -28,24 +28,7 @@ const tier5 = [
     ["D2"]
   ),
   null,
-  new Talent(
-    "Blazing Totems",
-    "spell_frost_fireresistancetotem",
-    [
-      "Your Fire Totems also increase the spell damage of party members within 30 yard range by ",
-      "%.",
-    ],
-    2,
-    [[2, 4]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier5;

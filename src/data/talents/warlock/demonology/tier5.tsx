@@ -71,7 +71,7 @@ const tier5 = [
     null,
     null,
     ["D1"],
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: true }
   ),
   null,
 ];

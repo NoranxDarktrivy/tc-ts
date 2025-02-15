@@ -12,7 +12,7 @@ const tier3 = [
     "Second Wind",
     "ability_hunter_harass",
     [
-      "Removes all movement impairing effects and generates 10 rage and 10% of your total health over 10 sec.",
+      "Whenever you are struck by a stun or immobilize effect you will generate 20 rage and 10% of your total health over 10 sec.",
     ],
     1,
     [[]],
@@ -20,8 +20,8 @@ const tier3 = [
     null,
     null,
     null,
-    "Instant",
-    "5 min cooldown",
+    null,
+    null,
     null,
     {
       isNew: true,
