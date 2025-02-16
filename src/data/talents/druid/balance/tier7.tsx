@@ -6,7 +6,7 @@ const tier7 = [
     "Moonkin Form",
     "spell_nature_forceofnature",
     [
-      "Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical strike chance increased by 3%. The Moonkin can not cast healing spells while shapeshifted. Melee attacks in this form have a chance on hit to regenerate 5% of your maximum mana. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+      "Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical strike chance increased by 3%. The Moonkin can not cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
     ],
     1,
     [[]],
