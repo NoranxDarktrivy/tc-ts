@@ -9,7 +9,7 @@ export default {
     "Swipe now scales with attack power.",
     "Tranquility no longer causes threat.",
     "Several weapons that increase a druid's attack power while in cat, bear and dire bear forms have been added.",
-    "Omen of Clarity proc chance increased."
+    "Omen of Clarity proc chance increased.",
     "Rejuvenation and Regrowth spells can now be active on targets affected by another Druid's Rejuvenation or Regrowth.",
     "Reduced the mana cost of Mark of the Wild and Gift of the Wild.",
   ],
