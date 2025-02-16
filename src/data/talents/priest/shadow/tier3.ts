@@ -3,27 +3,6 @@ import { Talent } from "../../Classes";
 const tier3 = [
   null,
   new Talent(
-    "Shared Pain",
-    "spell_shadow_skull",
-    [
-      "Your next Shadow Word: Pain affects all enemies within 15 yards of the target.",
-    ],
-    1,
-    [[]],
-    null,
-    [{ x: 1, y: 1 }],
-    null,
-    null,
-    "Instant",
-    "2 min cooldown",
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
-  new Talent(
     "Improved Mind Blast",
     "spell_shadow_unholyfrenzy",
     [
@@ -63,6 +42,7 @@ const tier3 = [
     "20 yd range",
     "Channeled (3 sec cast)"
   ),
+  null,
 ];
 
 export default tier3;
