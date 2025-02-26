@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 export default [
-  new Talent(
-    "Improved Tracking",
-    "ability_hunter_improvedtracking",
-    [
-      "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by party members within 45 yards is increased by ",
-      "%",
-    ],
-    3,
-    [[1, 2, 3]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isChanged: false,
-      isMoved: false,
-      isNew: true,
-    }
-  ),
+  null,
   new Talent(
     "Killer Instinct",
     "spell_holy_blessingofstamina",

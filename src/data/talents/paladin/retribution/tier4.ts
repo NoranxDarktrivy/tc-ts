@@ -19,28 +19,7 @@ const tier4 = [
     2,
     [[25, 50]]
   ),
-  new Talent(
-    "Crusade",
-    "spell_holy_crusade",
-    [
-      "Your Judgement of any seal has a ",
-      "% chance to apply Judgement of the Crusader in addition to its usual effect.",
-    ],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier4;

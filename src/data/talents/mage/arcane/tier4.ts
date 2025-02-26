@@ -30,6 +30,7 @@ const tier4 = [
     2,
     [[50, 100]]
   ),
+  null,
   new Talent(
     "Arcane Meditation",
     "spell_shadow_siphonmana",
@@ -45,7 +46,6 @@ const tier4 = [
     null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
-  null,
 ];
 
 export default tier4;

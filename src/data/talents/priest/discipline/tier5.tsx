@@ -1,44 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Doctrine",
-    "ability_druid_dreamstate",
-    [
-      <>
-        Improves one of your Priest racial abilities. <br />
-        <br /> Human: Allows your Desperate Prayer to be cast on a friendly
-        target within 40 yards.
-        <br />
-        <br />
-        Dwarf: Your Chastise increases the next source of direct spell damage to
-        the target by 50%.
-        <br />
-        <br />
-        Night Elf: Your Starfall also slows the target's movement speed and
-        attack speed by 50%.
-        <br />
-        <br />
-        Troll: Allows your Shadowguard to be cast on friendly targets within 30
-        yards and increases the amount of orbs by 5. Can affect up to 1 target
-        at a time.
-        <br />
-        <br />
-        Undead: Your Devouring Plague now also returns mana equal to the damage
-        dealt.
-      </>,
-    ],
-    1,
-    [[]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
   new Talent(
     "Mental Strength",
     "spell_nature_enchantarmor",

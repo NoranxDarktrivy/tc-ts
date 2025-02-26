@@ -2,19 +2,24 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Icy Veins",
-    "spell_frost_coldhearted",
+    "Piercing Chill",
+    "spell_frost_piercing-chill",
     [
-      "Hastens your spellcasting, increasing spell casting speed by 20% and gives you 100% chance to avoid interruption caused by damage while casting. Lasts 20 sec.",
+      "Your Frostbolt criticals apply the chill effect to ",
+      " additional nearby target(s). In addition, your chill effects also reduce the attack speed of the target by ",
+      "%.",
     ],
-    1,
-    [[]],
+    2,
+    [
+      [1, 2],
+      [5, 10],
+    ],
     null,
     null,
-    "3% of base mana",
     null,
-    "Instant",
-    "3 min cooldown",
+    null,
+    null,
+    null,
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),

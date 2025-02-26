@@ -1,32 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Caster Form Specialization",
-    "spell_holy_rapture",
-    [
-      "While in caster form, your Starfire hits reduce the cooldown of your cooldown spells by ",
-      " sec and your Wrath hits reduce the cooldown of your cooldown spells ",
-      " sec.",
-    ],
-    3,
-    [
-      [1, 2, 3],
-      [0.5, 1, 1.5],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Nature's Grace",
     "spell_nature_naturesblessing",

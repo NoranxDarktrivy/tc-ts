@@ -8,10 +8,18 @@ const tier6 = [
     "spell_frost_chillingblast",
     [
       "Gives your Frost spells a ",
-      "% chance to apply the Winter's Chill effect, which increases the critical strike chance of Frost spells by 2%. This effect stacks up to 5 times and lasts 15 sec.",
+      "% chance to apply the Winter's Chill effect, which increases the critical strike chance of Frost spells by 2%. This effect stacks up to 10 times and lasts 15 sec.",
     ],
     5,
-    [[20, 40, 60, 80, 100]]
+    [[20, 40, 60, 80, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: false }
   ),
   null,
 ];

@@ -17,11 +17,14 @@ const tier6 = [
     ["D1"]
   ),
   new Talent(
-    "Arcanist",
-    "spell_arcane_arcanetorrent",
-    ["Increases the damage done by your Arcane spells by ", "%."],
+    "Unstable Missiles",
+    "spell_arcane_starfire",
+    [
+      "Each time you cast Arcane Missiles, the casting time is reduced by ",
+      " sec while the mana cost is increased by 10%. This effect stacks up to 5 times and lasts 8 sec.",
+    ],
     3,
-    [[3, 6, 9]],
+    [[0.1, 0.2, 0.3]],
     null,
     null,
     null,

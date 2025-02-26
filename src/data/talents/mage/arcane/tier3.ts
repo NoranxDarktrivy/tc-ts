@@ -27,41 +27,20 @@ const tier3 = [
     ["When activated, reduces the mana cost of your spells by 50% for 6 sec."],
     1,
     [[]],
-    null,
-    null,
+    [{ x: null, y: null }],
+    [{ x: 4, y: 2 }],
     null,
     null,
     "Instant",
     "5 min cooldown",
-    null,
+    ["D2"],
     {
       isNew: true,
       isChanged: false,
       isMoved: false,
     }
   ),
-  new Talent(
-    "Unstable Missiles",
-    "ability_druid_starfall",
-    [
-      "Each time you cast Arcane Missiles, the casting time is reduced by ",
-      " sec while the mana cost is increased by 10%. This effect stacks up to 3 times and lasts 8 sec.",
-    ],
-    2,
-    [[0.3, 0.6]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier3;

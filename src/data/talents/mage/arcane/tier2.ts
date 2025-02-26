@@ -59,28 +59,7 @@ const tier2 = [
     5,
     [[2, 4, 6, 8, 10]]
   ),
-  new Talent(
-    "Wizardry",
-    "ability_mage_potentspirit",
-    [
-      "When you deal direct damage with a spell, the next damaging spell of another school you cast within 10 sec deals ",
-      "% increased damage. This effect stacks up to 3 times. This effects resets after you cast two damaging spells of the same school in a row.",
-    ],
-    2,
-    [[3, 6]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier2;

@@ -6,14 +6,10 @@ const tier6 = [
     "spell_holy_ardentdefender",
     [
       "When you have less than 35% health, all damage taken is reduced by ",
-      "% and you have a ",
-      "% chance to not lose casting time when taking damage.",
+      "%.",
     ],
     2,
-    [
-      [10, 20],
-      [35, 70],
-    ],
+    [[10, 20]],
     null,
     null,
     null,
