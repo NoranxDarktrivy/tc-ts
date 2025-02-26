@@ -23,12 +23,12 @@ const tier4 = [
     5,
     [[4, 8, 12, 16, 20]],
     [{ x: null, y: null }],
-    [{ x: 4, y: 2 }],
+    [{ x: 5, y: 2 }],
     null,
     null,
     null,
     null,
-    ["D1"]
+    ["D2"]
   ),
   null,
 ];
