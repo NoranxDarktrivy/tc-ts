@@ -10,7 +10,7 @@ const tier7 = [
     ],
     1,
     [[]],
-    [{ x: 5, y: 1 }],
+    [{ x: 4, y: 1 }],
     null,
     "20% of base mana",
     "30 yd range",

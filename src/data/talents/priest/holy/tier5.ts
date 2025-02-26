@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Blessed Resilience",
-    "spell_holy_blessedresillience",
-    [
-      "Critical hits against you cause you to receive ",
-      "% increased healing for 10 sec.",
-    ],
-    2,
-    [[15, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Spirit of Redemption",
     "inv_enchant_essenceeternallarge",

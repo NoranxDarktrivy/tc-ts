@@ -24,12 +24,31 @@ const tier5 = [
     1,
     [[]],
     [{ x: 2, y: 2 }],
-    null,
+    [{ x: 4, y: 3 }],
     "70 Mana",
     "30 yd range",
-    "Instant"
+    "Instant",
+    null,
+    ["R1"]
   ),
-  null,
+  new Talent(
+    "Improved Divine Spirit",
+    "spell_holy_divinespirit",
+    [
+      "Your Divine Spirit and Prayer of Spirit spells also increase the target's spell damage and healing by an amount equal to ",
+      "% of their total Spirit.",
+    ],
+    1,
+    [[5, 10]],
+    [{ x: 4, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
 ];
 
 export default tier5;

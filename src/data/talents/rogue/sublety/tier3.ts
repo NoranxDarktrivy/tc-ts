@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier3 = [
-  new Talent(
-    "Enveloping Shadows",
-    "ability_rogue_envelopingshadows",
-    [
-      "Reduces the damage taken by area of effect attacks by ",
-      "% and reduces the energy cost of your Feint ability by ",
-      " .",
-    ],
-    2,
-    [
-      [20, 40],
-      [5, 10],
-    ],
-    [{ x: 1, y: 0 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isMoved: false, isChanged: false }
-  ),
+  null,
   new Talent(
     "Ghostly Strike",
     "spell_shadow_curse",

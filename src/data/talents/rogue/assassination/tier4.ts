@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier4 = [
-  new Talent(
-    "Toxicology",
-    "ability_rogue_deviouspoisons",
-    [
-      "Gives your Deadly Poison, Wound Poison, Mind-numbing Poison and Crippling poison applications a ",
-      "% chance to also apply Instant Poison.",
-    ],
-    2,
-    [[25, 50]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Vile Poisons",
     "ability_rogue_feigndeath",

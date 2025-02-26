@@ -1,32 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Sacred Seals",
-    "spell_holy_divinepurpose",
-    [
-      "Increases the range of your Judgement by ",
-      " yards. In addition, your Judgement reduces the mana cost of your next Seal spell by ",
-      "%.",
-    ],
-    2,
-    [
-      [5, 10],
-      [35, 70],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   new Talent(
     "Divine Favor",
     "spell_holy_heal",
