@@ -15,11 +15,14 @@ export default [
     "6 sec cooldown"
   ),
   new Talent(
-    "Efficiency",
-    "spell_frost_wizardmark",
-    ["Reduces the Mana cost of your Shots and Stings by ", "%."],
-    5,
-    [[2, 4, 6, 8, 10]],
+    "Stinging Shots",
+    "spell_nature_nullifypoison",
+    [
+      "Your Arcane Shot increases the effect of your active sting by ",
+      "% for 6 sec.",
+    ],
+    3,
+    [[10, 20, 30]],
     null,
     null,
     null,
@@ -27,23 +30,13 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: false, isMoved: true }
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
-  new Talent(
-    "Mortal Shots",
-    "ability_piercedamage",
-    ["Increases your ranged critical strike damage bonus by ", "%."],
-    5,
-    [[6, 12, 18, 24, 30]],
-    [{ x: 1, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: false, isChanged: false, isMoved: true }
-  ),
+  null,
   new Talent(
     "Hawk Eye",
     "ability_townwatch",

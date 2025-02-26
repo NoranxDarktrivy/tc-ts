@@ -3,23 +3,11 @@ import { Talent } from "../../Classes";
 export default [
   null,
   new Talent(
-    "Swift Shots",
-    "ability_hunter_zenarchery",
-    ["Your Arcane Shot reduces the cooldown of your Rapid Fire by ", " sec."],
-    2,
-    [[1, 2]],
-    [{ x: 0, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    "Improved Arcane Shot",
+    "ability_impalingbolt",
+    ["Reduces the cooldown of your Arcane Shot by ", " sec."],
+    5,
+    [[0.2, 0.4, 0.6, 0.8, 1]]
   ),
   new Talent(
     "Lethal Shots",
@@ -28,12 +16,12 @@ export default [
     5,
     [[1, 2, 3, 4, 5]],
     [{ x: null, y: null }],
-    [{ x: 2, y: 2 }],
+    [{ x: 3, y: 2 }],
     null,
     null,
     null,
     null,
-    ["D1"]
+    ["D2"]
   ),
   null,
   null,

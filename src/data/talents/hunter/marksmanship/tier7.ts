@@ -6,7 +6,7 @@ export default [
     "Trueshot Aura",
     "ability_trueshot",
     [
-      "Increases the attack power of party members within 45 yards by 10%. Lasts 30 min.",
+      "Increases the attack power of party members within 45 yards by 50. Lasts 30 min.",
     ],
     1,
     [[]],
@@ -15,9 +15,7 @@ export default [
     "325 Mana",
     null,
     null,
-    "Instant",
-    null,
-    { isNew: false, isChanged: true, isMoved: false }
+    "Instant"
   ),
   null,
   null,

@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 export default [
-  new Talent(
-    "Primalist",
-    "ability_druid_predatoryinstincts",
-    [
-      "Reduces the cooldown and focus cost of your pet's family abilities by ",
-      "%.",
-    ],
-    2,
-    [[20, 40]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   null,
   new Talent(
     "Frenzy",

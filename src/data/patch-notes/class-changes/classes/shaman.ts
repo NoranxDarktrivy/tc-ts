@@ -7,7 +7,6 @@ export default {
     "Chain Lightning and Lightning Bolt cast time reduced by 0.5 sec.",
     "Stoneclaw Totem taunt effect has been greatly increased and now resets the threat on affected targets. Stoneclaw Totem now has health equal to 30% of the Shaman’s health and has a 50% chance to stun enemies that attack it.",
     "Increased the slow effect of Frostbrand Weapon to 50%.",
-    "Sentry Totem now has stealth.",
     "Stoneskin Totem now also reduces damage taken from ranged attacks.",
     "Windwall Totem has been removed.",
   ],

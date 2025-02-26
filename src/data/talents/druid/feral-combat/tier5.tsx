@@ -11,45 +11,31 @@ const tier5 = [
     2,
     [[10, 20]]
   ),
+  null,
   new Talent(
-    "Adaptive instincts",
-    "ability_druid_mastershapeshifter",
+    "Mangle",
+    "ability_druid_mangle2",
     [
       <>
-        When activated, Grants you 30% spell damage and healing when in caster
-        form, 30% increased health when in Bear Form or Dire Bear Form, or 50%
-        energy regeneration when in Cat Form. Lasts 15 sec.
+        Mangle the target, inflicting damage and causing the target to take
+        additional damage from bleed effects for 12 sec. This ability can be
+        used in Bear Form, Cat Form or Dire Bear Form.
       </>,
     ],
     1,
     [[]],
-    [{ x: 3, y: 1 }],
-    [{ x: 5, y: 1 }],
     null,
     null,
+    "45 energy or 20 rage",
+    "Melee range",
     "Instant",
-    "5 min cooldown",
-    ["D1"],
+    null,
+    null,
     {
       isChanged: false,
       isMoved: false,
       isNew: true,
     }
-  ),
-  new Talent(
-    "Improved Swipe",
-    "inv_misc_monsterclaw_03",
-    ["Icreases the damage of Swipe against your current target by ", "%."],
-    2,
-    [[35, 70]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
   ),
   null,
 ];

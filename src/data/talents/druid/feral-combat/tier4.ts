@@ -22,12 +22,12 @@ const tier4 = [
       [10, 20, 30],
     ],
     [{ x: null, y: null }],
-    [{ x: 4, y: 1 }],
+    [{ x: 5, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D1"],
+    ["D2"],
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
@@ -52,7 +52,24 @@ const tier4 = [
     null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
-  null,
+  new Talent(
+    "Improved Maul",
+    "ability_druid_maul",
+    [
+      "Your Maul causes the target to bleed for ",
+      "% additional damage over 10 sec. This effect stacks up to 5 times.",
+    ],
+    2,
+    [[25, 50]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
 ];
 
 export default tier4;

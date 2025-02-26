@@ -1,13 +1,16 @@
-import { Talent } from '../../Classes'
+import { Talent } from "../../Classes";
 
 const tier6 = [
   null,
   new Talent(
     "Improved Nature's Grace",
-    'spell_nature_naturesblessing',
-    ["When you gain the Nature's Grace effect, party members within 30 yards have a ", "% chance to gain the Nature's Grace effect as well."],
+    "spell_nature_naturesblessing",
+    [
+      "When you gain the Nature's Grace effect, party members within 30 yards have a ",
+      "% chance to gain the Nature's Grace effect as well.",
+    ],
     2,
-    [[50, 100]],
+    [[25, 50]],
     [{ x: 4, y: 1 }],
     null,
     null,
@@ -17,8 +20,17 @@ const tier6 = [
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),
-  new Talent('Moonfury', 'spell_nature_moonglow', ['Increases the damage of your Starfire, Moonfire and Wrath spells by ', '%.'], 5, [[2, 4, 6, 8, 10]]),
+  new Talent(
+    "Moonfury",
+    "spell_nature_moonglow",
+    [
+      "Increases the damage of your Starfire, Moonfire and Wrath spells by ",
+      "%.",
+    ],
+    5,
+    [[2, 4, 6, 8, 10]]
+  ),
   null,
-]
+];
 
-export default tier6
+export default tier6;

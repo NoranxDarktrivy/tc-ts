@@ -1,7 +1,6 @@
 export default {
   title: "Priest",
   content: [
-    "Increased the damage over time of Holy Fire.",
     "Damage absorbed by Power Word: Shield now scales with spell healing.",
     "Fear Ward is now available to all races. Cooldown increased to 3 minutes, last 3 minutes. Fear Ward is now a discipline spell.",
     "Feedback (Human) reduced mana cost and increased effect.",
