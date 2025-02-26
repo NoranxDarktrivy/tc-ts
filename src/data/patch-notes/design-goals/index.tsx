@@ -6,6 +6,7 @@ export default {
       content: [
         "Diversity and variety! Expand on ways in which classes can be played, without changing them fundamentally.",
         "Focus on class design and some QoL. Leave content, professions and itemization to people with better ideas.",
+        "Don't make changes for the sake of change.",
         "Each spec should be great to have in a group, while none should be mandatory.",
         "Each spec, and each race/class combination should have its place in both PvE and PvP.",
         "Each spec gets something new. Some specs need more than others.",
