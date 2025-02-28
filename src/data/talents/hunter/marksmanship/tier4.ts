@@ -1,21 +1,7 @@
 import { Talent } from "../../Classes";
 
 export default [
-  new Talent(
-    "Improved Scorpid Sting",
-    "ability_hunter_criticalshot",
-    ["Increases the effect of Scorpid Sting by ", "%."],
-    3,
-    [[10, 20, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: false, isChanged: true, isMoved: true }
-  ),
+  null,
   new Talent(
     "Improved Serpent Sting",
     "ability_hunter_quickshot",
@@ -24,12 +10,19 @@ export default [
     [[2, 4, 6, 8, 10]]
   ),
   new Talent(
-    "Mortal Shots",
-    "ability_piercedamage",
-    ["Increases your ranged critical strike damage bonus by ", "%."],
+    "Efficiency",
+    "spell_frost_wizardmark",
+    ["Reduces the Mana cost of your Shots and Stings by ", "%."],
     5,
-    [[6, 12, 18, 24, 30]],
-    [{ x: 1, y: 2 }]
+    [[2, 4, 6, 8, 10]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: false, isMoved: true }
   ),
   null,
 ];

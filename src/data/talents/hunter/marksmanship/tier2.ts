@@ -1,28 +1,50 @@
 import { Talent } from "../../Classes";
 
 export default [
-  null,
+  new Talent(
+    "Improved Concussive Shot",
+    "spell_frost_stun",
+    ["Gives your Concussive Shot a ", "% chance to stun the target for 3 sec."],
+    5,
+    [[4, 8, 12, 16, 20]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: false, isMoved: true }
+  ),
   new Talent(
     "Improved Arcane Shot",
     "ability_impalingbolt",
     ["Reduces the cooldown of your Arcane Shot by ", " sec."],
     5,
-    [[0.2, 0.4, 0.6, 0.8, 1]]
+    [[0.2, 0.4, 0.6, 0.8, 1]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: false, isMoved: true }
   ),
+  null,
   new Talent(
-    "Lethal Shots",
-    "ability_searingarrow",
-    ["Increases your critical strike chance with ranged weapons by ", "%."],
-    5,
-    [[1, 2, 3, 4, 5]],
-    [{ x: null, y: null }],
-    [{ x: 3, y: 2 }],
+    "Improved Scorpid Sting",
+    "ability_hunter_criticalshot",
+    ["Causes your Scorpid Sting to also reduce the target's armor by ", "%."],
+    2,
+    [[5, 10]],
     null,
     null,
     null,
     null,
-    ["D2"]
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: true }
   ),
-  null,
-  null,
 ];

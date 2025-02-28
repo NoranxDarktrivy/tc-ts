@@ -36,7 +36,21 @@ export default [
       isMoved: false,
     }
   ),
-  null,
+  new Talent(
+    "Mortal Shots",
+    "ability_piercedamage",
+    ["Increases your ranged critical strike damage bonus by ", "%."],
+    5,
+    [[6, 12, 18, 24, 30]],
+    [{ x: 0, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: false, isMoved: true }
+  ),
   new Talent(
     "Hawk Eye",
     "ability_townwatch",
