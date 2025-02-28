@@ -21,7 +21,7 @@ const tier6 = [
     "spell_arcane_starfire",
     [
       "Each time you cast Arcane Missiles, the casting time is reduced by ",
-      " sec while the mana cost is increased by 10%. This effect stacks up to 5 times and lasts 8 sec.",
+      " sec. This effect stacks up to 5 times and lasts 8 sec.",
     ],
     3,
     [[0.1, 0.2, 0.3]],
