@@ -18,14 +18,18 @@ const tier4 = [
   ),
   null,
   new Talent(
-    "Abundance",
-    "ability_druid_empoweredrejuvination",
+    "Improved Tranquility",
+    "spell_nature_tranquility",
     [
-      "Reduces the chance your damage over time and healing over time effects are dispelled by ",
-      "%.",
+      "Reduces threat caused by Tranquility by ",
+      "% and reduces its cooldown by ",
+      " minute(s).",
     ],
     2,
-    [[15, 30]],
+    [
+      [50, 100],
+      [1, 2],
+    ],
     null,
     null,
     null,
@@ -34,9 +38,9 @@ const tier4 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
     }
   ),
 ];
