@@ -14,7 +14,6 @@ export default [
     null,
     "325 Mana",
     null,
-    null,
     "Instant"
   ),
   null,

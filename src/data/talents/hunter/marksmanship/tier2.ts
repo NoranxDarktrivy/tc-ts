@@ -35,9 +35,9 @@ export default [
   new Talent(
     "Improved Scorpid Sting",
     "ability_hunter_criticalshot",
-    ["Causes your Scorpid Sting to also reduce the target's armor by ", "%."],
+    ["Increases the effect of your Scorpid Sting by ", "%."],
     2,
-    [[5, 10]],
+    [[8, 15]],
     null,
     null,
     null,

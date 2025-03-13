@@ -15,14 +15,37 @@ export default [
     "6 sec cooldown"
   ),
   new Talent(
-    "Stinging Shots",
-    "spell_nature_nullifypoison",
+    "Stinging Shot",
+    "ability_hunter_potentvenom",
     [
-      "Your Arcane Shot increases the effect of your active sting by ",
-      "% for 6 sec.",
+      <>
+        Your Arcane Shot grants an additional effect based on the current Sting
+        on your target.
+        <br />
+        <br />
+        Serpent Sting and Wyvern Sting: deals nature damage to the target equal
+        to{" "}
+      </>,
+      <>
+        % of the sting's total damage.
+        <br />
+        <br />
+        Viper Sting: restores{" "}
+      </>,
+      <>
+        % of your base mana.
+        <br />
+        <br />
+        Scorpid Sting: also decrease the target's armor by{" "}
+      </>,
+      <>% for the duration.</>,
     ],
     3,
-    [[10, 20, 30]],
+    [
+      [5, 10, 15],
+      [7, 14, 20],
+      [4, 7, 10],
+    ],
     null,
     null,
     null,

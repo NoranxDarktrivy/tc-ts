@@ -13,31 +13,46 @@ const tier5 = [
   ),
   null,
   new Talent(
-    "Mangle",
-    "ability_druid_mangle2",
+    "Primal Aggression",
+    "ability_druid_primalagression",
     [
-      <>
-        Mangle the target, inflicting damage and causing the target to take
-        additional damage from bleed effects for 12 sec. This ability can be
-        used in Bear Form, Cat Form or Dire Bear Form.
-      </>,
+      "You critical strikes while in Bear or Dire Bear form decrease the cooldown of your Frenzied Regeneration by ",
+      " sec and your critical strikes from Cat Form abilities decrease the cooldown of your Tiger's Fury by ",
+      " sec.",
+    ],
+    2,
+    [
+      [5, 10],
+      [2, 4],
+    ],
+    [{ x: 3, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+  new Talent(
+    "Faerie Fire (Feral)",
+    "spell_nature_faeriefire",
+    [
+      "Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.",
     ],
     1,
     [[]],
     null,
     null,
-    "45 energy or 20 rage",
-    "Melee range",
+    "30 yd range",
+    null,
     "Instant",
-    null,
-    null,
-    {
-      isChanged: false,
-      isMoved: false,
-      isNew: true,
-    }
+    "6 sec cooldown"
   ),
-  null,
 ];
 
 export default tier5;
