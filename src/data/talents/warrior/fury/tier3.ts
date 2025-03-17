@@ -4,21 +4,9 @@ const tier3 = [
   new Talent(
     "Improved Cleave",
     "ability_warrior_cleave",
-    ["Reduces the rage cost of your Cleave ability by ", "."],
-    2,
-    [[2, 4]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    ["Reduces the bonus damage done by your Cleave ability by ", "%."],
+    3,
+    [[40, 80, 120]]
   ),
   new Talent(
     "Piercing Howl",
