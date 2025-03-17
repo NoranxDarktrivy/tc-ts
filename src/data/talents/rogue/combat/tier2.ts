@@ -36,21 +36,7 @@ const tier2 = [
     null,
     ["D2"]
   ),
-  new Talent(
-    "Endurance",
-    "spell_shadow_shadowward",
-    ["Reduces the cooldown of your Evasion and Sprint abilities by ", " sec."],
-    2,
-    [[45, 90]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: false, isChanged: false, isMoved: true }
-  ),
+  null,
 ];
 
 export default tier2;

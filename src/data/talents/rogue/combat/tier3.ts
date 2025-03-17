@@ -1,7 +1,13 @@
 import { Talent } from "../../Classes";
 
 const tier3 = [
-  null,
+  new Talent(
+    "Endurance",
+    "spell_shadow_shadowward",
+    ["Reduces the cooldown of your Evasion and Sprint abilities by ", " sec."],
+    2,
+    [[45, 90]]
+  ),
   new Talent(
     "Riposte",
     "ability_warrior_challange",

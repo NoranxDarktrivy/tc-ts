@@ -1,7 +1,32 @@
 import { Talent } from "../../Classes";
 
 const tier3 = [
-  null,
+  new Talent(
+    "Exculpation",
+    "spell_shadow_soulleech_2",
+    [
+      "Increases your bonus healing by ",
+      "% and increases your spell damage by up to ",
+      "% of your bonus healing.",
+    ],
+    2,
+    [
+      [2, 4],
+      [25, 50],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     "Inner Focus",
     "spell_frost_windwalkon",

@@ -23,7 +23,7 @@ const tier5 = [
     "spell_holy_harmundeadaura",
     [
       "Your critical strikes have a ",
-      "% chance to reset the cooldown of your Exorcism and Holy Wrath. This effect cannot occur more than once every 10 sec.",
+      "% chance to reset the cooldown of your Exorcism and Holy Wrath and reduce their mana cost by 100%. This effect cannot occur more than once every 10 sec.",
     ],
     2,
     [[50, 100]],

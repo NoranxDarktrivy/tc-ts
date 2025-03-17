@@ -38,7 +38,7 @@ const tier5 = [
       "Your Divine Spirit and Prayer of Spirit spells also increase the target's spell damage and healing by an amount equal to ",
       "% of their total Spirit.",
     ],
-    1,
+    2,
     [[5, 10]],
     [{ x: 4, y: 2 }],
     null,

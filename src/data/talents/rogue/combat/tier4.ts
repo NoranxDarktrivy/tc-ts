@@ -39,18 +39,14 @@ const tier4 = [
     [{ x: 1, y: 2 }]
   ),
   new Talent(
-    "Throwing Specialization",
-    "ability_throw",
+    "Combat Potency",
+    "inv_weapon_shortblade_38",
     [
-      "Increases your attack speed with Throwing Weapons by ",
-      "% and gives your hits from Throwing Weapons a ",
-      "% chance to add a combo point.",
+      "Gives your successful off-hand melee attacks a ",
+      "% chance to generate 15 Energy.",
     ],
     2,
-    [
-      [15, 30],
-      [25, 50],
-    ],
+    [[10, 20]],
     null,
     null,
     null,
