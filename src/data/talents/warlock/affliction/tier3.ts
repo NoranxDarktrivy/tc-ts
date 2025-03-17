@@ -16,22 +16,17 @@ const tier3 = [
     "Amplify Affliction",
     "spell_shadow_contagion",
     [
-      "Increases the effect of your next damage over time or drain effect by 100%. Lasts 30 sec.",
+      "Increases the effect of your next Curse of Weakness or Curse of Agony by 50%, or your next Curse of Exhaustion by 20%. Lasts 30 sec.",
     ],
     1,
     [[]],
-    null,
-    null,
+    [{ x: null, y: null }],
+    [{ x: 4, y: 2 }],
     null,
     null,
     "Instant",
     "3 min cooldown",
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    ["D2"]
   ),
   null,
 ];

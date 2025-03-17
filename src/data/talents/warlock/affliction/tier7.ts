@@ -6,7 +6,7 @@ const tier7 = [
     "Dark Pact",
     "spell_shadow_darkritual",
     [
-      "Drains up to 520 mana from your Demon over 12 sec, increasing your spell damage by 50% of the mana drained over time.",
+      "Drains 150 of your pet's Mana, returning 100% to you and increasing the damage of your next damage over time or drain spell by 20%.",
     ],
     1,
     [[]],

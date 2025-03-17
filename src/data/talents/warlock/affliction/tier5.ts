@@ -4,10 +4,7 @@ const tier5 = [
   new Talent(
     "Gloom",
     "spell_shadow_animatedead",
-    [
-      "Reduces the chance your damage over time effects are dispelled by ",
-      "%.",
-    ],
+    ["Reduces the chance your affliction spells are dispelled by ", "%."],
     2,
     [[15, 30]],
     null,
@@ -47,7 +44,7 @@ const tier5 = [
     ],
     1,
     [[1]],
-    null,
+    [{ x: 2, y: 2 }],
     [{ x: 4, y: 3 }],
     "8% of base mana",
     "30 yd range",
