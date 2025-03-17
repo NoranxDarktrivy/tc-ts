@@ -7,25 +7,10 @@ const tier5 = [
     [
       "Increases the damage you deal with Two-Handed melee weapons by ",
       "% and increases your spell damage by ",
-      "% of your attack power while wielding Two-Handed melee weapons.",
+      "%.",
     ],
     3,
-    [
-      [2, 4, 6],
-      [10, 20, 30],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    [[2, 4, 6]]
   ),
   null,
   new Talent(

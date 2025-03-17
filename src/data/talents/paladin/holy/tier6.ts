@@ -23,9 +23,28 @@ const tier6 = [
   new Talent(
     "Holy Power",
     "spell_holy_power",
-    ["Increases the critical effect chance of your Holy spells by ", "%."],
+    [
+      "Increases the critical effect chance of your Holy spells by ",
+      "% and increases your spell damage by up to ",
+      "% of your bonus healing.",
+    ],
     5,
-    [[1, 2, 3, 4, 5]]
+    [
+      [1, 2, 3, 4, 5],
+      [10, 20, 30, 40, 50],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   null,
 ];
