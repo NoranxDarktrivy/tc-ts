@@ -22,18 +22,16 @@ const tier3 = [
     [[2, 4, 6]]
   ),
   new Talent(
-    "Wizard Armor",
-    "spell_arcane_prismaticcloak",
-    [
-      "Increases your resistance to all magic by 10 and allows 30% of your mana regeneration to continue while casting. This effect is increased to up to 100% the lower your mana. Only one type of Armor spell can be active on the Mage at any time. Replaces Mage Armor. Lasts 30 min.",
-    ],
+    "Hunger For Mana",
+    "spell_shadow_manafeed",
+    ["Increases your mana gained from all sources by 10%."],
     1,
     [[]],
     [{ x: null, y: null }],
     [{ x: 4, y: 2 }],
-    "170 Mana",
     null,
-    "Instant",
+    null,
+    null,
     null,
     ["D2"],
     {

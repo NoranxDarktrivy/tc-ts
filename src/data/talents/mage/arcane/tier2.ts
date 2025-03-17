@@ -4,24 +4,9 @@ const tier2 = [
   new Talent(
     "Wand Specialization",
     "inv_wand_01",
-    [
-      "When you deal damage with your wand, you have ",
-      "% chance to return 100% of the damage dealt as mana to you.",
-    ],
+    ["Increases your damage with wands by ", "%."],
     2,
-    [[10, 20]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    [[13, 25]]
   ),
   new Talent(
     "Magic Absorbtion",
@@ -33,8 +18,8 @@ const tier2 = [
     ],
     2,
     [
-      [0.5, 1],
-      [2, 4],
+      [0.3, 0.5],
+      [3, 5],
     ],
     null,
     null,
