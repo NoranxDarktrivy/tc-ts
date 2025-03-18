@@ -46,28 +46,7 @@ const tier3 = [
     null,
     ["D1"]
   ),
-  new Talent(
-    "Thunder Strike",
-    "spell_nature_thunderclap",
-    [
-      "Increases the damage of your Thunder Clap by ",
-      "% when hitting only one target.",
-    ],
-    3,
-    [[100, 200, 300]],
-    [{ x: 1, y: 3 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier3;

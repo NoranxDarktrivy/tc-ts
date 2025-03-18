@@ -5,13 +5,13 @@ const tier3 = [
     "Exculpation",
     "spell_shadow_soulleech_2",
     [
-      "Increases your bonus healing by ",
+      "Increases your hit chance by ",
       "% and increases your spell damage by up to ",
       "% of your bonus healing.",
     ],
     2,
     [
-      [2, 4],
+      [1, 2],
       [25, 50],
     ],
     null,

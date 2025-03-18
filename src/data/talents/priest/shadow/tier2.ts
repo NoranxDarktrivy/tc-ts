@@ -25,14 +25,7 @@ const tier2 = [
     "spell_shadow_shadowwordpain",
     ["Increases the duration of Shadow Word: Pain by ", " sec."],
     2,
-    [[3, 6]],
-    null,
-    [{ x: 2, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    ["D1"]
+    [[3, 6]]
   ),
   new Talent(
     "Shadow Focus",
