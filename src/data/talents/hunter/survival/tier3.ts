@@ -50,5 +50,26 @@ export default [
     "5 min cooldown",
     ["D2"]
   ),
-  null,
+  new Talent(
+    "Untamed",
+    "spell_nature_dryaddispelmagic",
+    [
+      "Increases your Arcane, Fire and Nature damage by up to ",
+      "% of your attack power.",
+    ],
+    3,
+    [[10, 20, 30]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
 ];

@@ -39,11 +39,11 @@ const tier4 = [
     [{ x: 1, y: 2 }]
   ),
   new Talent(
-    "Combat Potency",
-    "inv_weapon_shortblade_38",
+    "Brutal Assault",
+    "spell_shadow_deathpact",
     [
-      "Gives your successful off-hand melee attacks a ",
-      "% chance to generate 15 Energy.",
+      "Gives your abilities that add combo points a ",
+      "% chance to add an additional combo point.",
     ],
     2,
     [[10, 20]],

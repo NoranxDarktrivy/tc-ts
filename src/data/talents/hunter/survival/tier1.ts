@@ -1,28 +1,25 @@
 import { Talent } from "../../Classes";
 
 export default [
-  null,
   new Talent(
-    "Untamed",
-    "spell_nature_dryaddispelmagic",
+    "Monster Slaying",
+    "inv_misc_head_dragon_black",
     [
-      "Increases your Arcane, Fire and Nature damage by up to ",
-      "% of your attack power.",
+      "Increases all damage caused against Beasts, Giants and Dragonkin targets by 3% and increases critical damage caused against Beasts, Giants and Dragonkin targets by an additional ",
+      "%.",
     ],
-    5,
-    [[10, 20, 30, 40, 50]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    3,
+    [[1, 2, 3]]
+  ),
+  new Talent(
+    "Humanoid Slaying",
+    "spell_holy_prayerofhealing",
+    [
+      "Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional ",
+      "%.",
+    ],
+    3,
+    [[1, 2, 3]]
   ),
   new Talent(
     "Deflection",

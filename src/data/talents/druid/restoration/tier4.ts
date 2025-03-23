@@ -5,7 +5,10 @@ const tier4 = [
   new Talent(
     "Tranquil Spirit",
     "spell_holy_elunesgrace",
-    ["Reduces the mana cost of your healing spells by ", "%."],
+    [
+      "Reduces the mana cost of your Healing Touch and Tranquility spells by ",
+      "%.",
+    ],
     5,
     [[2, 4, 6, 8, 10]],
     [{ x: null, y: null }],
