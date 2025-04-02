@@ -15,37 +15,14 @@ export default [
     "6 sec cooldown"
   ),
   new Talent(
-    "Stinging Shot",
-    "ability_hunter_potentvenom",
+    "Improved Arcane Shot",
+    "ability_impalingbolt",
     [
-      <>
-        Your Arcane Shot grants an additional effect based on the current Sting
-        on your target.
-        <br />
-        <br />
-        Serpent Sting and Wyvern Sting: deals nature damage to the target equal
-        to{" "}
-      </>,
-      <>
-        % of the sting's total damage.
-        <br />
-        <br />
-        Viper Sting: restores{" "}
-      </>,
-      <>
-        % of your base mana.
-        <br />
-        <br />
-        Scorpid Sting: also decrease the target's armor by{" "}
-      </>,
-      <>% for the duration.</>,
+      "Your ranged attacks reduce the cooldown of your Arcane Shot by ",
+      " sec.",
     ],
-    3,
-    [
-      [7, 14, 20],
-      [7, 14, 20],
-      [4, 7, 10],
-    ],
+    5,
+    [[0.2, 0.4, 0.6, 0.8, 1]],
     null,
     null,
     null,
@@ -53,13 +30,23 @@ export default [
     null,
     null,
     null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    { isNew: false, isChanged: true, isMoved: false }
   ),
-  null,
+  new Talent(
+    "Improved Scorpid Sting",
+    "ability_hunter_criticalshot",
+    ["Increases the effect of your Scorpid Sting by ", "%."],
+    2,
+    [[10, 20]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: true }
+  ),
   new Talent(
     "Hawk Eye",
     "ability_townwatch",

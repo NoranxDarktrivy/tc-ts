@@ -1,7 +1,23 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  null,
+  new Talent(
+    "Fear Ward",
+    "spell_holy_excorcism",
+    [
+      "Wards the friendly target against Fear. The next Fear effect used against the target will fail, using up the ward. Lasts 10 min.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "100 Mana",
+    "30 yd range",
+    "Instant",
+    "30 sec cooldown",
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   new Talent(
     "Mental Strength",
     "spell_nature_enchantarmor",
@@ -20,35 +36,21 @@ const tier5 = [
   new Talent(
     "Divine Spirit",
     "spell_holy_divinespirit",
-    ["Holy power infuses the target, increasing their spirit by 17."],
+    [
+      "Holy power infuses the target, increasing their spirit by 17 and increasing their spell damage by 10% of their total Spirit.",
+    ],
     1,
     [[]],
     [{ x: 2, y: 2 }],
-    [{ x: 4, y: 3 }],
+    null,
     "70 Mana",
     "30 yd range",
     "Instant",
     null,
-    ["R1"]
+    null,
+    { isNew: false, isChanged: true, isMoved: false }
   ),
-  new Talent(
-    "Improved Divine Spirit",
-    "spell_holy_divinespirit",
-    [
-      "Your Divine Spirit and Prayer of Spirit spells also increase the target's spell damage and healing by an amount equal to ",
-      "% of their total Spirit.",
-    ],
-    2,
-    [[5, 10]],
-    [{ x: 4, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier5;

@@ -17,11 +17,14 @@ export default [
     { isNew: false, isChanged: false, isMoved: true }
   ),
   new Talent(
-    "Improved Arcane Shot",
-    "ability_impalingbolt",
-    ["Reduces the cooldown of your Arcane Shot by ", " sec."],
+    "Resurgence",
+    "ability_mage_arcanebarrage",
+    [
+      "When you deal Arcane damage with one of your abilities, you gain mana equal to ",
+      "% of the damage dealt.",
+    ],
     2,
-    [[0.5, 1]],
+    [[50, 100]],
     null,
     null,
     null,
@@ -29,7 +32,7 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: true }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
     "Mortal Shots",
@@ -46,19 +49,5 @@ export default [
     null,
     { isNew: false, isChanged: false, isMoved: true }
   ),
-  new Talent(
-    "Improved Scorpid Sting",
-    "ability_hunter_criticalshot",
-    ["Increases the effect of your Scorpid Sting by ", "%."],
-    2,
-    [[8, 15]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: false, isChanged: true, isMoved: true }
-  ),
+  null,
 ];
