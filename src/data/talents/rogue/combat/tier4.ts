@@ -38,24 +38,7 @@ const tier4 = [
     [[10, 20, 30, 40, 50]],
     [{ x: 1, y: 2 }]
   ),
-  new Talent(
-    "Brutal Assault",
-    "spell_shadow_deathpact",
-    [
-      "Gives your abilities that add combo points a ",
-      "% chance to add an additional combo point.",
-    ],
-    2,
-    [[10, 20]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
+  null,
 ];
 
 export default tier4;

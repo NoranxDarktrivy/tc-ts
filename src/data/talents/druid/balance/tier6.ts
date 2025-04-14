@@ -7,10 +7,10 @@ const tier6 = [
     "spell_nature_naturesblessing",
     [
       "When you gain the Nature's Grace effect, party members within 30 yards have a ",
-      "% chance to gain the Nature's Grace effect as well.",
+      "% chance to gain the Nature's Grace effect as well. This effect has a 5 sec cooldown.",
     ],
     2,
-    [[25, 50]],
+    [[50, 100]],
     [{ x: 4, y: 1 }],
     null,
     null,

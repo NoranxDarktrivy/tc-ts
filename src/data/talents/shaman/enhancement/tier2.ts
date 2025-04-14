@@ -20,22 +20,17 @@ const tier2 = [
     "ability_thunderbolt",
     [
       "Increases your chance to get a critical strike with weapon attacks by ",
-      "% and increases your spell damage by ",
-      "% of your attack power.",
+      "%.",
     ],
     5,
-    [
-      [1, 2, 3, 4, 5],
-      [6, 12, 18, 24, 30],
-    ],
+    [[1, 2, 3, 4, 5]],
     [{ x: null, y: null }],
     [{ x: 3, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D2"],
-    { isNew: false, isChanged: true, isMoved: false }
+    ["D2"]
   ),
   new Talent(
     "Improved Ghost Wolf",

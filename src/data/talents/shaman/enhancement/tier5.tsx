@@ -5,15 +5,23 @@ const tier5 = [
     "Improved Weapon Totems",
     "spell_fire_enchantweapon",
     [
-      "Increases the melee attack power bonus of your Windfury Totem by ",
-      "% and increases the damage caused by your Flametongue Totem by ",
+      "Causes your Windfury Totem to also increase melee attack speed by ",
+      "% and your Flametongue Totem to increase spell damage by ",
       "%.",
     ],
     2,
     [
-      [15, 30],
-      [6, 12],
-    ]
+      [2, 4],
+      [2, 4],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
     "Elemental Weapons",

@@ -57,14 +57,10 @@ export default [
     "inv_sword_05",
     [
       "Increases the damage you deal with melee attacks and abilities by ",
-      "% and reduces the mininum range of your Stings by ",
-      " yards.",
+      "%.",
     ],
-    2,
-    [
-      [3, 6],
-      [4, 8],
-    ],
+    3,
+    [[3, 6, 9]],
     null,
     null,
     null,

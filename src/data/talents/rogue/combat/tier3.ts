@@ -2,11 +2,21 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Endurance",
-    "spell_shadow_shadowward",
-    ["Reduces the cooldown of your Evasion and Sprint abilities by ", " sec."],
-    2,
-    [[45, 90]]
+    "Shiv",
+    "inv_throwingknife_04",
+    [
+      "Performs an instant off-hand weapon attack that automatically applies the poison from your off-hand weapon to the target. Slower weapons require more Energy. Awards 1 combo point.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "20 Energy",
+    "Melee range",
+    "Instant",
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
     "Riposte",
