@@ -17,7 +17,28 @@ const tier5 = [
       },
     ]
   ),
-  null,
+  new Talent(
+    "Improved Immolate",
+    "spell_fire_immolation",
+    [
+      "Increases the initial damage of your Immolate by ",
+      "% and an additional ",
+      "% if the target is already affected by Immolate.",
+    ],
+    5,
+    [
+      [6, 12, 18, 24, 30],
+      [6, 12, 18, 24, 30],
+    ],
+    [{ x: null, y: null }],
+    [{ x: 6, y: 1 }],
+    null,
+    null,
+    null,
+    null,
+    ["D2"],
+    { isNew: false, isChanged: true, isMoved: false }
+  ),
   new Talent(
     "Ruin",
     "spell_shadow_shadowwordpain",

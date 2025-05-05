@@ -59,25 +59,7 @@ const tier3 = [
     null,
     ["D2"]
   ),
-  new Talent(
-    "Destructive Reach",
-    "spell_shadow_corpseexplode",
-    ["Increases the range of your Destruction spells by ", "%."],
-    2,
-    [[10, 20]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: false,
-      isMoved: true,
-    }
-  ),
+  null,
 ];
 
 export default tier3;

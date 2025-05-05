@@ -10,7 +10,7 @@ const tier6 = [
       "% chance to gain the Nature's Grace effect as well. This effect has a 5 sec cooldown.",
     ],
     2,
-    [[50, 100]],
+    [[25, 50]],
     [{ x: 4, y: 1 }],
     null,
     null,
