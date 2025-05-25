@@ -2,18 +2,14 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Piercing Chill",
-    "spell_frost_piercing-chill",
+    "Brain Freeze",
+    "ability_mage_brainfreeze",
     [
-      "Your Frostbolt criticals apply the chill effect to ",
-      " additional nearby target(s). In addition, your chill effects also reduce the attack speed of the target by ",
-      "%.",
+      "Gives your Chill effects a ",
+      "% chance to increase the damage of your next Fire or Arcane damage spell by 70%.",
     ],
     2,
-    [
-      [1, 2],
-      [5, 10],
-    ],
+    [[10, 20]],
     null,
     null,
     null,

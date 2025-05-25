@@ -13,46 +13,31 @@ const tier5 = [
   ),
   null,
   new Talent(
-    "Primal Aggression",
-    "ability_druid_primalagression",
+    "Adaptive instincts",
+    "ability_druid_mastershapeshifter",
     [
-      "You critical strikes while in Bear or Dire Bear form decrease the cooldown of your Frenzied Regeneration by ",
-      " sec and your critical strikes from Cat Form abilities decrease the cooldown of your Tiger's Fury by ",
-      " sec.",
-    ],
-    2,
-    [
-      [5, 10],
-      [2, 4],
-    ],
-    [{ x: 3, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
-  new Talent(
-    "Faerie Fire (Feral)",
-    "spell_nature_faeriefire",
-    [
-      "Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.",
+      <>
+        When activated, Grants you 30% spell damage and healing when in caster
+        form, 30% increased health when in Bear Form or Dire Bear Form, or 50%
+        energy regeneration when in Cat Form. Lasts 15 sec.
+      </>,
     ],
     1,
     [[]],
     null,
     null,
-    "30 yd range",
+    null,
     null,
     "Instant",
-    "6 sec cooldown"
+    "5 min cooldown",
+    null,
+    {
+      isChanged: false,
+      isMoved: false,
+      isNew: true,
+    }
   ),
+  null,
 ];
 
 export default tier5;

@@ -69,7 +69,7 @@ const tier5 = [
     "Totemic Fury",
     "spell_fire_totemofwrath",
     [
-      "Your critical strikes with melee attacks increase the effect of your totems that affect friendly targets by 30% for 8 sec and reduce the cooldown of your totems that are on cooldown by 1 sec.",
+      "Your critical strikes with melee attacks increase the effect of your totems that affect friendly targets andby 30% for 8 sec and reduce the cooldown of your totems that are on cooldown by 1 sec.",
     ],
     1,
     [[]],

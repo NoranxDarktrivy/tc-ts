@@ -2,6 +2,7 @@ export default {
   title: "Druid",
   content: [
     "Tiger’s Fury reworked: now returns 50 energy and increases the damage of your next ability while in cat form by 25%. 30 sec cooldown.",
+    "Faerie Fire no longer costs mana, now has a 6 second cooldown and can be used in all forms.",
     "Cat Form now has a separate action bar when prowling.",
     "Combo Points will no longer be removed upon switching targets.",
     "Swipe now scales with attack power.",

@@ -27,12 +27,12 @@ const tier3 = [
     1,
     [[]],
     null,
-    null,
+    [{ x: 3, y: 2 }],
     "Instant",
     null,
     null,
     null,
-    null,
+    ["D1"],
     { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(

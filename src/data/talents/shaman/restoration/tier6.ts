@@ -1,20 +1,22 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
+  null,
+  null,
   new Talent(
-    "Telluric Currents",
-    "spell_shaman_tidalwaves",
+    "Purification",
+    "spell_frost_wizardmark",
     [
-      "Causes your Lightning spells to restore mana equal to ",
-      "% of the damage dealt and increases your spell damage by up to ",
+      "Increases the effectiveness of your healing spells by ",
+      "%. In addition, increases your spell damage and attack power by up to ",
       "% of your bonus healing.",
     ],
-    2,
+    5,
     [
+      [2, 4, 6, 8, 10],
       [20, 40],
-      [25, 50],
     ],
-    [{ x: 3, y: 2 }],
+    [{ x: 2, y: 2 }],
     null,
     null,
     null,
@@ -22,18 +24,10 @@ const tier6 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     }
-  ),
-  null,
-  new Talent(
-    "Purification",
-    "spell_frost_wizardmark",
-    ["Increases the effectiveness of your healing spells by ", "%."],
-    5,
-    [[2, 4, 6, 8, 10]]
   ),
   null,
 ];
