@@ -4,11 +4,7 @@ const tier5 = [
   new Talent(
     "Two-Handed Weapon Specialization",
     "inv_hammer_04",
-    [
-      "Increases the damage you deal with Two-Handed melee weapons by ",
-      "% and increases your spell damage by ",
-      "%.",
-    ],
+    ["Increases the damage you deal with Two-Handed melee weapons by ", "%."],
     3,
     [[2, 4, 6]]
   ),

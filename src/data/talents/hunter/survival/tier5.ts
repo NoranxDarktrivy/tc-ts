@@ -1,7 +1,23 @@
 import { Talent } from "../../Classes";
 
 export default [
-  null,
+  new Talent(
+    "Wyvern Sting",
+    "inv_spear_02",
+    [
+      "A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes 300 Nature damage over 6 sec. Only one Sting per Hunter can be active on the target at a time.",
+    ],
+    1,
+    [[]],
+    [{ x: 4, y: 1 }],
+    null,
+    "115 Mana",
+    "8 - 35 yd range",
+    "Instant",
+    "1 min cooldown",
+    null,
+    { isNew: false, isChanged: true, isMoved: true }
+  ),
   new Talent(
     "Killer Instinct",
     "spell_holy_blessingofstamina",
