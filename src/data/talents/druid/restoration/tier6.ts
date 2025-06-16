@@ -2,14 +2,18 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Improved Innervate",
-    "spell_nature_lightning",
+    "Abundance",
+    "ability_druid_naturalperfection",
     [
-      "When you cast Innervate on a friendly target, you also receive Innervate at ",
-      "% effectiveness.",
+      "Reduces the mana cost of Wrath by ",
+      "% and each time you deal damage with Wrath you have a ",
+      "% chance to reduce the cooldown of your Innervate by 2 sec.",
     ],
     2,
-    [[50, 100]],
+    [
+      [50, 100],
+      [50, 100],
+    ],
     null,
     null,
     null,

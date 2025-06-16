@@ -25,28 +25,6 @@ const tier4 = [
     }
   ),
   new Talent(
-    "Improved Water Shield",
-    "ability_shaman_watershield",
-    [
-      "Gives your melee attacks a ",
-      "% chance to consume one of your Water Shield globes.",
-    ],
-    2,
-    [[15, 30]],
-    [{ x: 2, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
-  new Talent(
     "Tidal Mastery",
     "spell_nature_tranquility",
     [
@@ -56,6 +34,7 @@ const tier4 = [
     5,
     [[1, 2, 3, 4, 5]]
   ),
+  null,
 ];
 
 export default tier4;

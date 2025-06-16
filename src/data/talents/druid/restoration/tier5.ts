@@ -23,28 +23,10 @@ const tier5 = [
   new Talent(
     "Gift of Nature",
     "spell_nature_protectionformnature",
-    [
-      "Increases the effect of all healing spells by ",
-      "%. In addition, increases your spell damage and attack power by up to ",
-      "% of your bonus healing.",
-    ],
+    ["Increases the effect of all healing spells by ", "%."],
     5,
-    [
-      [2, 4, 6, 8, 10],
-      [20, 40],
-    ],
-    [{ x: 2, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    [[2, 4, 6, 8, 10]],
+    [{ x: 2, y: 2 }]
   ),
   new Talent(
     "Revive",
