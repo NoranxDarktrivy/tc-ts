@@ -6,7 +6,7 @@ const tier5 = [
     "Nature's Grace",
     "spell_nature_naturesblessing",
     [
-      "All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec and reduces its mana cost by 50%.",
+      "All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec.",
     ],
     1,
     [[1]],
@@ -16,8 +16,7 @@ const tier5 = [
     null,
     null,
     null,
-    ["D1"],
-    { isNew: false, isChanged: true, isMoved: false }
+    ["D1"]
   ),
   new Talent(
     "Moonglow",
