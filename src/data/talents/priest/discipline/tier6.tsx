@@ -8,14 +8,26 @@ const tier6 = [
     "spell_nature_slowingtotem",
     [
       "Increases the critical strike chance of your offensive spells by ",
-      "% and your spell damage by ",
+      "% and increases the critical strike damage of your offensive spells by ",
       "%.",
     ],
     5,
     [
       [1, 2, 3, 4, 5],
-      [1, 2, 3, 4, 5],
-    ]
+      [20, 40, 60, 80, 100],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   null,
 ];
