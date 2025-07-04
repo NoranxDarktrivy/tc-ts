@@ -16,21 +16,22 @@ const tier2 = [
     ]
   ),
   new Talent(
-    "Thundering Strikes",
-    "ability_thunderbolt",
+    "Primal Devastation",
+    "classic_spell_fire_elementaldevastation",
     [
-      "Increases your chance to get a critical strike with weapon attacks by ",
-      "%.",
+      "Causes your offensive spell crits to increase your chance to get a critical strike with melee attacks by ",
+      "% for 10 sec.",
     ],
-    5,
-    [[1, 2, 3, 4, 5]],
-    [{ x: null, y: null }],
+    3,
+    [[3, 6, 9]],
+    [{ x: 0, y: 1 }],
     [{ x: 3, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
+    { isChanged: false, isNew: false, isMoved: true }
   ),
   new Talent(
     "Improved Ghost Wolf",

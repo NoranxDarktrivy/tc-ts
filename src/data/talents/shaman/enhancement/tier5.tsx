@@ -1,3 +1,4 @@
+import React from "react";
 import { Talent } from "../../Classes";
 
 const tier5 = [
@@ -29,33 +30,16 @@ const tier5 = [
     [
       <>
         Grants an additional effect to your weapon enhancements. <br />
+        <br /> Rockbiter: reduces physical damage taken by 10%. <br />
+        <br /> Flametongue: gives your Frameongue a 20% chance to strike twice.{" "}
         <br />
-        Rockbiter: reduces physical damage taken by{" "}
-      </>,
-      <>
-        %. <br />
+        <br /> Windfury: reduces the threat of your windfury attacks by 50%.
         <br />
-        Windfury: increases attack speed by{" "}
+        <br /> Frostbrand: increases the slow effect of your Frostbrand to 50%%.
       </>,
-      <>
-        %. <br />
-        <br />
-        Flametongue: increases spell damage by{" "}
-      </>,
-      <>
-        %. <br />
-        <br />
-        Frostbrand: reduces the mana cost of your spells by{" "}
-      </>,
-      "%.",
     ],
-    3,
-    [
-      [4, 7, 10],
-      [4, 7, 10],
-      [4, 7, 10],
-      [4, 7, 10],
-    ],
+    1,
+    [[]],
     [{ x: null, y: null }],
     [{ x: 6, y: 1 }],
     null,
@@ -66,13 +50,18 @@ const tier5 = [
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
-    "Totemic Fury",
-    "spell_fire_totemofwrath",
+    "Mental Quickness",
+    "spell_nature_mentalquickness",
     [
-      "Your critical strikes with melee attacks increase the effect of your totems that affect friendly targets andby 30% for 8 sec and reduce the cooldown of your totems that are on cooldown by 1 sec.",
+      "Reduces the mana cost of your instant cast Shaman spells by ",
+      "% and increases your spell power by an amount equal to ",
+      "% of your attack power.",
     ],
-    1,
-    [[]],
+    3,
+    [
+      [2, 4, 6],
+      [10, 20, 30],
+    ],
     null,
     null,
     null,
@@ -80,11 +69,7 @@ const tier5 = [
     null,
     null,
     null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   null,
 ];

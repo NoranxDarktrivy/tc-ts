@@ -25,6 +25,28 @@ const tier4 = [
     }
   ),
   new Talent(
+    "Resurgence",
+    "spell_shaman_tidalwaves",
+    [
+      "Gives your critical strikes with melee attacks a ",
+      "% chance to consume a water shield orb. This effect has a 1 second cooldown",
+    ],
+    2,
+    [[50, 100]],
+    [{ x: 2, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+  new Talent(
     "Tidal Mastery",
     "spell_nature_tranquility",
     [
@@ -34,7 +56,6 @@ const tier4 = [
     5,
     [[1, 2, 3, 4, 5]]
   ),
-  null,
 ];
 
 export default tier4;

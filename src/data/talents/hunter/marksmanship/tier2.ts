@@ -14,7 +14,7 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: false, isMoved: true }
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
     "Improved Arcane Shot",

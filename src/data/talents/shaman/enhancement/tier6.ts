@@ -4,18 +4,14 @@ const tier6 = [
   null,
   null,
   new Talent(
-    "Ancestral Fury",
-    "spell_nature_ancestralguardian",
+    "Totemic Fury",
+    "spell_fire_totemofwrath",
     [
-      "Increases your attack power by ",
-      "% and increases your spell damage by up to ",
-      "% of your attack power.",
+      "Gives your critical strikes with melee attacks a ",
+      "% chance to increase the effect of your totems that affect friendly targets andby 30% for 8 sec and reduce the cooldown of your totems that are on cooldown by 1 sec.",
     ],
     5,
-    [
-      [2, 4, 6, 8, 10],
-      [6, 12, 18, 24, 30],
-    ],
+    [[10, 20, 30, 40, 50]],
     null,
     null,
     null,
@@ -23,7 +19,11 @@ const tier6 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
   null,
 ];
