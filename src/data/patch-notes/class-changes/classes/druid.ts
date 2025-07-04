@@ -1,6 +1,7 @@
 export default {
   title: "Druid",
   content: [
+    "New ability: Lacerate: Lacerates the enemy target, dealing damage and bleeds the target over 15 sec and causing a high amount of threat. This effect stacks up to 5 times on the same target",
     "Tiger’s Fury reworked: now returns 50 energy and increases the damage of your next ability while in cat form by 25%. 30 sec cooldown.",
     "Faerie Fire no longer costs mana, now has a 6 second cooldown and can be used in all forms.",
     "Cat Form now has a separate action bar when prowling.",
