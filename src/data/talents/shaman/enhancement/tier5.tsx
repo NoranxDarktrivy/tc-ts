@@ -31,7 +31,7 @@ const tier5 = [
       <>
         Grants an additional effect to your weapon enhancements. <br />
         <br /> Rockbiter: reduces physical damage taken by 10%. <br />
-        <br /> Flametongue: gives your Frameongue a 20% chance to strike twice.{" "}
+        <br /> Flametongue: gives your Frameongue a 20% chance to strike twice.
         <br />
         <br /> Windfury: reduces the threat of your windfury attacks by 50%.
         <br />

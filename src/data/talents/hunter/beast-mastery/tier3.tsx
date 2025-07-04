@@ -7,6 +7,8 @@ const tier3 = [
     "ability_hunter_aspectmastery",
     [
       <>
+        Grants an additional effect to your aspects. <br />
+        <br />
         Aspect of the Viper - Reduces the damage penalty by 10%. <br />
         <br /> Aspect of the Monkey - Reduces the damage done to you while
         active by 5%.
