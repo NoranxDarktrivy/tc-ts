@@ -2,19 +2,20 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Icy Veins",
-    "spell_frost_coldhearted",
+    "Brain Freeze",
+    "ability_mage_brainfreeze",
     [
-      "Hastens your spellcasting, increasing spell casting speed by 20%. For the duration, your Frostbolt hits up to 5 targets affected by your Chill effects. Lasts 20 sec.",
+      "Your Frost damage spells with chilling effects have a ",
+      "% chance to increase the damage of your next Arcane Missiles, Fireball or Frostfire Bolt spell by 70%.",
     ],
-    1,
-    [[]],
+    2,
+    [[10, 20]],
     null,
     null,
-    "3% of base mana",
     null,
-    "Instant",
-    "3 min cooldown",
+    null,
+    null,
+    null,
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),

@@ -5,7 +5,7 @@ const tier4 = [
     "Hot Streak",
     "ability_mage_hotstreak",
     [
-      "When you score two critical hits in a row with Arcane Missiles, Fireball, Frostbolt or Scorch, you have a ",
+      "When you score two critical hits in a row with Arcane Missiles, Fireball, Frostbolt, Frostfire Bolt or Scorch, you have a ",
       "% chance to reduce the cast time of your next Pyroblast or Flamestrike spell by 3 sec. This effect lasts 10 sec.",
     ],
     2,
