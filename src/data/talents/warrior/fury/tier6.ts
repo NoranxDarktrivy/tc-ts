@@ -11,7 +11,7 @@ const tier6 = [
       "% for your next 3 swings after dealing a melee critical strike.",
     ],
     5,
-    [[10, 20, 30, 40, 50]],
+    [[10, 15, 20, 25, 30]],
     [{ x: 3, y: 2 }]
   ),
   null,

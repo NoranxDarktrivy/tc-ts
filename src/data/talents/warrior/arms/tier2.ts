@@ -34,9 +34,28 @@ const tier2 = [
   new Talent(
     "Improved Thunder Clap",
     "ability_thunderclap",
-    ["Reduces the rage cost of your thunder clap by ", " rage point."],
+    [
+      "Reduces the rage cost of your thunder clap by ",
+      " rage point and increases the damage of Thunder Clap by up to ",
+      "% when only hitting one target.",
+    ],
     3,
-    [[1, 2, 3]]
+    [
+      [1, 2, 4],
+      [60, 120, 180],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
 ];
 

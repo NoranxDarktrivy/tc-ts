@@ -1,32 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Demolition",
-    "inv_sword_11",
-    [
-      "Reduces the cost of your Sunder Armor by ",
-      " rage point. In addition, when you Sunder Armor, deal ",
-      "% weapon damage for each application of Sunder Armor on the target.",
-    ],
-    3,
-    [
-      [1, 2, 3],
-      [15, 30, 45],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   null,
   new Talent(
     "One-Handed Weapon Specialization",

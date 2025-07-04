@@ -25,13 +25,13 @@ const tier1 = [
     "inv_shield_06",
     [
       "Increases your chance to block by ",
-      "% and gives you a ",
-      "% chance to gain an additional rage point when a block occurs.",
+      "% and gives you ",
+      " additional rage points when a block occurs.",
     ],
     5,
     [
       [1, 2, 3, 4, 5],
-      [20, 40, 60, 80, 100],
+      [1, 2, 3, 4, 5],
     ],
     [{ x: null, y: null }],
     [{ x: 2, y: 1 }],
@@ -39,7 +39,12 @@ const tier1 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Iron Will",

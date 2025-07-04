@@ -23,7 +23,7 @@ const tier4 = [
       "% damage increase for 12 sec or a maximum of 12 swings after being the victim of a critical strike.",
     ],
     5,
-    [[6, 12, 18, 24, 30]],
+    [[5, 10, 15, 20, 25]],
     [{ x: null, y: null }],
     [{ x: 5, y: 2 }],
     null,

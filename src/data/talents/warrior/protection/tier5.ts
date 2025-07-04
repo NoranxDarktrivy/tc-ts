@@ -23,13 +23,33 @@ const tier5 = [
     ["D2"]
   ),
   new Talent(
+    "Devastate",
+    "inv_sword_11",
+    [
+      "Sunder the target's armor causing the Sunder Armor effect. In addition, causes 50% of weapon damage plus 9 for each application of Sunder Armor on the target. The Sunder Armor effect can stack up to 5 times.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "15 Rage",
+    "Melee Range",
+    "Instant",
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
+  new Talent(
     "Improved Shield Bash",
     "ability_warrior_shieldbash",
     ["Gives your Shield Bash a ", "% chance to silence the target for 2 sec."],
     2,
     [[50, 100]]
   ),
-  null,
 ];
 
 export default tier5;
