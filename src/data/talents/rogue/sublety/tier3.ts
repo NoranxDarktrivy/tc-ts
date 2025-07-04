@@ -6,7 +6,7 @@ const tier3 = [
     "Ghostly Strike",
     "spell_shadow_curse",
     [
-      "A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
+      "A strike that deals 125% weapon damage and increases your chance to dodge by 15% and causes you to ignore 15% of your target's armor for 7 sec. Awards 1 combo point.",
     ],
     1,
     [[]],
@@ -15,7 +15,13 @@ const tier3 = [
     "40 Energy",
     "Melee Range",
     "Instant",
-    "20 sec cooldown"
+    "20 sec cooldown",
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Initiative",
