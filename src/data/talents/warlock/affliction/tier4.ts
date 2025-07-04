@@ -19,28 +19,7 @@ const tier4 = [
     [[2, 4]]
   ),
   null,
-  new Talent(
-    "Malediction",
-    "spell_shadow_curseofachimonde",
-    [
-      "Increases the damage bonus effect of your Curse of the Elements spell by an additional ",
-      "%.",
-    ],
-    3,
-    [[1, 2, 3]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier4;

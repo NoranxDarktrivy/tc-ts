@@ -3,23 +3,23 @@ import { Talent } from "../../Classes";
 const tier7 = [
   null,
   new Talent(
-    "Dark Pact",
-    "spell_shadow_darkritual",
+    "Mass Corruption",
+    "spell_shadow_soulleech",
     [
-      "Drains 500 of your pet's Mana, returning 100% to you and increasing the damage of your next damage over time or drain spell by 20%.",
+      "Corrupts all enemies within the area, causing 436 Shadow damage over 18 sec.",
     ],
     1,
     [[]],
     null,
     null,
-    "40 yd range",
+    "472 mana",
+    "30 yd range",
+    "2 sec cast",
     null,
-    "Instant",
-    "1 min cooldown",
     null,
     {
-      isNew: false,
-      isChanged: true,
+      isNew: true,
+      isChanged: false,
       isMoved: false,
     }
   ),

@@ -44,26 +44,10 @@ const tier2 = [
     "spell_holy_magicalsentry",
     [
       "Increases the maximum Mana of your Imp, Succubus, Incubus, Void Walker and Felhunter by ",
-      "% and increases your maximum Mana by ",
       "%.",
     ],
-    3,
-    [
-      [5, 10, 15],
-      [1, 2, 3],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    5,
+    [[3, 6, 9, 12, 15]]
   ),
   new Talent(
     "Master Conjuror",

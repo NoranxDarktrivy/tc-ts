@@ -1,3 +1,4 @@
+import React from "react";
 import { Talent } from "../../Classes";
 
 const tier3 = [
@@ -16,72 +17,66 @@ const tier3 = [
     ]
   ),
   new Talent(
-    "Fel Domination",
-    "spell_nature_removecurse",
+    "Demonic Sacrifice",
+    "spell_shadow_psychicscream",
     [
-      "Your next Imp, Voidwalker, Succubus, Incubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%.",
+      <>
+        Sacrifices your demon to get an effect that lasts 30 min. Any demon
+        summoned cancels the effect. <br />
+        <br /> Imp: increases your Fire damage by 15%. <br />
+        <br /> Void Walker: Restores 3% of total Health every 4 sec.
+        <br />
+        <br />
+        Succubus/Incubus: increases your Shadow damage 15%. <br />
+        <br />
+        Felhunter: Restores 2% of total Mana every 4 sec.
+      </>,
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    "100 yd range",
+    null,
+    "Instant",
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    }
+  ),
+  new Talent(
+    "Unholy Power",
+    "spell_shadow_shadowworddominate",
+    [
+      "Increases the damage done by your Imp, Succubus, Incubus, Void Walker and Felhunter by 20%.",
     ],
     1,
     [[]],
     [{ x: null, y: null }],
-    [{ x: 3, y: 1 }],
-    "Instant",
-    "15 min cooldown",
+    [{ x: 5, y: 2 }],
     null,
     null,
-    ["D1"]
+    null,
+    null,
+    ["D3"],
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
+    }
   ),
   new Talent(
     "Fel Stamina",
     "spell_shadow_antishadow",
     [
       "Increases the maximum Health of your Imp, Succubus, Incubus, Void Walker and Felhunter by ",
-      "% and increases your maximum Health by ",
       "%.",
     ],
-    3,
-    [
-      [5, 10, 15],
-      [1, 2, 3],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
-  ),
-  new Talent(
-    "Fel Protection",
-    "spell_shadow_demonictactics",
-    [
-      "Increases the armor rating of your active demon by ",
-      "% and reduces area of effect damage taken by your active demon ",
-      "%.",
-    ],
-    3,
-    [
-      [10, 20, 30],
-      [20, 40, 60],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    5,
+    [[3, 6, 9, 12, 15]]
   ),
 ];
 

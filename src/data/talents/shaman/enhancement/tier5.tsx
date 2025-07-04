@@ -35,7 +35,7 @@ const tier5 = [
         <br />
         <br /> Windfury: reduces the threat of your windfury attacks by 50%.
         <br />
-        <br /> Frostbrand: increases the slow effect of your Frostbrand to 50%%.
+        <br /> Frostbrand: increases the slow effect of your Frostbrand to 50%.
       </>,
     ],
     1,
