@@ -6,7 +6,7 @@ const tier5 = [
     "ability_mage_brainfreeze",
     [
       "Your Frost damage spells with chilling effects have a ",
-      "% chance to increase the damage of your next Arcane Missiles, Fireball or Frostfire Bolt spell by 70%.",
+      "% chance to increase the damage of your next Arcane Missiles, Fireball Frostfire Bolt or Scorch spell by 70%.",
     ],
     2,
     [[10, 20]],
