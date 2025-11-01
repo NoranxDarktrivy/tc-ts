@@ -3,23 +3,20 @@ import { Talent } from "../../Classes";
 
 const tier3 = [
   new Talent(
-    "Aspect Mastery",
-    "ability_hunter_aspectmastery",
+    "Pathfinding",
+    "ability_mount_jungletiger",
     [
-      <>
-        Grants an additional effect to your aspects. <br />
-        <br />
-        Aspect of the Viper - Reduces the damage penalty by 10%. <br />
-        <br /> Aspect of the Monkey - Reduces the damage done to you while
-        active by 5%.
-        <br />
-        <br />
-        Aspect of the Hawk and Beast - Increases the attack power bonus by 30%.
-        <br />
-        <br />
-        Aspect of the Pack and Cheetah - Increases the movement speed by 10%.
-        <br />
-      </>,
+      "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by ",
+      "%.",
+    ],
+    2,
+    [[3, 6]]
+  ),
+  new Talent(
+    "Bestial Swiftness",
+    "ability_druid_dash",
+    [
+      "Increases your outdoor movement speed by 8% and increases the outdoor movement speed of your pets by 30%.",
     ],
     1,
     [[]],
@@ -30,14 +27,7 @@ const tier3 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
-  new Talent(
-    "Bestial Swiftness",
-    "ability_druid_dash",
-    ["Increases the outdoor movement speed of your pets by 30%."],
-    1,
-    [[]]
+    { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
     "Unleashed Fury",

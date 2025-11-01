@@ -5,7 +5,6 @@ export default {
     "Tiger’s Fury reworked: now returns 50 energy and increases the damage of your next ability while in cat form by 25%. 30 sec cooldown.",
     "Faerie Fire no longer costs mana, now has a 6 second cooldown and can be used in all forms.",
     "Cat Form now has a separate action bar when prowling.",
-    "Combo Points will no longer be removed upon switching targets.",
     "Swipe now scales with attack power.",
     "Frenzied Regeneration now heals based on the druid's total health.",
     "Several weapons that increase a druid's attack power while in cat, bear and dire bear forms have been added.",

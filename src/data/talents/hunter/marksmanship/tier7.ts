@@ -3,26 +3,20 @@ import { Talent } from "../../Classes";
 export default [
   null,
   new Talent(
-    "Scatter Shot",
-    "ability_golemstormbolt",
+    "Trueshot Aura",
+    "ability_trueshot",
     [
-      "A short-range shot that deals 50% weapon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used.",
+      "Increases the attack power of party members within 45 yards by 50. Lasts 30 min.",
     ],
     1,
     [[]],
+    [{ x: 4, y: 2 }],
     null,
+    "325 Mana",
     null,
-    "8% of base mana",
-    "15 yd range",
-    "30 sec cooldown",
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: false,
-      isMoved: true,
-    }
+    "Instant"
   ),
+  null,
   null,
   null,
 ];

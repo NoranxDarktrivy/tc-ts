@@ -15,11 +15,11 @@ export default [
     "6 sec cooldown"
   ),
   new Talent(
-    "Improved Scorpid Sting",
-    "ability_hunter_criticalshot",
-    ["Increases the effect of your Scorpid Sting by ", "%."],
-    3,
-    [[10, 20, 30]],
+    "Improved Serpent Sting",
+    "ability_hunter_quickshot",
+    ["Increases the damage done by your Serpent Sting by ", "%."],
+    2,
+    [[5, 10]],
     null,
     null,
     null,
@@ -27,23 +27,9 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: true }
+    { isNew: false, isChanged: true, isMoved: false }
   ),
-  new Talent(
-    "Mortal Shots",
-    "ability_piercedamage",
-    ["Increases your ranged critical strike damage bonus by ", "%."],
-    3,
-    [[10, 20, 30]],
-    [{ x: 0, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: false, isChanged: true, isMoved: true }
-  ),
+  null,
   new Talent(
     "Hawk Eye",
     "ability_townwatch",

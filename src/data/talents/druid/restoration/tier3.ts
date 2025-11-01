@@ -25,7 +25,7 @@ const tier3 = [
     "Insect Swarm",
     "spell_nature_insectswarm",
     [
-      "The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec. Insect Swarm's damage returns 14 mana to the caster. Can affect only one target at a time.",
+      "The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec.",
     ],
     1,
     [[1]],
@@ -34,7 +34,7 @@ const tier3 = [
     "45 Mana",
     "30 yd range",
     "Instant",
-    null,
+    "6 sec cooldown",
     ["D2"],
     {
       isNew: false,

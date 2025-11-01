@@ -19,14 +19,49 @@ const tier5 = [
     "Instant",
     "3 min cooldown"
   ),
-  null,
   new Talent(
     "Gift of Nature",
     "spell_nature_protectionformnature",
-    ["Increases the effect of all healing spells by ", "%."],
+    [
+      "Increases the effect of all healing spells by ",
+      "% and your nature damage spells by ",
+      "%.",
+    ],
     5,
-    [[2, 4, 6, 8, 10]],
-    [{ x: 2, y: 2 }]
+    [
+      [2, 4, 6, 8, 10],
+      [2, 4, 6, 8, 10],
+    ],
+    null,
+    [{ x: 6, y: 1 }],
+    null,
+    null,
+    null,
+    null,
+    ["D2"],
+    { isNew: false, isChanged: true, isMoved: false }
+  ),
+  new Talent(
+    "Improved Insect Swarm",
+    "spell_nature_insectswarm",
+    [
+      "Increases the damage of Insect Swarm by ",
+      "% and causes your Insect Swarm to return ",
+      "% of its damage as mana to the caster.",
+    ],
+    2,
+    [
+      [10, 20],
+      [10, 20],
+    ],
+    [{ x: 2, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
   ),
   new Talent(
     "Revive",

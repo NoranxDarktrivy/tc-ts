@@ -2,21 +2,6 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Swift Shots",
-    "ability_hunter_zenarchery",
-    ["Your Arcane Shot reduces the cooldown of your Rapid Fire by ", " sec."],
-    2,
-    [[2, 4]],
-    [{ x: 1, y: 1 }],
-    [{ x: null, y: null }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
-  new Talent(
     "Improved Arcane Shot",
     "ability_impalingbolt",
     [
@@ -25,30 +10,38 @@ export default [
     ],
     3,
     [[0.3, 0.6, 1]],
-    [{ x: null, y: null }],
-    [{ x: 1, y: 0 }],
     null,
     null,
     null,
     null,
-    ["L1"],
+    null,
+    null,
+    null,
     { isNew: false, isChanged: true, isMoved: true }
   ),
-  null,
   new Talent(
-    "Improved Concussive Shot",
-    "spell_frost_stun",
-    ["Gives your Concussive Shot a ", "% chance to stun the target for 3 sec."],
+    "Improved Hunter's Mark",
+    "ability_hunter_snipershot",
+    [
+      "Increases the Ranged Attack Power bonus of your Hunter's Mark spell by ",
+      "%.",
+    ],
     5,
-    [[4, 8, 12, 16, 20]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: false, isChanged: false, isMoved: true }
+    [[3, 6, 9, 12, 15]]
   ),
-  ,
+  new Talent(
+    "Lethal Shots",
+    "ability_searingarrow",
+    ["Increases your critical strike chance with ranged weapons by ", "%."],
+    5,
+    [[1, 2, 3, 4, 5]],
+    [{ x: null, y: null }],
+    [{ x: 3, y: 2 }],
+    null,
+    null,
+    null,
+    null,
+    ["D2"]
+  ),
+  null,
 ];

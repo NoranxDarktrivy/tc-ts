@@ -11,13 +11,7 @@ const tier4 = [
     ],
     5,
     [[2, 4, 6, 8, 10]],
-    [{ x: null, y: null }],
-    [{ x: 6, y: 1 }],
-    null,
-    null,
-    null,
-    null,
-    ["D3"]
+    [{ x: null, y: null }]
   ),
   null,
   new Talent(

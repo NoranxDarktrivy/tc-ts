@@ -13,19 +13,23 @@ const tier5 = [
   ),
   null,
   new Talent(
-    "Mangle",
-    "ability_druid_mangle2",
+    "Adaptive instincts",
+    "ability_druid_mastershapeshifter",
     [
-      "Mangle the target, inflicting damage and causing the target to take additional damage from bleed attacks for 12 sec.",
+      <>
+        When activated, Grants you 30% spell damage and healing when in caster
+        form, 30% increased health when in Bear Form or Dire Bear Form, or 50%
+        energy regeneration when in Cat Form. Lasts 15 sec.
+      </>,
     ],
     1,
     [[]],
     null,
     null,
-    "20 rage or 45 energy",
-    "Melee range",
-    "Instant",
     null,
+    null,
+    "Instant",
+    "5 min cooldown",
     null,
     {
       isChanged: false,
