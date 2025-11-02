@@ -26,7 +26,7 @@ const tier1 = [
     [
       "Increases your chance to block by ",
       "% and gives you ",
-      " additional rage points when a block occurs.",
+      " additional rage point(s) when a block occurs.",
     ],
     5,
     [

@@ -6,7 +6,7 @@ const tier7 = [
     "Bloodthirst",
     "spell_nature_bloodlust",
     [
-      "Instantly attacks the target, dealing damage equal to 30% of attack power. In addition, your next 5 melee attacks restore 50 health. Lasts 8 sec.",
+      "Instantly attacks the target, dealing damage equal to 45% of attack power. In addition, your next 5 melee attacks restore 10 health. Lasts 8 sec.",
     ],
     1,
     [[]],
@@ -16,12 +16,7 @@ const tier7 = [
     "Melee Range",
     "Instant cast",
     "6 sec cooldown",
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+    null
   ),
   null,
   null,

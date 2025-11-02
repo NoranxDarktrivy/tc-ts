@@ -1,7 +1,25 @@
 import { Talent } from "../../Classes";
 
 const tier2 = [
-  null,
+  new Talent(
+    "Fel Focus",
+    "spell_shadow_charm",
+    ["Increases the chance to hit by you and your demon by ", "%. "],
+    3,
+    [[1, 2, 3]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
+  ),
   new Talent(
     "Improved Shadow Bolt",
     "spell_shadow_shadowbolt",

@@ -13,28 +13,7 @@ const tier6 = [
     [[2, 4, 6, 8, 10]],
     [{ x: 4, y: 1 }]
   ),
-  // new Talent(
-  //   "Soul Tap",
-  //   "spell_shadow_charm",
-  //   [
-  //     "Grants party members within 40 yards ",
-  //     "% of the mana you gain when you Life Tap.",
-  //   ],
-  //   2,
-  //   [[3, 6]],
-  //   null,
-  //   null,
-  //   null,
-  //   null,
-  //   null,
-  //   null,
-  //   null,
-  //   {
-  //     isNew: true,
-  //     isChanged: false,
-  //     isMoved: false,
-  //   }
-  // ),
+
   null,
   null,
 ];

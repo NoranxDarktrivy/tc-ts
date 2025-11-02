@@ -2,20 +2,20 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Fel Armor",
-    "spell_shadow_felarmour",
+    "Unholy Frenzy",
+    "ability_creature_disease_05",
     [
-      "Surrounds the caster with fel energy, increasing spell power by 35. In addition, you regain 2% of your maximum health every 5 sec. Only one type of Armor spell can be active on the Warlock at any time. Lasts 30 min.",
+      "Increases the damage done by your active demon by 50%, but it loses 50% of its total health over 10 sec.",
     ],
     1,
     [[]],
-    [{ x: null, y: null }],
-    [{ x: 5, y: 0 }],
-    "28% of base mana",
+    null,
+    null,
+    "8% of base mana",
     null,
     "Instant",
+    "3 min cooldown",
     null,
-    ["D1"],
     {
       isNew: true,
       isChanged: false,
@@ -23,31 +23,45 @@ const tier5 = [
     }
   ),
   new Talent(
-    "Fel Domination",
-    "spell_nature_removecurse",
+    "Demonic Sacrifice",
+    "spell_shadow_psychicscream",
     [
-      "Your next Imp, Voidwalker, Succubus, Incubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%.",
+      <>
+        Sacrifices your demon to get an effect that lasts 30 min. Any demon
+        summoned cancels the effect. <br />
+        <br /> Imp: increases your Fire damage by 15%. <br />
+        <br /> Void Walker: Restores 3% of total Health every 4 sec.
+        <br />
+        <br />
+        Succubus/Incubus: increases your Shadow damage 15%. <br />
+        <br />
+        Felhunter: Restores 2% of total Mana every 4 sec.
+      </>,
     ],
     1,
     [[]],
-    [{ x: null, y: null }],
-    [{ x: 6, y: 1 }],
-    "Instant",
-    "15 min cooldown",
     null,
+    [{ x: 6, y: 1 }],
+    "100 yd range",
+    null,
+    "Instant",
     null,
     ["D2"]
   ),
   null,
   new Talent(
-    "Mana Feed",
-    "spell_shadow_manafeed",
+    "Fel Protection",
+    "spell_shadow_demonictactics",
     [
-      "When you gain mana from any source, your active demon gains ",
-      "% of the mana you gain.",
+      "Increases the armor rating of your active demon by ",
+      "% and reduces area of effect damage taken by your active demon ",
+      "%.",
     ],
     3,
-    [[30, 60, 90]],
+    [
+      [10, 20, 30],
+      [20, 40, 60],
+    ],
     null,
     null,
     null,
