@@ -42,7 +42,25 @@ const tier2 = [
       isMoved: false,
     }
   ),
-  null,
+  new Talent(
+    "Anticipation",
+    "spell_nature_mirrorimage",
+    ["Increases your dodge chance by ", "%."],
+    5,
+    [[1, 2, 3, 4, 5]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
+    }
+  ),
 ];
 
 export default tier2;

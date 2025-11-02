@@ -1,7 +1,24 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  null,
+  new Talent(
+    "Purification",
+    "spell_nature_giftofthewaterspirit",
+    [
+      "Whenever one of your water totems pulse, you have a ",
+      "% chance to reduce the mana cost of your next offensive spell by 100%.",
+    ],
+    3,
+    [[10, 20, 30]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   null,
   new Talent(
     "Purification",

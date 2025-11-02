@@ -33,7 +33,15 @@ const tier3 = [
       isChanged: false,
     }
   ),
-  null,
+  new Talent(
+    "Anticipation",
+    "spell_nature_mirrorimage",
+    ["Increases your change to dodge by ", "%."],
+    5,
+    [[1, 2, 3, 4, 5]],
+    null,
+    null
+  ),
 ];
 
 export default tier3;

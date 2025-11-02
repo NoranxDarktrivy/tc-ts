@@ -12,12 +12,12 @@ const tier1 = [
     5,
     [[1, 2, 3, 4, 5]],
     [{ x: null, y: null }],
-    [{ x: 1, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D1"],
+    null,
+    null,
     { isNew: false, isChanged: false, isMoved: true }
   ),
   new Talent(

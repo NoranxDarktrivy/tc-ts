@@ -8,8 +8,9 @@ const tier7 = [
     "spell_holy_sealofmight",
     [
       <>
-        Gives you an extra attack that deals Nature damage and grants your next
-        Shock spell an additional effect <br />
+        Gives you an extra attack that increases the damage of your next Shock
+        spell by 20% and grants your next Shock spell an additional effect.{" "}
+        <br />
         <br /> Earth Shock: Taunts the target to attack you.
         <br />
         <br /> Flame Shock: Increases the damage by 30%.

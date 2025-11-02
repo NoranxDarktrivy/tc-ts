@@ -24,7 +24,7 @@ const tier2 = [
     ],
     3,
     [[3, 6, 9]],
-    [{ x: 0, y: 1 }],
+    [{ x: null, y: null }],
     [{ x: 3, y: 1 }],
     null,
     null,
@@ -41,22 +41,11 @@ const tier2 = [
     [[1, 2]]
   ),
   new Talent(
-    "Improved Elemental Shields",
+    "Improved Lightning Shield",
     "spell_nature_lightningshield",
-    [
-      "Increases the number of your Lightning Shield and Water Shield orbs by ",
-      ".",
-    ],
+    ["Increases the damage done by your Lightning Shield orbs by ", "%."],
     3,
-    [[1, 2, 3]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
+    [[5, 10, 15]]
   ),
 ];
 

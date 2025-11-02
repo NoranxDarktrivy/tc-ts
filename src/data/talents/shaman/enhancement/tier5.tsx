@@ -30,16 +30,29 @@ const tier5 = [
     [
       <>
         Grants an additional effect to your weapon enhancements. <br />
-        <br /> Rockbiter: reduces physical damage taken by 10%. <br />
-        <br /> Flametongue: gives your Frameongue a 20% chance to strike twice.
-        <br />
-        <br /> Windfury: reduces the threat of your windfury attacks by 50%.
-        <br />
-        <br /> Frostbrand: increases the slow effect of your Frostbrand to 50%.
+        <br /> Rockbiter: reduces physical damage taken by{" "}
       </>,
+      <>
+        %. <br />
+        <br /> Flametongue: increases your fire damage by{" "}
+      </>,
+      <>
+        %. <br />
+        <br /> Windfury: reduces the threat of your windfury attacks by{" "}
+      </>,
+      <>
+        %. <br />
+        <br /> Frostbrand: increases the slow effect of your Frostbrand by{" "}
+      </>,
+      "%.",
     ],
-    1,
-    [[]],
+    3,
+    [
+      [3, 7, 10],
+      [7, 14, 20],
+      [17, 34, 50],
+      [6, 13, 20],
+    ],
     [{ x: null, y: null }],
     [{ x: 6, y: 1 }],
     null,
@@ -50,22 +63,17 @@ const tier5 = [
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
-    "Mental Quickness",
-    "spell_nature_mentalquickness",
+    "Shamanistic Rage",
+    "spell_nature_shamanrage",
     [
-      "Reduces the mana cost of your instant cast Shaman spells by ",
-      "% and increases your spell power by an amount equal to ",
-      "% of your attack power.",
+      "Reduces all damage taken by 30% and gives your successful melee attacks a chance to regenerate mana equal to 50% of your attack power. Lasts 15 sec.",
     ],
-    3,
-    [
-      [2, 4, 6],
-      [10, 20, 30],
-    ],
+    1,
+    [[]],
     null,
     null,
-    null,
-    null,
+    "Instant",
+    "2 min cooldown",
     null,
     null,
     null,
