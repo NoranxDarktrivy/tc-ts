@@ -33,7 +33,7 @@ const tier6 = [
       [2, 4, 6, 8, 10],
       [2, 4, 6, 8, 10],
     ],
-    [{ x: 2, y: 2 }],
+    null,
     null,
     null,
     null,
