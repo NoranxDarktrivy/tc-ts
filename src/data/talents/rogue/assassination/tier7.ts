@@ -6,7 +6,7 @@ const tier7 = [
     "Vigor",
     "spell_nature_earthbindtotem",
     [
-      "Increases your maximum Energy by 10. In addition, your abilities that add combo points return 10 Energy when cast on enemies below 35% health.",
+      "Increases your maximum Energy by 10. In addition, your abilities that add combo points restore 10 Energy when cast on enemies below 35% health.",
     ],
     1,
     [[]],
