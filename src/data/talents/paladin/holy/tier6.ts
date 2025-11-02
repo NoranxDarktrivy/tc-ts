@@ -25,13 +25,13 @@ const tier6 = [
     "spell_holy_power",
     [
       "Increases the critical effect chance of your Holy spells by ",
-      "% and increases your spell damage by up to ",
-      "% of your bonus healing.",
+      "% and increases your holy spell damage by ",
+      "%.",
     ],
     5,
     [
       [1, 2, 3, 4, 5],
-      [10, 20, 30, 40, 50],
+      [2, 4, 6, 8, 10],
     ],
     null,
     null,
