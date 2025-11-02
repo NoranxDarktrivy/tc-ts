@@ -1,7 +1,28 @@
 import { Talent } from "../../Classes";
 
 export default [
-  null,
+  new Talent(
+    "Ferocious Inspiration",
+    "ability_druid_mastershapeshifter",
+    [
+      "When your pet scores a critical hit, increases the movement speed of all party members by ",
+      "% and increases the damage dealt by all pets and summons by ",
+      "% for 10 sec.",
+    ],
+    2,
+    [
+      [4, 8],
+      [4, 8],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false }
+  ),
   null,
   new Talent(
     "Frenzy",

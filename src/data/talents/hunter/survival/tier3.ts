@@ -51,14 +51,14 @@ export default [
     ["D2"]
   ),
   new Talent(
-    "Untamed",
-    "spell_nature_dryaddispelmagic",
+    "Melee Specialization",
+    "inv_sword_05",
     [
-      "Increases your Arcane, Fire and Nature damage by up to ",
-      "% of your attack power.",
+      "Increases the damage you deal with melee attacks and abilities by ",
+      "%.",
     ],
     3,
-    [[10, 20, 30]],
+    [[3, 6, 9]],
     null,
     null,
     null,

@@ -18,8 +18,8 @@ export default [
     "Improved Serpent Sting",
     "ability_hunter_quickshot",
     ["Increases the damage done by your Serpent Sting by ", "%."],
-    2,
-    [[5, 10]],
+    5,
+    [[2, 4, 6, 8, 10]],
     null,
     null,
     null,
@@ -27,7 +27,7 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: false, isMoved: true }
   ),
   null,
   new Talent(
