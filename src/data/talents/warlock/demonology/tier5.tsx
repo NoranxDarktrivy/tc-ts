@@ -1,3 +1,4 @@
+import React from "react";
 import { Talent } from "../../Classes";
 
 const tier5 = [

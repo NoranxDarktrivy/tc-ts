@@ -3,10 +3,10 @@ import { Talent } from "../../Classes";
 export default [
   null,
   new Talent(
-    "Improved Steady Shot",
-    "ability_hunter_improvedsteadyshot",
+    "Improved Auto Shot",
+    "ability_whirlwind",
     [
-      "When you Steady Shot twice in a row, your ranged attack speed will be increased by ",
+      "When you Auto Shot thrice in a row, your critical strike chance will be increased by ",
       "% for 8 sec.",
     ],
     3,

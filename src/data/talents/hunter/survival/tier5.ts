@@ -2,21 +2,26 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Wyvern Sting",
-    "inv_spear_02",
+    "Untamed",
+    "spell_nature_dryaddispelmagic",
     [
-      "A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes 300 Nature damage over 6 sec. Only one Sting per Hunter can be active on the target at a time.",
+      "When you deal Arcane, Fire or Nature you have a ",
+      "% chance to increase the attack speed of nearby party members by 10% for 6 sec.",
     ],
-    1,
-    [[]],
+    2,
+    [[10, 20]],
     null,
     null,
-    "115 Mana",
-    "8 - 35 yd range",
-    "3 sec cast",
-    "2 min cooldown",
     null,
-    { isNew: false, isChanged: true, isMoved: true }
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    }
   ),
   new Talent(
     "Killer Instinct",

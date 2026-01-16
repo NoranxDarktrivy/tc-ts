@@ -19,6 +19,7 @@ const tier5 = [
     "Instant",
     "3 min cooldown"
   ),
+  null,
   new Talent(
     "Gift of Nature",
     "spell_nature_protectionformnature",
@@ -32,13 +33,13 @@ const tier5 = [
       [2, 4, 6, 8, 10],
       [2, 4, 6, 8, 10],
     ],
-    null,
-    [{ x: 6, y: 1 }],
-    null,
+    [{ x: 2, y: 2 }],
     null,
     null,
     null,
-    ["D2"],
+    null,
+    null,
+    null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
   new Talent(
@@ -58,7 +59,6 @@ const tier5 = [
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),
-  null,
 ];
 
 export default tier5;
