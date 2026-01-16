@@ -13,22 +13,17 @@ const tier4 = [
     "ability_hunter_pet_cat",
     [
       "Increases your melee attack power while in Bear, Dire Bear or Cat Form by ",
-      "% of your level and increases your spell damage and healing by ",
-      "% of your attack power.",
+      "%.",
     ],
     3,
-    [
-      [50, 100, 150],
-      [10, 20, 30],
-    ],
+    [[50, 100, 150]],
     [{ x: null, y: null }],
     [{ x: 5, y: 1 }],
     null,
     null,
     null,
     null,
-    ["D2"],
-    { isNew: false, isChanged: true, isMoved: false }
+    ["D2"]
   ),
   new Talent(
     "Primal Fury",
