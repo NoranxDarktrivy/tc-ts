@@ -53,7 +53,7 @@ const tier2 = [
     "spell_nature_mirrorimage",
     [
       "Gives you a ",
-      "% chance to add a combo point to your current target after a party member dodges or parries an attack or fully resists a spell. This cannot occur more than once per second.",
+      "% chance to add a combo point to your current target after a party member dodges an attack or fully resists a spell. This cannot occur more than once per second.",
     ],
     3,
     [[25, 50, 75]],
