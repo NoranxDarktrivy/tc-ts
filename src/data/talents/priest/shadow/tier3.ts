@@ -11,22 +11,7 @@ const tier3 = [
       "%.",
     ],
     5,
-    [
-      [0.5, 1, 1.5, 2, 2.5],
-      [20, 40, 60, 80, 100],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isChanged: true,
-      isMoved: false,
-      isNew: false,
-    }
+    [[0.5, 1, 1.5, 2, 2.5]]
   ),
   new Talent(
     "Mind Flay",

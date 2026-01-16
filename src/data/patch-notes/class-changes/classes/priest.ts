@@ -8,6 +8,5 @@ export default {
     "Elune’s Grace (Night Elf) now reduces the chance you are hit by melee or ranged attacks by 25% for 15 sec.",
     "Starshards (Night Elf) now deals increased damage and lasts 4 sec. 1 min cooldown.",
     "Shadowguard (Troll) orbs now look like shadow orbs instead of lightning.",
-    "Reduced the mana cost of Power Word: Fortitude, Prayer of Fortitude, Shadow Protection, Prayer of Shadow Protection, Divine Spirit and Prayer of Spirit.",
   ],
 };
