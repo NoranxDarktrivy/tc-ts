@@ -1,29 +1,12 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
+  null,
   new Talent(
-    "Brain Freeze",
-    "ability_mage_brainfreeze",
+    "Spellshatter",
+    "spell_deathknight_icetouch",
     [
-      "Your Frost damage spells with chilling effects have a ",
-      "% chance to increase the damage of your next Arcane Missiles, Fireball Frostfire Bolt or Scorch spell by 70%.",
-    ],
-    2,
-    [[10, 20]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false }
-  ),
-  new Talent(
-    "Ice Block",
-    "spell_frost_frost",
-    [
-      "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move or cast spells.",
+      "Your next Arcane Missiles, Fireball, Frostbolt or Scorch hits all frozen and chilled enemies within 15 yards of your target.",
     ],
     1,
     [[]],
@@ -34,11 +17,12 @@ const tier5 = [
         y: 1,
       },
     ],
-    "15 Mana",
+    null,
     null,
     "Instant",
-    "5 min cooldown",
-    ["D2"]
+    "2 min cooldown",
+    ["D2"],
+    { isNew: true, isMoved: false, isChanged: false }
   ),
   new Talent(
     "Improved Cone of Cold",
