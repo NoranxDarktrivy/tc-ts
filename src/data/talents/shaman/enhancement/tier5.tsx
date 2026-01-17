@@ -28,30 +28,16 @@ const tier5 = [
     "Elemental Weapons",
     "spell_fire_flametounge",
     [
-      <>
-        Grants an additional effect to your weapon enhancements. <br />
-        <br /> Rockbiter: reduces physical damage taken by{" "}
-      </>,
-      <>
-        %. <br />
-        <br /> Flametongue: increases your fire damage by{" "}
-      </>,
-      <>
-        %. <br />
-        <br /> Windfury: reduces the threat of your windfury attacks by{" "}
-      </>,
-      <>
-        %. <br />
-        <br /> Frostbrand: increases the slow effect of your Frostbrand by{" "}
-      </>,
+      "Increases the melee attack power bonus of your Rockbiter Weapon by ",
+      "%, your Windfury Weapon effect by ",
+      "% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by ",
       "%.",
     ],
     3,
     [
-      [3, 7, 10],
       [7, 14, 20],
-      [17, 34, 50],
-      [6, 13, 20],
+      [13, 27, 40],
+      [5, 10, 15],
     ],
     [{ x: null, y: null }],
     [{ x: 6, y: 1 }],
@@ -59,23 +45,38 @@ const tier5 = [
     null,
     null,
     null,
-    ["D2"],
-    { isNew: false, isChanged: true, isMoved: false }
+    ["D2"]
   ),
   new Talent(
-    "Shamanistic Rage",
-    "spell_nature_shamanrage",
+    "Unleash Enhancement",
+    "spell_nature_elementalprecision_1",
     [
-      "Reduces all damage taken by 30% and gives your successful melee attacks a chance to regenerate mana equal to 50% of your attack power. Lasts 15 sec.",
+      <>
+        Unleashes your current weapon enhancement.
+        <br />
+        <br />
+        Rockbiter: Taunts the target to attack you and reduces your damage taken
+        by 20% for 6 sec.
+        <br />
+        <br />
+        Windfury: Deal 50% weapon damage as nature and increases the attack
+        speed of your next 2 attacks by 20%.
+        <br />
+        <br />
+        Flametongue: Deal 230 to 246 Fire damage.
+        <br />
+        <br />
+        Frostbrand: Freeze the target in place for up to 4 sec.
+      </>,
     ],
     1,
     [[]],
     null,
     null,
+    "Melee range",
+    "8% of base mana",
     "Instant",
-    "2 min cooldown",
-    null,
-    null,
+    "20 sec cooldown",
     null,
     { isNew: true, isChanged: false, isMoved: false }
   ),

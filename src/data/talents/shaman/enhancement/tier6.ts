@@ -4,26 +4,11 @@ const tier6 = [
   null,
   null,
   new Talent(
-    "Totemic Fury",
-    "spell_fire_totemofwrath",
-    [
-      "Gives your critical strikes with melee attacks a ",
-      "% chance to increase the effect of your totems that affect friendly targets andby 30% for 6 sec.",
-    ],
+    "Weapon Mastery",
+    "ability_hunter_swiftstrike",
+    ["Increases the damage you deal with all weapons by ", "%."],
     5,
-    [[10, 20, 30, 40, 50]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    [[2, 4, 6, 8, 10]]
   ),
   null,
 ];

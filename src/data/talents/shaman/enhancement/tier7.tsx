@@ -1,4 +1,3 @@
-import React from "react";
 import { Talent } from "../../Classes";
 
 const tier7 = [
@@ -7,27 +6,16 @@ const tier7 = [
     "Stormstrike",
     "spell_holy_sealofmight",
     [
-      <>
-        Gives you an extra attack that increases the damage of your next Shock
-        spell by 20% and grants your next Shock spell an additional effect.{" "}
-        <br />
-        <br /> Earth Shock: Taunts the target to attack you.
-        <br />
-        <br /> Flame Shock: Increases the damage by 30%.
-        <br />
-        <br /> Frost Shock: Roots the target in place for 3 sec.
-      </>,
+      "Gives you an extra attack. In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%. Lasts 12 sec.",
     ],
     1,
     [[]],
     [{ x: 4, y: 1 }],
     null,
     "Melee range",
-    "10% of base mana",
+    "21% of base mana",
     "Instant",
-    "20 sec cooldown",
-    null,
-    { isNew: false, isChanged: true, isMoved: false }
+    "20 sec cooldown"
   ),
   null,
   null,
