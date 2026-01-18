@@ -1,7 +1,28 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  null,
+  new Talent(
+    "Unbound Fury",
+    "ability_warrior_focusedrage",
+    [
+      "While Berserker Rage or Bloodrage is active, your movement speed is increased by ",
+      "% and your damage done is increased by ",
+      "%.",
+    ],
+    2,
+    [
+      [10, 20],
+      [3, 5],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false },
+  ),
   null,
   new Talent(
     "Flurry",
@@ -12,7 +33,7 @@ const tier6 = [
     ],
     5,
     [[10, 15, 20, 25, 30]],
-    [{ x: 3, y: 2 }]
+    [{ x: 3, y: 2 }],
   ),
   null,
 ];

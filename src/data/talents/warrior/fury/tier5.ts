@@ -2,14 +2,11 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Improved Intercept",
-    "ability_rogue_sprint",
-    ["Reduces the cooldown by ", " sec and reduces the rage cost by ", "."],
+    "Improved Berserker Rage",
+    "spell_nature_ancestralguardian",
+    ["Causes your Berserker Rage to generate ", " rage when used."],
     2,
-    [
-      [5, 10],
-      [5, 10],
-    ],
+    [[5, 10]],
     null,
     null,
     null,
@@ -19,9 +16,9 @@ const tier5 = [
     null,
     {
       isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
+      isChanged: false,
+      isMoved: true,
+    },
   ),
   new Talent(
     "Death Wish",
@@ -37,28 +34,17 @@ const tier5 = [
     null,
     "Instant cast",
     "3 min cooldown",
-    ["D2"]
+    ["D2"],
   ),
   null,
   new Talent(
-    "Crushing Rush",
-    "ability_warrior_trauma",
-    ["Your Slam reduces the cost of your next ability by ", " rage points."],
+    "Improved Intercept",
+    "ability_rogue_sprint",
+    ["Reduces the cooldown by ", " sec."],
     2,
-    [[2, 4]],
-    [{ x: 3, y: 3 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
+    [[5, 10]],
   ),
+  ,
 ];
 
 export default tier5;

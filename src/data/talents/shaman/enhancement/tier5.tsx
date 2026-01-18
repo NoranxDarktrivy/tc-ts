@@ -22,7 +22,7 @@ const tier5 = [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   new Talent(
     "Elemental Weapons",
@@ -45,7 +45,7 @@ const tier5 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Unleash Enhancement",
@@ -76,9 +76,9 @@ const tier5 = [
     "Melee range",
     "8% of base mana",
     "Instant",
-    "20 sec cooldown",
+    "12 sec cooldown",
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   null,
 ];

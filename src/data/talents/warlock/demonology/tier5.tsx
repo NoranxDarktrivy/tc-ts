@@ -14,14 +14,14 @@ const tier5 = [
     null,
     "8% of base mana",
     null,
-    "Instant",
-    "3 min cooldown",
+    "1.5 sec cast",
+    "5 min cooldown",
     null,
     {
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Demonic Sacrifice",
@@ -47,7 +47,7 @@ const tier5 = [
     null,
     "Instant",
     null,
-    ["D2"]
+    ["D2"],
   ),
   null,
   new Talent(
@@ -74,7 +74,7 @@ const tier5 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
 ];
 

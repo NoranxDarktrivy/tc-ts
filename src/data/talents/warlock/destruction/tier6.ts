@@ -17,7 +17,7 @@ const tier6 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   null,
   new Talent(
@@ -25,7 +25,7 @@ const tier6 = [
     "spell_fire_selfdestruct",
     ["Increases the damage done by your Fire spells by ", "%."],
     5,
-    [[2, 4, 6, 8, 10]]
+    [[2, 4, 6, 8, 10]],
   ),
   null,
 ];

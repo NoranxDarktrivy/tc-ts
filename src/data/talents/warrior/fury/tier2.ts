@@ -1,25 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier2 = [
-  new Talent(
-    "Improved Berserker Rage",
-    "spell_nature_ancestralguardian",
-    ["Causes your Berserker Rage to generate ", " rage when used."],
-    2,
-    [[5, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: false,
-      isMoved: true,
-    }
-  ),
+  null,
   new Talent(
     "Improved Demoralizing Shout",
     "ability_warrior_warcry",
@@ -28,7 +10,7 @@ const tier2 = [
       "%.",
     ],
     5,
-    [[8, 16, 24, 32, 40]]
+    [[8, 16, 24, 32, 40]],
   ),
   new Talent(
     "Unbridled Wrath",
@@ -38,7 +20,7 @@ const tier2 = [
       "% chance to gain an additional Rage point when dealing damage with melee weapons.",
     ],
     5,
-    [[8, 16, 24, 32, 40]]
+    [[8, 16, 24, 32, 40]],
   ),
   null,
 ];

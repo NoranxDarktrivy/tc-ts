@@ -15,7 +15,7 @@ const tier5 = [
         x: 3,
         y: 0,
       },
-    ]
+    ],
   ),
   new Talent(
     "Improved Immolate",
@@ -29,7 +29,7 @@ const tier5 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Ruin",
@@ -39,29 +39,9 @@ const tier5 = [
     ],
     1,
     [[]],
-    [{ x: 2, y: 2 }]
+    [{ x: 2, y: 2 }],
   ),
-  new Talent(
-    "Incinerate",
-    "spell_fire_burnout",
-    [
-      "Deals 222 to 257 Fire damage to your target and an additional 59 to 69 Fire damage if the target is affected by an Immolate spell.",
-    ],
-    1,
-    [[]],
-    null,
-    null,
-    "214 Mana",
-    "30 yd range",
-    "2.5 sec cast",
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
 ];
 
 export default tier5;

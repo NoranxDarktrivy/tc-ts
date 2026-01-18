@@ -6,14 +6,14 @@ const tier4 = [
     "ability_dualwield",
     ["Increases the damage done by your off-hand weapon by ", "%."],
     5,
-    [[5, 10, 15, 20, 25]]
+    [[5, 10, 15, 20, 25]],
   ),
   new Talent(
     "Improved Execute",
     "inv_sword_48",
     ["Reduces the Rage cost of your Execute by ", "."],
     2,
-    [[2, 5]]
+    [[2, 5]],
   ),
   new Talent(
     "Enrage",
@@ -30,7 +30,7 @@ const tier4 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Improved Slam",
@@ -39,17 +39,17 @@ const tier4 = [
     5,
     [[0.1, 0.2, 0.3, 0.4, 0.5]],
     null,
-    [{ x: 4, y: 3 }],
     null,
     null,
     null,
     null,
-    ["D1"],
+    null,
+    null,
     {
       isNew: false,
       isChanged: false,
       isMoved: true,
-    }
+    },
   ),
 ];
 
