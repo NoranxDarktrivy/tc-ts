@@ -44,7 +44,7 @@ const tier5 = [
     2,
     [[5, 10]],
   ),
-  ,
+  null,
 ];
 
 export default tier5;
