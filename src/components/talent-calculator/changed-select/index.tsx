@@ -8,11 +8,11 @@ const ChangedSelectSingle: React.FC<{ display: boolean; text: string; onClick: (
 	onClick,
 }) => {
 	let className = ''
-	if (display && text === 'New') {
+	if (display && text === '') {
 		className = styles.changedSelectSingleNew
-	} else if (display && text === 'Changed') {
+	} else if (display && text === '') {
 		className = styles.changedSelectSingleChanged
-	} else if (display && text === 'Moved') {
+	} else if (display && text === '') {
 		className = styles.changedSelectSingleMoved
 	} else {
 		className = styles.changedSelectSingle
@@ -42,9 +42,9 @@ const ChangedSelect: React.FC<{
 
 	return (
 		<div className={styles.changedSelect}>
-			<ChangedSelectSingle display={displayIsNew} onClick={toggleIsNew} text='New' />
-			<ChangedSelectSingle display={displayIsChanged} onClick={toggleIsChanged} text='Changed' />
-			<ChangedSelectSingle display={displayIsMoved} onClick={toggleIsMoved} text='Moved' />
+			<ChangedSelectSingle display={displayIsNew} onClick={toggleIsNew} text='' />
+			<ChangedSelectSingle display={displayIsChanged} onClick={toggleIsChanged} text='' />
+			<ChangedSelectSingle display={displayIsMoved} onClick={toggleIsMoved} text='' />
 		</div>
 	)
 }
